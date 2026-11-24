@@ -27,11 +27,13 @@ const send = (method, params = {}) => new Promise((resolve) => { const mid = ++i
 await send('Page.enable');
 await send('Page.navigate', { url: URL_ARG });
 await sleep(4000);
-await sleep(5000);
+const theme = process.env.THEME || 'light';
+await send('Runtime.evaluate', { expression: `document.documentElement.dataset.theme='${theme}'` });
+await sleep(1500);
 const r = await Promise.race([
   send('Page.printToPDF', {
-  printBackground: true, preferCSSPageSize: true, marginTop: 0.4, marginBottom: 0.4,
-  marginLeft: 0.4, marginRight: 0.4, paperWidth: 8.27, paperHeight: 11.69,
+  printBackground: true, preferCSSPageSize: true, marginTop: 0, marginBottom: 0,
+  marginLeft: 0, marginRight: 0, paperWidth: 8.27, paperHeight: 11.69,
   }),
   new Promise((_, rej) => setTimeout(() => rej(new Error('printToPDF timeout')), 90000)),
 ]);

@@ -100,18 +100,27 @@ def main():
       <li><b>17:30</b> — cross, 落马洲, East Rail home. Port closes 22:30.</li>'''
 
     doc = f'''<!doctype html>
-<html lang="en">{{THEME_ATTR}}><head>
+<html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Shenzhen · 25–27 Nov</title>
+<script>
+(function(){{
+  var t=null; try{{t=localStorage.getItem('theme')}}catch(e){{}}
+  if(!t) t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  document.documentElement.dataset.theme=t;
+}})();
+function toggleTheme(){{
+  var cur=document.documentElement.dataset.theme==='dark'?'dark':'light';
+  var next=cur==='dark'?'light':'dark';
+  document.documentElement.dataset.theme=next;
+  try{{localStorage.setItem('theme',next)}}catch(e){{}}
+}}
+</script>
 <style>
   :root {{
     --ink:#15171a; --mut:#5d646e; --line:#e3e6ea; --bg:#fbfbfa; --card:#fff;
     --accent:#0b6b57; --accent2:#b23c1e; --warn:#fbf3e6;
-  }}
-  @media (prefers-color-scheme: dark) {{
-    :root {{ --ink:#eceef1; --mut:#9aa2ad; --line:#2a2f36; --bg:#111315; --card:#191c20;
-             --accent:#5fd0b4; --accent2:#ff8a63; --warn:#241d15; }}
   }}
   :root[data-theme="dark"] {{ --ink:#eceef1; --mut:#9aa2ad; --line:#2a2f36; --bg:#111315;
              --card:#191c20; --accent:#5fd0b4; --accent2:#ff8a63; --warn:#241d15; }}
@@ -120,7 +129,7 @@ def main():
          font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
          -webkit-text-size-adjust:100%; }}
   .wrap {{ max-width:760px; margin:0 auto; padding:0 16px 64px; }}
-  header.hero {{ padding:28px 16px 20px; background:linear-gradient(160deg,#0b6b57,#0a3f36); color:#fff; }}
+  header.hero {{ position:relative; padding:28px 16px 20px; background:linear-gradient(160deg,#0b6b57,#0a3f36); color:#fff; }}
   header.hero .wrap {{ padding:0; }}
   header.hero .kicker {{ text-transform:uppercase; letter-spacing:.12em; font-size:12px; opacity:.8; }}
   header.hero h1 {{ margin:6px 0 4px; font-size:30px; line-height:1.15; }}
@@ -129,6 +138,14 @@ def main():
   h2:first-of-type {{ border-top:none; }}
   h3 {{ font-size:18px; margin:0 0 6px; }}
   .zh {{ font-weight:400; color:var(--mut); font-size:.85em; }}
+  .themebtn {{ position:absolute; top:16px; right:16px; width:38px; height:38px; border-radius:50%;
+    background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.45); color:#fff;
+    display:grid; place-items:center; cursor:pointer; padding:0; }}
+  .themebtn svg {{ width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:1.8;
+    stroke-linecap:round; stroke-linejoin:round; }}
+  .themebtn .sun {{ display:none; }}
+  :root[data-theme="dark"] .themebtn .sun {{ display:block; }}
+  :root[data-theme="dark"] .themebtn .moon {{ display:none; }}
   .strip {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:8px; margin:16px 0; }}
   .chip {{ background:var(--card); border:1px solid var(--line); border-radius:12px; padding:10px 12px; font-size:13px; }}
   .chip b {{ display:block; font-size:12px; color:var(--mut); font-weight:600; text-transform:uppercase; letter-spacing:.06em; }}
@@ -171,10 +188,11 @@ def main():
   a {{ color:var(--accent); }}
   @media (min-width:560px) {{ .ph:not(.single) {{ grid-template-columns:1fr 1fr; }} }}
   @media print {{
-    body {{ background:var(--bg); color:var(--ink); }}
+    @page {{ margin: 0; }}
+    body {{ background:var(--bg); color:var(--ink); padding: 12mm 11mm; }}
     header.hero {{ background:#0b6b57 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }}
     .place, .day, table {{ break-inside:avoid; }}
-    details, .toggle {{ display:none; }}
+    details, .toggle, .themebtn {{ display:none; }}
     .ph img {{ height:auto; object-fit:contain; }}
     .ph.single img {{ height:auto; max-height:420px; }}
     .ph figure {{ break-inside:avoid; }}
@@ -185,7 +203,10 @@ def main():
   <div class="kicker">Shenzhen · China</div>
   <h1>25–27 November 2026</h1>
   <p>Two full days + a checkout half-day · 加来酒店 (Calais Hotel), 福田口岸</p>
-  <p class="toggle"><a href="{{THEME_LINK}}">{{THEME_LABEL}}</a></p>
+  <button class="themebtn" type="button" onclick="toggleTheme()" aria-label="Switch theme">
+    <svg class="moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    <svg class="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+  </button>
 </div></header>
 <div class="wrap">
 
@@ -246,13 +267,8 @@ def main():
   </footer>
 </div>
 </body></html>'''
-    dark = os.environ.get('THEME') == 'dark'
-    doc = doc.replace('{THEME_ATTR}', ' data-theme="dark"' if dark else '')
-    doc = doc.replace('{THEME_LINK}', 'index.html' if dark else 'dark.html')
-    doc = doc.replace('{THEME_LABEL}', 'Light version' if dark else 'Dark version')
-    name = 'dark.html' if dark else 'index.html'
-    open('../' + name, 'w', encoding='utf-8').write(doc)
-    print('wrote', name, len(doc), 'chars')
+    open('../index.html', 'w', encoding='utf-8').write(doc)
+    print('wrote index.html', len(doc), 'chars')
 
 
 if __name__ == '__main__':

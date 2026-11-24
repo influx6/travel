@@ -681,8 +681,7 @@ If they insist on their own template, download it and paste these columns in —
 ### Files
 
 - `README.md` — this plan
-- `index.html` — the plan as a mobile-friendly page (also served on GitHub Pages)
-- `dark.html` — dark version of the same page
+- `index.html` — the mobile-friendly plan (served on GitHub Pages; tap the sun/moon icon to switch theme)
 - `Shenzhen-plan.pdf` / `Shenzhen-plan-dark.pdf` — print/offline versions (light / dark)
 - `places.csv` — all 21 places with GCJ/WGS coordinates, Amap + Google links, times and notes
 - `amap_import.csv` — bulk-import file for wia.amap.com
