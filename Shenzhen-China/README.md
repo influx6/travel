@@ -4,6 +4,7 @@
 **Address:** 福田区福民路皇岗公园街8号 (皇岗公园东大门)  
 **Phone:** [+86-755-88257999](tel:+8675588257999) · Booking [removed]
 
+**Live page:** https://influx6.github.io/travel/  
 **Nearest metro:** 皇岗村 (Huanggangcun), Line 7, Exit A — 430 m / 7 min walk  
 **Also close:** Futian Checkpoint (福田口岸), Lines 4 & 10 — ~1.1 km / 15 min walk
 
@@ -680,8 +681,9 @@ If they insist on their own template, download it and paste these columns in —
 ### Files
 
 - `README.md` — this plan
-- `plan.html` — the same plan as a mobile-friendly page (open in a browser)
-- `Shenzhen-plan.pdf` — print/offline version
+- `index.html` — the plan as a mobile-friendly page (also served on GitHub Pages)
+- `dark.html` — dark version of the same page
+- `Shenzhen-plan.pdf` / `Shenzhen-plan-dark.pdf` — print/offline versions (light / dark)
 - `places.csv` — all 21 places with GCJ/WGS coordinates, Amap + Google links, times and notes
 - `amap_import.csv` — bulk-import file for wia.amap.com
 - `amap_links.md` — every Amap link in one place

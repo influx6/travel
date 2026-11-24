@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head>
+<html lang="en"> data-theme="dark"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Shenzhen · 25–27 Nov</title>
@@ -12,6 +12,8 @@
     :root { --ink:#eceef1; --mut:#9aa2ad; --line:#2a2f36; --bg:#111315; --card:#191c20;
              --accent:#5fd0b4; --accent2:#ff8a63; --warn:#241d15; }
   }
+  :root[data-theme="dark"] { --ink:#eceef1; --mut:#9aa2ad; --line:#2a2f36; --bg:#111315;
+             --card:#191c20; --accent:#5fd0b4; --accent2:#ff8a63; --warn:#241d15; }
   * { box-sizing:border-box; }
   body { margin:0; background:var(--bg); color:var(--ink);
          font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
@@ -68,10 +70,13 @@
   a { color:var(--accent); }
   @media (min-width:560px) { .ph:not(.single) { grid-template-columns:1fr 1fr; } }
   @media print {
-    body { background:#fff; color:#000; }
+    body { background:var(--bg); color:var(--ink); }
     header.hero { background:#0b6b57 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
     .place, .day, table { break-inside:avoid; }
     details { display:none; }
+    .ph img { height:auto; object-fit:contain; }
+    .ph.single img { height:auto; max-height:420px; }
+    .ph figure { break-inside:avoid; }
   }
 </style></head>
 <body>

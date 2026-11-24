@@ -100,7 +100,7 @@ def main():
       <li><b>17:30</b> — cross, 落马洲, East Rail home. Port closes 22:30.</li>'''
 
     doc = f'''<!doctype html>
-<html lang="en"><head>
+<html lang="en">{{THEME_ATTR}}><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Shenzhen · 25–27 Nov</title>
@@ -113,6 +113,8 @@ def main():
     :root {{ --ink:#eceef1; --mut:#9aa2ad; --line:#2a2f36; --bg:#111315; --card:#191c20;
              --accent:#5fd0b4; --accent2:#ff8a63; --warn:#241d15; }}
   }}
+  :root[data-theme="dark"] {{ --ink:#eceef1; --mut:#9aa2ad; --line:#2a2f36; --bg:#111315;
+             --card:#191c20; --accent:#5fd0b4; --accent2:#ff8a63; --warn:#241d15; }}
   * {{ box-sizing:border-box; }}
   body {{ margin:0; background:var(--bg); color:var(--ink);
          font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
@@ -169,10 +171,13 @@ def main():
   a {{ color:var(--accent); }}
   @media (min-width:560px) {{ .ph:not(.single) {{ grid-template-columns:1fr 1fr; }} }}
   @media print {{
-    body {{ background:#fff; color:#000; }}
+    body {{ background:var(--bg); color:var(--ink); }}
     header.hero {{ background:#0b6b57 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }}
     .place, .day, table {{ break-inside:avoid; }}
-    details {{ display:none; }}
+    details, .toggle {{ display:none; }}
+    .ph img {{ height:auto; object-fit:contain; }}
+    .ph.single img {{ height:auto; max-height:420px; }}
+    .ph figure {{ break-inside:avoid; }}
   }}
 </style></head>
 <body>
@@ -180,6 +185,7 @@ def main():
   <div class="kicker">Shenzhen · China</div>
   <h1>25–27 November 2026</h1>
   <p>Two full days + a checkout half-day · 加来酒店 (Calais Hotel), 福田口岸</p>
+  <p class="toggle"><a href="{{THEME_LINK}}">{{THEME_LABEL}}</a></p>
 </div></header>
 <div class="wrap">
 
@@ -240,8 +246,13 @@ def main():
   </footer>
 </div>
 </body></html>'''
-    open('../plan.html', 'w', encoding='utf-8').write(doc)
-    print('wrote plan.html', len(doc), 'chars')
+    dark = os.environ.get('THEME') == 'dark'
+    doc = doc.replace('{THEME_ATTR}', ' data-theme="dark"' if dark else '')
+    doc = doc.replace('{THEME_LINK}', 'index.html' if dark else 'dark.html')
+    doc = doc.replace('{THEME_LABEL}', 'Light version' if dark else 'Dark version')
+    name = 'dark.html' if dark else 'index.html'
+    open('../' + name, 'w', encoding='utf-8').write(doc)
+    print('wrote', name, len(doc), 'chars')
 
 
 if __name__ == '__main__':
