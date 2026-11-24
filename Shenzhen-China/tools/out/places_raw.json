@@ -1,0 +1,225 @@
+[
+ {
+  "name": "Ping'an International Financial Center",
+  "meta": "4.6 | Office",
+  "fresh": true,
+  "href": "https://www.google.com/maps/place/Ping'an+International+Financial+Center/@22.5331818,113.9200248,12z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f403f3fd7827:0xad499e4e2a20c5db!8m2!3d22.533096!4d114.055865!16s%2Fm%2F09k5qh4?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "urlName": "Ping'an International Financial Center",
+  "h1": "Shenzhen",
+  "address": "China, Shenzhen, Futian District, 中心城 邮政编码: 518017",
+  "rating": "4.6",
+  "category": "Office",
+  "coords": [
+   22.533096,
+   114.055865
+  ],
+  "placeId": "0x3403f403f3fd7827:0xad499e4e2a20c5db"
+ },
+ {
+  "name": "Nantou Ancient City",
+  "meta": "4.4 | Historic city center",
+  "fresh": true,
+  "href": "https://www.google.com/maps/place/Nantou+Ancient+City/@22.541119,112.7010066,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403ee7055e55f1d:0xf15bf63d2ac63f6f!8m2!3d22.541119!4d113.920489!16s%2Fg%2F1pxyjfh9r?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "urlName": "Nantou Ancient City",
+  "h1": "Shenzhen",
+  "address": "Nanshan, Shenzhen, China, 518056",
+  "rating": "4.4",
+  "category": "Historic city center",
+  "coords": [
+   22.541119,
+   113.920489
+  ],
+  "placeId": "0x3403ee7055e55f1d:0xf15bf63d2ac63f6f"
+ },
+ {
+  "name": "DMD Food City",
+  "meta": "4.2 | Shopping",
+  "fresh": true,
+  "href": "https://www.google.com/maps/place/DMD+Food+City/@22.544816,112.8994574,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f5be1444dc89:0x5c89f1e03796e0f8!8m2!3d22.544816!4d114.1189398!16s%2Fg%2F11xlkt3zg?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "urlName": "DMD Food City",
+  "h1": "Shenzhen",
+  "address": "China, Guangdong Province, Shenzhen, Luohu District, 东门永新路 邮政编码: 518010",
+  "rating": "4.2",
+  "category": "Shopping",
+  "coords": [
+   22.544816,
+   114.1189398
+  ],
+  "placeId": "0x3403f5be1444dc89:0x5c89f1e03796e0f8"
+ },
+ {
+  "name": "Dong Men Ding Plaza",
+  "meta": "4.1 | Shopping mall",
+  "fresh": true,
+  "href": "https://www.google.com/maps/place/Dong+Men+Ding+Plaza/@22.5442424,112.8992816,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f5be47383aeb:0xc74e4979a2fa154e!8m2!3d22.5442424!4d114.118764!16s%2Fg%2F1tznjz4j?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "urlName": "Dong Men Ding Plaza",
+  "h1": "Shenzhen",
+  "address": "China, Guangdong Province, Shenzhen, Luohu District, 永新路 邮政编码: 518010",
+  "rating": "4.1",
+  "category": "Shopping mall",
+  "coords": [
+   22.5442424,
+   114.118764
+  ],
+  "placeId": "0x3403f5be47383aeb:0xc74e4979a2fa154e"
+ },
+ {
+  "name": "Shenzhen Dongmen Commercial Pedestrian Street Unit Management Office",
+  "meta": "5.0(1) | Government office",
+  "fresh": true,
+  "href": "https://www.google.com/maps/place/Shenzhen+Dongmen+Commercial+Pedestrian+Street+Unit+Management+Office/@22.545938,112.9008616,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f596017f6bf7:0x845ce96dbee1b478!8m2!3d22.545938!4d114.120344!16s%2Fg%2F1tmqctqv?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "urlName": "Shenzhen Dongmen Commercial Pedestrian Street Unit Management Office",
+  "h1": "Shenzhen",
+  "address": "China, Guangdong Province, Shenzhen, 二横街步行街白马服装市场6层",
+  "rating": "5.0",
+  "category": "Government office",
+  "coords": [
+   22.545938,
+   114.120344
+  ],
+  "placeId": "0x3403f596017f6bf7:0x845ce96dbee1b478"
+ },
+ {
+  "name": "Shenzhen Talent Park",
+  "meta": "4.7 | Park and Ride",
+  "fresh": true,
+  "href": "https://www.google.com/maps/place/Shenzhen+Talent+Park/@22.5112161,112.7267433,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403ef3288f2af21:0xcade8137080c45f1!8m2!3d22.5112161!4d113.9462257!16s%2Fg%2F11fj3dngyw?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "urlName": "Shenzhen Talent Park",
+  "h1": "Shenzhen",
+  "address": "GW6W+FFQ, Nanshan, Shenzhen, Guangdong Province, China, 518065",
+  "rating": "4.7",
+  "category": "Park and Ride",
+  "coords": [
+   22.5112161,
+   113.9462257
+  ],
+  "placeId": "0x3403ef3288f2af21:0xcade8137080c45f1"
+ },
+ {
+  "name": "Happy Harbour",
+  "meta": "4.5 | Scenic spot",
+  "fresh": true,
+  "href": "https://www.google.com/maps/place/Happy+Harbour/@22.5447288,112.6650181,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403ee9830aa7e1f:0x83e84a5f742fae9!8m2!3d22.5447288!4d113.8845005!16s%2Fg%2F11rv97l9rv?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "urlName": "Happy Harbour",
+  "h1": "Shenzhen",
+  "address": "China, Guangdong Province, Shenzhen, Baoan, 15, 西南方向170米 邮政编码: 518052",
+  "rating": "4.5",
+  "category": "Scenic spot",
+  "coords": [
+   22.5447288,
+   113.8845005
+  ],
+  "placeId": "0x3403ee9830aa7e1f:0x83e84a5f742fae9"
+ },
+ {
+  "name": "Shenzhen Grand Theatre",
+  "meta": "4.1 | Performing arts theater",
+  "fresh": true,
+  "href": "https://www.google.com/maps/place/Shenzhen+Grand+Theatre/@22.542692,112.8859776,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f5b7d46a8e0b:0x9656bf8761859c01!8m2!3d22.542692!4d114.10546!16s%2Fg%2F11x1nm6_8?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "urlName": "Shenzhen Grand Theatre",
+  "h1": "Shenzhen",
+  "address": "5018 Shennan E Rd, Luohu District, Shenzhen, Guangdong Province, China, 518010",
+  "rating": "4.1",
+  "category": "Performing arts theater",
+  "coords": [
+   22.542692,
+   114.10546
+  ],
+  "placeId": "0x3403f5b7d46a8e0b:0x9656bf8761859c01"
+ },
+ {
+  "name": "Museum of Contemporary Art & Planning Exhibition",
+  "meta": "4.6 | Museum",
+  "fresh": true,
+  "href": "https://www.google.com/maps/place/Museum+of+Contemporary+Art+%26+Planning+Exhibition/@22.544771,112.841795,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f5fedadbc56d:0x237bf856bb4e0137!8m2!3d22.544771!4d114.0612774!16s%2Fg%2F11h283g971?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "urlName": "Museum of Contemporary Art & Planning Exhibition",
+  "h1": "Shenzhen",
+  "address": "184 Fuzhong Rd, 中心城 Futian District, Shenzhen, Guangdong Province, China, 518000",
+  "rating": "4.6",
+  "category": "Museum",
+  "coords": [
+   22.544771,
+   114.0612774
+  ],
+  "placeId": "0x3403f5fedadbc56d:0x237bf856bb4e0137"
+ },
+ {
+  "name": "萬象天地 The Mixc",
+  "meta": "4.4 | Shopping mall",
+  "fresh": true,
+  "href": "https://www.google.com/maps/place/%E8%90%AC%E8%B1%A1%E5%A4%A9%E5%9C%B0+The+Mixc/@22.5415629,112.7360555,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f1af79f8136b:0x1d2a318dc6483fa4!8m2!3d22.5415629!4d113.9555379!16s%2Fg%2F11ffvsc1km?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "urlName": "萬象天地 The Mixc",
+  "h1": "Shenzhen",
+  "address": "GXR4+J6F, Nanshan, Shenzhen, Guangdong Province, China, 518058",
+  "rating": "4.4",
+  "category": "Shopping mall",
+  "coords": [
+   22.5415629,
+   113.9555379
+  ],
+  "placeId": "0x3403f1af79f8136b:0x1d2a318dc6483fa4"
+ },
+ {
+  "name": "Shenzhen Poly Cultural Plaza",
+  "meta": "宝安中心区 Nanshan, Shenzhen, Guangdong Province | China | 518064",
+  "fresh": true,
+  "href": "https://www.google.com/maps/place/Shenzhen+Poly+Cultural+Plaza,+%E5%AE%9D%E5%AE%89%E4%B8%AD%E5%BF%83%E5%8C%BA+Nan+Shan+Qu,+Shen+Zhen+Shi,+Guang+Dong+Sheng,+China,+518064/@22.5163863,112.7193876,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403ee3b74672d0f:0x2802395723eebd84!8m2!3d22.5163863!4d113.93887!16s%2Fg%2F12xpyqy4c?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "urlName": "Shenzhen Poly Cultural Plaza, 宝安中心区 Nan Shan Qu, Shen Zhen Shi, Guang Dong Sheng, China, 518064",
+  "h1": "Shenzhen",
+  "address": null,
+  "rating": null,
+  "category": null,
+  "coords": [
+   22.5163863,
+   113.93887
+  ],
+  "placeId": "0x3403ee3b74672d0f:0x2802395723eebd84"
+ },
+ {
+  "name": "Shenzhen Cultural Center",
+  "meta": "4.5 | Art museum",
+  "fresh": true,
+  "href": "https://www.google.com/maps/place/Shenzhen+Cultural+Center/@22.55523,112.8240746,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f38b835cc389:0xd796ef4f35c4b1cc!8m2!3d22.55523!4d114.043557!16s%2Fm%2F04ldglg?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "urlName": "Shenzhen Cultural Center",
+  "h1": "Shenzhen",
+  "address": "2 Jingtiandong St 1st, Futian District, Shenzhen, Guangdong Province, China, 518034",
+  "rating": "4.5",
+  "category": "Art museum",
+  "coords": [
+   22.55523,
+   114.043557
+  ],
+  "placeId": "0x3403f38b835cc389:0xd796ef4f35c4b1cc"
+ },
+ {
+  "name": "The Mixc of Shenzhen City Crossing",
+  "meta": "4.2 | Shopping mall",
+  "fresh": true,
+  "href": "https://www.google.com/maps/place/The+Mixc+of+Shenzhen+City+Crossing/@22.539827,112.8914216,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f5c7a7397263:0xc0cfcceb6dc86221!8m2!3d22.539827!4d114.110904!16s%2Fg%2F1tfq6v3k?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+  "urlName": "The Mixc of Shenzhen City Crossing",
+  "h1": "Shenzhen",
+  "address": "1881 Baoan Rd S, Luohu District, Shenzhen, Guangdong Province, China",
+  "rating": "4.2",
+  "category": "Shopping mall",
+  "coords": [
+   22.539827,
+   114.110904
+  ],
+  "placeId": "0x3403f5c7a7397263:0xc0cfcceb6dc86221"
+ },
+ {
+  "name": "Shenye Upper Hills",
+  "ok": true,
+  "href": "https://www.google.com/maps/place/%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E/@22.5563318,114.070537,17z/data=!4m7!3m6!1s0x3403f5d813dfb6b9:0x7a85f14e08f5bce0!8m2!3d22.5563318!4d114.070537!16s%2Fg%2F11fhz0ljjc",
+  "urlName": "深业上城",
+  "h1": "深业上城",
+  "address": "深圳市福田区莲科一路 (Upper Hills, Futian)",
+  "rating": null,
+  "category": "Shopping mall",
+  "coords": [
+   22.5563318,
+   114.070537
+  ],
+  "placeId": "0x3403f5d813dfb6b9:0x7a85f14e08f5bce0"
+ }
+]

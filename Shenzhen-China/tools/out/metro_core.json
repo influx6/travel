@@ -1,0 +1,3969 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-24T12:00:54Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1657111615,
+  "lat": 22.5519567,
+  "lon": 114.0910756,
+  "tags": {
+    "name": "通新岭",
+    "name:en": "Tongxinling",
+    "name:zh": "通新岭",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1716044103,
+  "lat": 22.5561853,
+  "lon": 114.0385546,
+  "tags": {
+    "name": "景田",
+    "name:en": "Jingtian",
+    "name:zh": "景田",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q383429"
+  }
+},
+{
+  "type": "node",
+  "id": 3433943210,
+  "lat": 22.5260191,
+  "lon": 113.9736703,
+  "tags": {
+    "name": "深湾",
+    "name:en": "Shenwan",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27526006"
+  }
+},
+{
+  "type": "node",
+  "id": 4137604162,
+  "lat": 22.5362838,
+  "lon": 114.0478007,
+  "tags": {
+    "name": "购物公园",
+    "name:en": "Shopping Park",
+    "name:zh": "购物公园",
+    "name:zh-Hans": "购物公园",
+    "name:zh-Hant": "購物公園",
+    "platforms": "4",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4141113601,
+  "lat": 22.5264418,
+  "lon": 114.0483506,
+  "tags": {
+    "name": "石厦",
+    "name:en": "Shixia",
+    "name:zh": "石厦",
+    "network": "深圳市轨道交通",
+    "operator": "深圳市地铁集团有限公司",
+    "platforms": "2",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q6118910"
+  }
+},
+{
+  "type": "node",
+  "id": 5214588594,
+  "lat": 22.5472942,
+  "lon": 114.1108594,
+  "tags": {
+    "name": "老街",
+    "name:en": "Laojie",
+    "name:zh": "老街",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q844034",
+    "wikipedia": "zh:老街站"
+  }
+},
+{
+  "type": "node",
+  "id": 5214636461,
+  "lat": 22.5928643,
+  "lon": 113.9947336,
+  "tags": {
+    "name": "塘朗",
+    "name:en": "Tanglang",
+    "name:zh": "塘朗",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5938551",
+    "wikipedia": "zh:塘朗站"
+  }
+},
+{
+  "type": "node",
+  "id": 5214690548,
+  "lat": 22.5870347,
+  "lon": 114.1113561,
+  "tags": {
+    "name": "草埔",
+    "name:en": "Caopu",
+    "name:zh": "草埔",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5034388",
+    "wikipedia": "en:Caopu station"
+  }
+},
+{
+  "type": "node",
+  "id": 5214753204,
+  "lat": 22.5969602,
+  "lon": 114.0435674,
+  "tags": {
+    "name": "民乐",
+    "name:en": "Minle",
+    "name:zh": "民乐",
+    "network": "深圳地铁",
+    "operator": "港铁轨道交通（深圳）有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "railway:position:exact": "9.88118",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942233"
+  }
+},
+{
+  "type": "node",
+  "id": 5214901838,
+  "lat": 22.5388378,
+  "lon": 114.0226605,
+  "tags": {
+    "name": "车公庙",
+    "name:en": "Chegongmiao",
+    "name:zh": "车公庙",
+    "network": "深圳地铁",
+    "network:en": "Shenzhen Metro",
+    "network:wikidata": "Q867680",
+    "network:zh": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5089561"
+  }
+},
+{
+  "type": "node",
+  "id": 5441594278,
+  "lat": 22.5011624,
+  "lon": 114.1280325,
+  "tags": {
+    "name": "上水 Sheung Shui",
+    "name:en": "Sheung Shui",
+    "name:zh": "上水",
+    "network": "MTR",
+    "operator": "香港鐵路有限公司 MTR Corporation Limited",
+    "operator:en": "MTR Corporation Limited",
+    "operator:loc_name": "港鐵公司 MTR Corporation",
+    "operator:loc_name:en": "MTR Corporation",
+    "operator:loc_name:zh": "港鐵公司",
+    "operator:ref": "MTR",
+    "operator:short": "港鐵 MTRCL",
+    "operator:short:en": "MTRCL",
+    "operator:short:zh": "港鐵",
+    "operator:short_name": "港鐵 MTRCL",
+    "operator:short_name:en": "MTRCL",
+    "operator:short_name:zh": "港鐵",
+    "operator:wikidata": "Q1479375",
+    "operator:zh": "香港鐵路有限公司",
+    "operator:zh-Hans": "香港铁路有限公司",
+    "operator:zh-Hant": "香港鐵路有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q1669337"
+  }
+},
+{
+  "type": "node",
+  "id": 5448623264,
+  "lat": 22.5488036,
+  "lon": 114.1313834,
+  "tags": {
+    "name": "黄贝岭",
+    "name:en": "Huangbeiling",
+    "name:zh": "黄贝岭",
+    "network": "深圳地铁",
+    "network:en": "Shenzhen Metro",
+    "network:wikidata": "Q867680",
+    "network:zh": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q1012607",
+    "wikipedia": "zh:黄贝岭站"
+  }
+},
+{
+  "type": "node",
+  "id": 5909950626,
+  "lat": 22.5513088,
+  "lon": 114.0910376,
+  "tags": {
+    "name": "通新岭",
+    "name:en": "Tongxinling",
+    "name:zh": "通新岭",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6491337279,
+  "lat": 22.5699902,
+  "lon": 114.1249897,
+  "tags": {
+    "name": "田贝‎",
+    "name:en": "Tianbei",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5939796"
+  }
+},
+{
+  "type": "node",
+  "id": 6503565368,
+  "lat": 22.5212832,
+  "lon": 113.9382020,
+  "tags": {
+    "name": "后海",
+    "name:en": "Houhai",
+    "name:zh": "后海",
+    "network": "深圳市轨道交通",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5944050"
+  }
+},
+{
+  "type": "node",
+  "id": 6503565369,
+  "lat": 22.5271540,
+  "lon": 113.9187026,
+  "tags": {
+    "name": "南山",
+    "name:en": "Nanshan",
+    "name:zh": "南山",
+    "name:zh-Hans": "南山",
+    "name:zh-Hant": "南山",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q25725773"
+  }
+},
+{
+  "type": "node",
+  "id": 6503565370,
+  "lat": 22.5403059,
+  "lon": 113.8927681,
+  "tags": {
+    "name": "前海湾",
+    "name:en": "Qianhaiwan",
+    "name:zh": "前海湾",
+    "name:zh-Hans": "前海湾",
+    "name:zh-Hant": "前海灣",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q996539"
+  }
+},
+{
+  "type": "node",
+  "id": 6503565371,
+  "lat": 22.5577281,
+  "lon": 113.8755026,
+  "tags": {
+    "name": "宝安",
+    "name:en": "Bao’an",
+    "name:zh": "宝安",
+    "name:zh-Hans": "宝安",
+    "name:zh-Hant": "寶安",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q25342383"
+  }
+},
+{
+  "type": "node",
+  "id": 6503565372,
+  "lat": 22.5787973,
+  "lon": 113.8502805,
+  "tags": {
+    "name": "碧海湾",
+    "name:en": "Bihaiwan",
+    "name:zh": "碧海湾",
+    "name:zh-Hans": "碧海湾",
+    "name:zh-Hant": "碧海灣",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q25339735"
+  }
+},
+{
+  "type": "node",
+  "id": 6503565380,
+  "lat": 22.5427538,
+  "lon": 114.0482367,
+  "tags": {
+    "name": "福田",
+    "name:en": "Futian",
+    "name:ru": "Футянь",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5510524",
+    "wikipedia": "zh:福田站 (深圳地铁)"
+  }
+},
+{
+  "type": "node",
+  "id": 6503668185,
+  "lat": 22.5375043,
+  "lon": 114.0562535,
+  "tags": {
+    "name": "会展中心",
+    "name:en": "Convention & Exhibition Center",
+    "name:zh": "会展中心",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q3270120",
+    "wikipedia": "zh:会展中心站 (深圳市)"
+  }
+},
+{
+  "type": "node",
+  "id": 6516267187,
+  "lat": 22.5769690,
+  "lon": 114.1322063,
+  "tags": {
+    "name": "太安",
+    "name:en": "Tai'an",
+    "name:zh": "太安",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q5939564"
+  }
+},
+{
+  "type": "node",
+  "id": 6690635992,
+  "lat": 22.5352462,
+  "lon": 113.9103546,
+  "tags": {
+    "name": "大新",
+    "name:en": "Daxin",
+    "name:zh": "大新",
+    "name:zh-Hans": "大新",
+    "name:zh-Hant": "大新",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5242740"
+  }
+},
+{
+  "type": "node",
+  "id": 6690635993,
+  "lat": 22.5432309,
+  "lon": 113.9491278,
+  "tags": {
+    "name": "高新园",
+    "name:en": "Hi-Tech Park",
+    "name:zh": "高新园",
+    "name:zh-Hans": "高新园",
+    "name:zh-Hant": "高新園",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5750273"
+  }
+},
+{
+  "type": "node",
+  "id": 6690635994,
+  "lat": 22.5363142,
+  "lon": 114.0090381,
+  "tags": {
+    "name": "竹子林",
+    "name:en": "Zhuzilin",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6125807"
+  }
+},
+{
+  "type": "node",
+  "id": 6690635995,
+  "lat": 22.5364467,
+  "lon": 113.9804886,
+  "tags": {
+    "name": "华侨城",
+    "name:en": "OCT",
+    "name:zh": "华侨城",
+    "name:zh-Hans": "华侨城",
+    "name:zh-Hant": "華僑城",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6125819",
+    "wikipedia": "zh:華僑城站"
+  }
+},
+{
+  "type": "node",
+  "id": 6694397103,
+  "lat": 22.5433100,
+  "lon": 114.0897584,
+  "tags": {
+    "name": "科学馆",
+    "name:en": "Science Museum",
+    "name:ru": "Музей науки",
+    "name:zh": "科学馆",
+    "name:zh-Hans": "科学馆",
+    "name:zh-Hant": "科學館",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6125779",
+    "wikipedia": "zh:科學館站"
+  }
+},
+{
+  "type": "node",
+  "id": 6694397104,
+  "lat": 22.5507470,
+  "lon": 113.8895625,
+  "tags": {
+    "name": "新安",
+    "name:en": "Xin'an",
+    "name:zh": "新安",
+    "name:zh-Hans": "新安",
+    "name:zh-Hant": "新安",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q5943621"
+  }
+},
+{
+  "type": "node",
+  "id": 6694397105,
+  "lat": 22.5416550,
+  "lon": 114.0336141,
+  "tags": {
+    "name": "香蜜湖",
+    "name:en": "Xiangmihu",
+    "name:zh": "香蜜湖",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6127083"
+  }
+},
+{
+  "type": "node",
+  "id": 6696703919,
+  "lat": 22.5632358,
+  "lon": 113.8764671,
+  "tags": {
+    "name": "宝体",
+    "name:en": "Bao'an Stadium",
+    "name:zh": "宝体",
+    "name:zh-Hans": "宝体",
+    "name:zh-Hant": "寶體",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q4857413"
+  }
+},
+{
+  "type": "node",
+  "id": 6696703920,
+  "lat": 22.5430403,
+  "lon": 114.0799442,
+  "tags": {
+    "name": "华强路",
+    "name:en": "Huaqiang Road",
+    "name:zh": "华强路",
+    "name:zh-Hans": "华强路",
+    "name:zh-Hant": "華强路",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6126320"
+  }
+},
+{
+  "type": "node",
+  "id": 6696703921,
+  "lat": 22.5424182,
+  "lon": 114.1139070,
+  "tags": {
+    "name": "国贸",
+    "name:en": "Guomao",
+    "name:zh": "国贸",
+    "name:zh-Hans": "国贸",
+    "name:zh-Hant": "國貿",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5619674"
+  }
+},
+{
+  "type": "node",
+  "id": 6696703922,
+  "lat": 22.5350655,
+  "lon": 113.8985018,
+  "tags": {
+    "name": "鲤鱼门",
+    "name:en": "Liyumen",
+    "name:zh": "鲤鱼门",
+    "name:zh-Hans": "鲤鱼门",
+    "name:zh-Hant": "鯉魚門",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q5942709"
+  }
+},
+{
+  "type": "node",
+  "id": 6703013761,
+  "lat": 22.5492913,
+  "lon": 113.9936907,
+  "tags": {
+    "name": "深康",
+    "name:en": "Shenkang",
+    "name:zh": "深康",
+    "network": "深圳地铁",
+    "network:en": "Shenzhen Metro",
+    "network:wikidata": "Q867680",
+    "network:zh": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q5940621",
+    "wikipedia": "zh:深康站"
+  }
+},
+{
+  "type": "node",
+  "id": 6710377522,
+  "lat": 22.5471125,
+  "lon": 113.9839745,
+  "tags": {
+    "location": "underground",
+    "name": "侨城北",
+    "name:en": "Qiaocheng North",
+    "name:zh": "侨城北",
+    "network": "深圳地铁",
+    "network:en": "Shenzhen Metro",
+    "network:wikidata": "Q867680",
+    "network:zh": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5941699",
+    "wikipedia": "zh:侨城北站"
+  }
+},
+{
+  "type": "node",
+  "id": 6712237114,
+  "lat": 22.5835630,
+  "lon": 113.9390833,
+  "tags": {
+    "name": "留仙洞",
+    "name:en": "Liuxiandong",
+    "name:zh": "留仙洞",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2011-06-22",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5939635",
+    "wikipedia": "zh:留仙洞站"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085262,
+  "lat": 22.5524763,
+  "lon": 114.0093299,
+  "tags": {
+    "name": "侨香",
+    "name:en": "Qiaoxiang",
+    "name:zh": "侨香",
+    "network": "深圳地铁",
+    "network:en": "Shenzhen Metro",
+    "network:wikidata": "Q867680",
+    "network:zh": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6119522",
+    "wikipedia": "zh:侨香站"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085264,
+  "lat": 22.5398540,
+  "lon": 113.9693070,
+  "tags": {
+    "name": "世界之窗",
+    "name:en": "Window of the World",
+    "name:zh": "世界之窗",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q844009"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085265,
+  "lat": 22.5279940,
+  "lon": 113.9633397,
+  "tags": {
+    "name": "红树湾",
+    "name:en": "Hongshuwan",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5896031",
+    "wikipedia": "zh:红树湾站"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085267,
+  "lat": 22.5301465,
+  "lon": 113.9417945,
+  "tags": {
+    "name": "科苑",
+    "name:en": "Keyuan",
+    "name:zh": "科苑",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942779",
+    "wikipedia": "zh:科苑站"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085268,
+  "lat": 22.5203848,
+  "lon": 113.9353794,
+  "tags": {
+    "name": "后海",
+    "name:en": "Houhai",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085269,
+  "lat": 22.5119037,
+  "lon": 113.9327837,
+  "tags": {
+    "name": "登良",
+    "name:en": "Dengliang",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5256959"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085270,
+  "lat": 22.5031277,
+  "lon": 113.9329249,
+  "tags": {
+    "name": "海月",
+    "name:en": "Haiyue",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5639800"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085271,
+  "lat": 22.4965491,
+  "lon": 113.9336953,
+  "tags": {
+    "name": "湾厦",
+    "name:en": "Wanxia",
+    "name:zh": "湾厦",
+    "name:zh-Hans": "湾厦",
+    "name:zh-Hant": "灣廈",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5943390"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085272,
+  "lat": 22.4891582,
+  "lon": 113.9264123,
+  "tags": {
+    "name": "东角头",
+    "name:en": "Dongjiaotou",
+    "name:zh": "东角头",
+    "name:zh-Hans": "东角头",
+    "name:zh-Hant": "東角頭",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5295944"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085273,
+  "lat": 22.4914656,
+  "lon": 113.9148170,
+  "tags": {
+    "name": "水湾",
+    "name:en": "Shuiwan",
+    "name:zh": "水湾",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942904"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085274,
+  "lat": 22.4881293,
+  "lon": 113.9101589,
+  "tags": {
+    "name": "海上世界",
+    "name:en": "Sea World",
+    "name:zh": "海上世界",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942466"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085275,
+  "lat": 22.4822397,
+  "lon": 113.8925041,
+  "tags": {
+    "name": "赤湾",
+    "name:en": "Chiwan",
+    "name:zh": "赤湾",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q5941943"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085276,
+  "lat": 22.4797136,
+  "lon": 113.9073872,
+  "tags": {
+    "name": "蛇口港",
+    "name:en": "Shekou Port",
+    "name:zh": "蛇口港",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5940487"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085277,
+  "lat": 22.5566537,
+  "lon": 114.0278197,
+  "tags": {
+    "name": "香梅北",
+    "name:en": "Xiangmei North",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085279,
+  "lat": 22.5433288,
+  "lon": 114.0567044,
+  "tags": {
+    "name": "市民中心",
+    "name:en": "Civic Center",
+    "name:zh": "市民中心",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q877067",
+    "wikipedia": "zh:市民中心站 (深圳地鐵)"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085280,
+  "lat": 22.5434393,
+  "lon": 114.0642711,
+  "tags": {
+    "name": "岗厦北",
+    "name:en": "Gangxia North",
+    "name:zh": "岗厦北",
+    "name:zh-Hans": "岗厦北",
+    "name:zh-Hant": "崗廈北",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5521287",
+    "wikipedia": "zh:岗厦北站"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085281,
+  "lat": 22.5470120,
+  "lon": 114.0802516,
+  "tags": {
+    "name": "华强北",
+    "name:en": "Huaqiang North",
+    "name:zh": "华强北",
+    "name:zh-Hans": "华强北",
+    "name:zh-Hant": "華强北",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085282,
+  "lat": 22.5471651,
+  "lon": 114.0869040,
+  "tags": {
+    "name": "燕南",
+    "name:en": "Yannan",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6715085284,
+  "lat": 22.5472278,
+  "lon": 114.1204430,
+  "tags": {
+    "name": "湖贝",
+    "name:en": "Hubei",
+    "name:zh-Hant": "湖貝",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942058"
+  }
+},
+{
+  "type": "node",
+  "id": 6715099886,
+  "lat": 22.5557350,
+  "lon": 114.0185933,
+  "tags": {
+    "name": "香蜜",
+    "name:en": "Xiangmi",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6745707522,
+  "lat": 22.5719350,
+  "lon": 113.8657455,
+  "tags": {
+    "name": "坪洲",
+    "name:en": "Pingzhou",
+    "name:zh": "坪洲",
+    "name:zh-Hans": "坪洲",
+    "name:zh-Hant": "坪洲",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5943213"
+  }
+},
+{
+  "type": "node",
+  "id": 6745707523,
+  "lat": 22.5790602,
+  "lon": 113.8569798,
+  "tags": {
+    "name": "西乡",
+    "name:en": "Xixiang",
+    "name:zh": "西乡",
+    "name:zh-Hans": "西乡",
+    "name:zh-Hant": "西鄉",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5944241"
+  }
+},
+{
+  "type": "node",
+  "id": 6745828846,
+  "lat": 22.5424968,
+  "lon": 113.9622543,
+  "tags": {
+    "name": "白石洲",
+    "name:en": "Baishizhou",
+    "name:zh": "白石洲",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4848688",
+    "wikipedia": "zh:白石洲站"
+  }
+},
+{
+  "type": "node",
+  "id": 6745828847,
+  "lat": 22.5411039,
+  "lon": 113.9389034,
+  "tags": {
+    "name": "深大",
+    "name:en": "Shenzhen University",
+    "name:ru": "Шэньчжэньский университет",
+    "name:zh": "深大",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5963375",
+    "wikipedia": "zh:深大站"
+  }
+},
+{
+  "type": "node",
+  "id": 6745828848,
+  "lat": 22.5353507,
+  "lon": 113.9198061,
+  "tags": {
+    "name": "桃园",
+    "name:en": "Taoyuan",
+    "name:zh": "桃园",
+    "name:zh-Hans": "桃园",
+    "name:zh-Hant": "桃園",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942308"
+  }
+},
+{
+  "type": "node",
+  "id": 6753412231,
+  "lat": 22.5576373,
+  "lon": 113.8823152,
+  "tags": {
+    "name": "宝安中心",
+    "name:en": "Bao'an Center",
+    "name:zh": "宝安中心",
+    "name:zh-Hans": "宝安中心",
+    "name:zh-Hant": "寶安中心",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q1012590"
+  }
+},
+{
+  "type": "node",
+  "id": 6753412232,
+  "lat": 22.5354178,
+  "lon": 113.9914607,
+  "tags": {
+    "name": "侨城东",
+    "name:en": "Qiaocheng East",
+    "name:zh": "侨城东",
+    "name:zh-Hans": "侨城东",
+    "name:zh-Hant": "僑城東",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6129255"
+  }
+},
+{
+  "type": "node",
+  "id": 6753412233,
+  "lat": 22.5373797,
+  "lon": 114.0496547,
+  "tags": {
+    "name": "购物公园",
+    "name:en": "Shopping Park",
+    "name:zh": "购物公园",
+    "name:zh-Hans": "购物公园",
+    "name:zh-Hant": "購物公園",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "website": "https://www.szmc.net/page/en/stations.html?xl=1&code=0109",
+    "wikidata": "Q841841",
+    "wikipedia": "zh:購物公園站"
+  }
+},
+{
+  "type": "node",
+  "id": 6753412234,
+  "lat": 22.5375885,
+  "lon": 114.0629464,
+  "tags": {
+    "name": "岗厦",
+    "name:en": "Gangxia",
+    "name:zh": "岗厦",
+    "name:zh-Hans": "岗厦",
+    "name:zh-Hant": "崗廈",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "website": "https://www.szmc.net/page/en/stations.html?xl=1&code=0107",
+    "wikidata": "Q5521290"
+  }
+},
+{
+  "type": "node",
+  "id": 6753412235,
+  "lat": 22.5333117,
+  "lon": 114.1131787,
+  "tags": {
+    "name": "罗湖",
+    "name:en": "Luohu",
+    "name:ru": "Лоху",
+    "name:zh": "罗湖",
+    "name:zh-Hans": "罗湖",
+    "name:zh-Hant": "羅湖",
+    "network": "Shenzhen Metro",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "3",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q843947",
+    "wikipedia": "zh:罗湖站 (深圳地铁)"
+  }
+},
+{
+  "type": "node",
+  "id": 6836123689,
+  "lat": 22.5344306,
+  "lon": 113.8928669,
+  "tags": {
+    "name": "桂湾",
+    "name:en": "Guiwan",
+    "name:zh": "桂湾",
+    "name:zh-Hans": "桂湾",
+    "name:zh-Hant": "桂灣",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q19853781"
+  }
+},
+{
+  "type": "node",
+  "id": 6836123690,
+  "lat": 22.5248447,
+  "lon": 113.8906677,
+  "tags": {
+    "name": "前湾",
+    "name:en": "Qianwan",
+    "name:zh": "前湾",
+    "name:zh-Hans": "前湾",
+    "name:zh-Hant": "前灣",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q28152960"
+  }
+},
+{
+  "type": "node",
+  "id": 6836123691,
+  "lat": 22.5197971,
+  "lon": 113.8853973,
+  "tags": {
+    "name": "前湾公园",
+    "name:en": "Qianwan Park",
+    "name:zh": "前湾公园",
+    "name:zh-Hans": "前湾公园",
+    "name:zh-Hant": "前灣公園",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q28152961"
+  }
+},
+{
+  "type": "node",
+  "id": 6836123692,
+  "lat": 22.5112033,
+  "lon": 113.8809707,
+  "tags": {
+    "name": "妈湾",
+    "name:en": "Mawan",
+    "name:zh": "妈湾",
+    "name:zh-Hans": "妈湾",
+    "name:zh-Hant": "媽灣",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6836123693,
+  "lat": 22.5053459,
+  "lon": 113.8853899,
+  "tags": {
+    "name": "铁路公园",
+    "name:en": "Railway Park",
+    "name:zh": "铁路公园",
+    "name:zh-Hans": "铁路公园",
+    "name:zh-Hant": "鐵路公園",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q28152963",
+    "wikipedia": "zh:铁路公园站"
+  }
+},
+{
+  "type": "node",
+  "id": 6836123694,
+  "lat": 22.5011681,
+  "lon": 113.8882928,
+  "tags": {
+    "name": "荔湾",
+    "name:en": "Liwan",
+    "name:zh": "荔湾",
+    "name:zh-Hans": "荔湾",
+    "name:zh-Hant": "荔灣",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7051840950,
+  "lat": 22.5357515,
+  "lon": 113.9464973,
+  "tags": {
+    "name": "高新南",
+    "name:en": "High-Tech South",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q64797083"
+  }
+},
+{
+  "type": "node",
+  "id": 7051840951,
+  "lat": 22.5357200,
+  "lon": 113.9417503,
+  "tags": {
+    "name": "粤海门",
+    "name:en": "Yuehaimen",
+    "name:zh": "粤海门",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q64692589",
+    "wikipedia": "zh:粤海门站"
+  }
+},
+{
+  "type": "node",
+  "id": 7051840952,
+  "lat": 22.5290519,
+  "lon": 113.9310244,
+  "tags": {
+    "name": "深大南",
+    "name:en": "Shenzhen University South",
+    "name:zh": "深大南",
+    "name:zh-Hans": "深大南",
+    "name:zh-Hant": "深大南",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7051840954,
+  "lat": 22.5214793,
+  "lon": 113.9235746,
+  "tags": {
+    "name": "南山书城",
+    "name:en": "Nanshan Book Mall",
+    "name:zh": "南山书城",
+    "name:zh-Hans": "南山书城",
+    "name:zh-Hant": "南山書城",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7051840957,
+  "lat": 22.5135563,
+  "lon": 113.9212265,
+  "tags": {
+    "name": "南油",
+    "name:en": "Nanyou",
+    "name:zh": "南油",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q63511794"
+  }
+},
+{
+  "type": "node",
+  "id": 7051847790,
+  "lat": 22.5123465,
+  "lon": 113.9134979,
+  "tags": {
+    "name": "南油西",
+    "name:en": "Nanyou West",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q63511800"
+  }
+},
+{
+  "type": "node",
+  "id": 7051847794,
+  "lat": 22.5148217,
+  "lon": 113.9084735,
+  "tags": {
+    "name": "荔林",
+    "name:en": "Litchi Orchards",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q63442500"
+  }
+},
+{
+  "type": "node",
+  "id": 7051847797,
+  "lat": 22.5186357,
+  "lon": 113.8980481,
+  "tags": {
+    "name": "怡海",
+    "name:en": "Yihai",
+    "name:zh": "怡海",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q67931410"
+  }
+},
+{
+  "type": "node",
+  "id": 7051847800,
+  "lat": 22.5221008,
+  "lon": 113.8937975,
+  "tags": {
+    "name": "梦海",
+    "name:en": "Menghai",
+    "name:zh": "梦海",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q28152962"
+  }
+},
+{
+  "type": "node",
+  "id": 7090437399,
+  "lat": 22.5628537,
+  "lon": 113.9769577,
+  "tags": {
+    "name": "桃源村",
+    "name:en": "Taoyuancun",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27728589"
+  }
+},
+{
+  "type": "node",
+  "id": 7116490671,
+  "lat": 22.5654912,
+  "lon": 113.9895993,
+  "tags": {
+    "access": "private",
+    "name": "文体公园",
+    "name:en": "Wenti Park",
+    "name:zh": "文体公园",
+    "network": "深圳地铁",
+    "note": "暂未对公众开放",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7484104362,
+  "lat": 22.5635058,
+  "lon": 114.0624693,
+  "tags": {
+    "name": "冬瓜岭",
+    "name:en": "Donggualing",
+    "name:zh": "冬瓜岭",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7822253175,
+  "lat": 22.5573385,
+  "lon": 114.0906334,
+  "tags": {
+    "name": "体育中心",
+    "name:en": "Sports Center",
+    "name:zh": "体育中心",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q96288617"
+  }
+},
+{
+  "type": "node",
+  "id": 7822253176,
+  "lat": 22.5633903,
+  "lon": 114.0888249,
+  "tags": {
+    "name": "八卦岭",
+    "name:en": "Bagualing",
+    "name:zh": "八卦岭",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7828966426,
+  "lat": 22.5700289,
+  "lon": 114.0617322,
+  "tags": {
+    "name": "孖岭",
+    "name:en": "Maling",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7828966427,
+  "lat": 22.5513659,
+  "lon": 114.0626684,
+  "tags": {
+    "name": "莲花村",
+    "name:en": "Lianhuacun",
+    "name:zh": "莲花村",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5940554",
+    "wikipedia": "zh:莲花村站"
+  }
+},
+{
+  "type": "node",
+  "id": 7878057037,
+  "lat": 22.5427932,
+  "lon": 114.0628443,
+  "tags": {
+    "name": "岗厦北",
+    "name:en": "Gangxia North",
+    "name:zh": "岗厦北",
+    "name:zh-Hans": "岗厦北",
+    "name:zh-Hant": "崗廈北",
+    "opening_hours": "Mo-Su 06:00-23:00",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "6",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5521287",
+    "wikipedia": "zh:岗厦北站"
+  }
+},
+{
+  "type": "node",
+  "id": 7878125028,
+  "lat": 22.5184181,
+  "lon": 114.0640577,
+  "tags": {
+    "name": "福田口岸",
+    "name:en": "Futian Checkpoint",
+    "network": "深圳地铁",
+    "operator": "港铁轨道交通（深圳）有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2288286",
+    "wikipedia": "zh:福田口岸站"
+  }
+},
+{
+  "type": "node",
+  "id": 7920720341,
+  "lat": 22.5278525,
+  "lon": 114.0630578,
+  "tags": {
+    "name": "福民",
+    "name:en": "Fumin",
+    "name:zh": "福民",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q868734"
+  }
+},
+{
+  "type": "node",
+  "id": 8058139791,
+  "lat": 22.5107821,
+  "lon": 114.0510750,
+  "tags": {
+    "name": "福保",
+    "name:en": "Futian Bonded Area",
+    "name:zh": "福保",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q28152959"
+  }
+},
+{
+  "type": "node",
+  "id": 9061469964,
+  "lat": 22.5456566,
+  "lon": 114.0816792,
+  "tags": {
+    "name": "华强北",
+    "name:en": "Huaqiang North",
+    "name:zh": "华强北",
+    "name:zh-Hans": "华强北",
+    "name:zh-Hant": "華强北",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942840"
+  }
+},
+{
+  "type": "node",
+  "id": 9061718476,
+  "lat": 22.5264428,
+  "lon": 114.0484440,
+  "tags": {
+    "name": "石厦",
+    "name:en": "Shixia",
+    "name:zh": "石厦",
+    "network": "深圳市轨道交通",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q6118910"
+  }
+},
+{
+  "type": "node",
+  "id": 9061718477,
+  "lat": 22.5365689,
+  "lon": 114.0479575,
+  "tags": {
+    "name": "购物公园",
+    "name:en": "Shopping Park",
+    "name:zh": "购物公园",
+    "name:zh-Hans": "购物公园",
+    "name:zh-Hant": "購物公園",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q841841",
+    "wikipedia": "zh:購物公園站"
+  }
+},
+{
+  "type": "node",
+  "id": 9061718478,
+  "lat": 22.5517636,
+  "lon": 114.0910395,
+  "tags": {
+    "name": "通新岭‎",
+    "name:en": "Tongxinling",
+    "name:zh": "通新岭‎",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942202",
+    "wikipedia": "zh:通新岭站"
+  }
+},
+{
+  "type": "node",
+  "id": 9061784741,
+  "lat": 22.5362876,
+  "lon": 114.0479296,
+  "tags": {
+    "name": "购物公园",
+    "name:en": "Shopping Park",
+    "name:zh": "购物公园",
+    "name:zh-Hans": "购物公园",
+    "name:zh-Hant": "購物公園",
+    "platforms": "4",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9061784749,
+  "lat": 22.5264437,
+  "lon": 114.0485374,
+  "tags": {
+    "name": "石厦",
+    "name:en": "Shixia",
+    "name:zh": "石厦",
+    "network": "深圳市轨道交通",
+    "operator": "深圳市地铁集团有限公司",
+    "platforms": "2",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q6118910"
+  }
+},
+{
+  "type": "node",
+  "id": 9061784828,
+  "lat": 22.5518102,
+  "lon": 114.0911030,
+  "tags": {
+    "name": "通新岭",
+    "name:en": "Tongxinling",
+    "name:zh": "通新岭",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9061785126,
+  "lat": 22.5498083,
+  "lon": 114.0449155,
+  "tags": {
+    "name": "莲花西",
+    "name:en": "Lianhua West",
+    "name:fr": "Liánhuā Ouest",
+    "name:zh-Latn-pinyin": "Liánhuā xī zhàn",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5941316"
+  }
+},
+{
+  "type": "node",
+  "id": 9061785129,
+  "lat": 22.5440073,
+  "lon": 114.1028580,
+  "tags": {
+    "layer": "-1",
+    "location": "underground",
+    "name": "大剧院",
+    "name:en": "Grand Theater",
+    "name:zh": "大剧院",
+    "name:zh-Hans": "大剧院",
+    "name:zh-Hant": "大劇院",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q841872",
+    "wikipedia": "zh:大劇院站 (深圳)"
+  }
+},
+{
+  "type": "node",
+  "id": 9061785132,
+  "lat": 22.5505114,
+  "lon": 114.1440640,
+  "tags": {
+    "name": "新秀",
+    "name:en": "Xinxiu",
+    "name:zh": "新秀",
+    "name:zh-Hans": "新秀",
+    "name:zh-Hant": "新秀",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9062016302,
+  "lat": 22.5444314,
+  "lon": 114.0558554,
+  "tags": {
+    "name": "市民中心",
+    "name:en": "Civic Center",
+    "name:zh": "市民中心",
+    "operator": "港铁轨道交通（深圳）有限公司",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q877067",
+    "wikipedia": "zh:市民中心站 (深圳地鐵)"
+  }
+},
+{
+  "type": "node",
+  "id": 9062047168,
+  "lat": 22.5259347,
+  "lon": 114.0596709,
+  "tags": {
+    "name": "福民",
+    "name:en": "Fumin",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q868734",
+    "wikipedia": "zh:福民站"
+  }
+},
+{
+  "type": "node",
+  "id": 9062166397,
+  "lat": 22.5970587,
+  "lon": 114.0482581,
+  "tags": {
+    "name": "梅林关",
+    "name:en": "Meilinguan",
+    "name:zh": "梅林关",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "railway:position:exact": "12.150906",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q96294723",
+    "wikipedia": "zh:梅林关站"
+  }
+},
+{
+  "type": "node",
+  "id": 9062166398,
+  "lat": 22.5769536,
+  "lon": 114.0637871,
+  "tags": {
+    "name": "翰岭",
+    "name:en": "Hanling",
+    "name:zh": "翰岭",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q96294728",
+    "wikipedia": "zh:翰岭站"
+  }
+},
+{
+  "type": "node",
+  "id": 9062166399,
+  "lat": 22.5713390,
+  "lon": 114.0842819,
+  "tags": {
+    "name": "银湖",
+    "name:en": "Yinhu",
+    "name:zh": "银湖",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9062166400,
+  "lat": 22.5633716,
+  "lon": 114.0888193,
+  "tags": {
+    "name": "八卦岭",
+    "name:en": "Bagualing",
+    "name:zh": "八卦岭",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825810",
+    "wikipedia": "zh:八卦岭站"
+  }
+},
+{
+  "type": "node",
+  "id": 9062166401,
+  "lat": 22.5573278,
+  "lon": 114.0906136,
+  "tags": {
+    "name": "体育中心",
+    "name:en": "Sports Center",
+    "name:zh": "体育中心",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q96288617"
+  }
+},
+{
+  "type": "node",
+  "id": 9062166402,
+  "lat": 22.5517181,
+  "lon": 114.0910124,
+  "tags": {
+    "name": "通新岭",
+    "name:en": "Tongxinling",
+    "name:zh": "通新岭",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9062180186,
+  "lat": 22.5421181,
+  "lon": 114.0912017,
+  "tags": {
+    "name": "科学馆",
+    "name:en": "Science Museum",
+    "name:ru": "Музей науки",
+    "name:zh": "科学馆",
+    "name:zh-Hans": "科学馆",
+    "name:zh-Hant": "科學館",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6125779",
+    "wikipedia": "zh:科學館站"
+  }
+},
+{
+  "type": "node",
+  "id": 9062180190,
+  "lat": 22.5513102,
+  "lon": 114.0910064,
+  "tags": {
+    "name": "通新岭",
+    "name:en": "Tongxinling",
+    "name:zh": "通新岭",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9062180193,
+  "lat": 22.5573374,
+  "lon": 114.0905994,
+  "tags": {
+    "name": "体育中心",
+    "name:en": "Sports Center",
+    "name:zh": "体育中心",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q96288617"
+  }
+},
+{
+  "type": "node",
+  "id": 9062180204,
+  "lat": 22.5633758,
+  "lon": 114.0887947,
+  "tags": {
+    "name": "八卦岭",
+    "name:en": "Bagualing",
+    "name:zh": "八卦岭",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9062180232,
+  "lat": 22.5629304,
+  "lon": 113.8884582,
+  "tags": {
+    "name": "翻身",
+    "name:en": "Fanshen",
+    "name:zh": "翻身",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9062180233,
+  "lat": 22.5472917,
+  "lon": 113.8843099,
+  "tags": {
+    "name": "临海",
+    "name:en": "Linhai",
+    "name:zh": "临海",
+    "name:zh-Hans": "临海",
+    "name:zh-Hant": "臨海",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5938660",
+    "wikipedia": "zh:临海站 (深圳市)"
+  }
+},
+{
+  "type": "node",
+  "id": 9062205659,
+  "lat": 22.5771019,
+  "lon": 113.9494436,
+  "tags": {
+    "name": "茶光",
+    "name:en": "Chaguang",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27728542"
+  }
+},
+{
+  "type": "node",
+  "id": 9062205660,
+  "lat": 22.5671739,
+  "lon": 113.9697761,
+  "tags": {
+    "name": "龙井",
+    "name:en": "Longjing",
+    "name:zh": "龙井",
+    "network": "深圳市轨道交通",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27728574"
+  }
+},
+{
+  "type": "node",
+  "id": 9062205661,
+  "lat": 22.5273630,
+  "lon": 114.0306045,
+  "tags": {
+    "name": "上沙",
+    "name:en": "Shangsha",
+    "network": "深圳市轨道交通",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27728640"
+  }
+},
+{
+  "type": "node",
+  "id": 9062205662,
+  "lat": 22.5257882,
+  "lon": 114.0485191,
+  "tags": {
+    "name": "石厦",
+    "name:en": "Shixia",
+    "name:zh": "石厦",
+    "network": "深圳市轨道交通",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9062205663,
+  "lat": 22.5258467,
+  "lon": 114.0539512,
+  "tags": {
+    "name": "皇岗村",
+    "name:en": "Huanggangcun",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27685097"
+  }
+},
+{
+  "type": "node",
+  "id": 9062205664,
+  "lat": 22.5259462,
+  "lon": 114.0606395,
+  "tags": {
+    "name": "福民",
+    "name:en": "Fumin",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q868734"
+  }
+},
+{
+  "type": "node",
+  "id": 9062205665,
+  "lat": 22.5242384,
+  "lon": 114.0690028,
+  "tags": {
+    "name": "皇岗口岸",
+    "name:en": "Huanggang Checkpoint",
+    "name:zh": "皇岗口岸",
+    "name:zh-Hans": "皇岗口岸",
+    "name:zh-Hant": "皇崗口岸",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9062205666,
+  "lat": 22.5645218,
+  "lon": 114.0900008,
+  "tags": {
+    "name": "八卦岭",
+    "name:en": "Bagualing",
+    "name:zh": "八卦岭",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825810",
+    "wikipedia": "zh:八卦岭站"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301242,
+  "lat": 22.5261040,
+  "lon": 113.9664581,
+  "tags": {
+    "name": "红树湾南",
+    "name:en": "Hongshuwan South",
+    "name:zh": "红树湾南",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q25339724",
+    "wikipedia": "zh:紅樹灣南站"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301243,
+  "lat": 22.5244887,
+  "lon": 113.9879978,
+  "tags": {
+    "name": "深圳湾公园",
+    "name:en": "Shenzhen Bay Park",
+    "name:zh": "深圳湾公园",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21245996"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301244,
+  "lat": 22.5316545,
+  "lon": 114.0186343,
+  "tags": {
+    "name": "下沙",
+    "name:en": "Xiasha",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27526079"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301328,
+  "lat": 22.5482775,
+  "lon": 114.0342936,
+  "tags": {
+    "name": "香梅",
+    "name:en": "Xiangmei",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825819"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301331,
+  "lat": 22.5635951,
+  "lon": 114.0329297,
+  "tags": {
+    "name": "梅景",
+    "name:en": "Meijing",
+    "name:zh": "梅景",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825821"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301332,
+  "lat": 22.5684708,
+  "lon": 114.0368840,
+  "tags": {
+    "name": "下梅林",
+    "name:en": "Xiameilin",
+    "name:zh": "下梅林",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825823"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301333,
+  "lat": 22.5711785,
+  "lon": 114.0471738,
+  "tags": {
+    "name": "梅村",
+    "name:en": "Meicun",
+    "name:zh": "梅村",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825827"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301334,
+  "lat": 22.5711039,
+  "lon": 114.0553309,
+  "tags": {
+    "name": "上梅林",
+    "name:en": "Shangmeilin",
+    "name:zh": "上梅林",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301335,
+  "lat": 22.5711352,
+  "lon": 114.0631448,
+  "tags": {
+    "name": "孖岭",
+    "name:en": "Maling",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q22101288"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301336,
+  "lat": 22.5714073,
+  "lon": 114.0843467,
+  "tags": {
+    "name": "银湖",
+    "name:en": "Yinhu",
+    "name:zh": "银湖",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q20689186"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301337,
+  "lat": 22.5702261,
+  "lon": 114.0920496,
+  "tags": {
+    "name": "泥岗",
+    "name:en": "Nigang",
+    "name:zh": "泥岗",
+    "network": "深圳市轨道交通",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825846"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301474,
+  "lat": 22.5646871,
+  "lon": 114.0994515,
+  "tags": {
+    "name": "红岭北",
+    "name:en": "Hongling North",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q20688900"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301475,
+  "lat": 22.5588156,
+  "lon": 114.0994748,
+  "tags": {
+    "name": "园岭",
+    "name:en": "Yuanling",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825859"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301476,
+  "lat": 22.5510292,
+  "lon": 114.0994499,
+  "tags": {
+    "name": "红岭",
+    "name:en": "Hongling",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5895901",
+    "wikipedia": "zh:紅嶺站"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301477,
+  "lat": 22.5423222,
+  "lon": 114.0998324,
+  "tags": {
+    "name": "红岭南",
+    "name:en": "Hongling South",
+    "name:zh": "红岭南",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825864"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301478,
+  "lat": 22.5383111,
+  "lon": 114.1038014,
+  "tags": {
+    "name": "鹿丹村",
+    "name:en": "Ludancun",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21246003"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301479,
+  "lat": 22.5380996,
+  "lon": 114.1131281,
+  "tags": {
+    "name": "人民南",
+    "name:en": "Renmin South",
+    "name:zh": "人民南",
+    "network": "Shenzhen Metro",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q20688019"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301480,
+  "lat": 22.5425522,
+  "lon": 114.1206023,
+  "tags": {
+    "name": "向西村",
+    "name:en": "Xiangxicun",
+    "name:zh": "向西村",
+    "network": "Shenzhen Metro",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q20688198"
+  }
+},
+{
+  "type": "node",
+  "id": 9062301481,
+  "lat": 22.5450815,
+  "lon": 114.1259145,
+  "tags": {
+    "name": "文锦",
+    "name:en": "Wenjin",
+    "name:zh": "文锦",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21245982"
+  }
+},
+{
+  "type": "node",
+  "id": 9310690694,
+  "lat": 22.5686556,
+  "lon": 114.1173197,
+  "tags": {
+    "name": "洪湖‎",
+    "name:en": "Honghu",
+    "name:zh": "洪湖‎",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825814"
+  }
+},
+{
+  "type": "node",
+  "id": 9310690695,
+  "lat": 22.5658661,
+  "lon": 114.1058553,
+  "tags": {
+    "name": "笋岗",
+    "name:en": "Sungang",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825812"
+  }
+},
+{
+  "type": "node",
+  "id": 9310728711,
+  "lat": 22.5517929,
+  "lon": 114.0817703,
+  "tags": {
+    "name": "华新‎",
+    "name:en": "Huaxin",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5926413"
+  }
+},
+{
+  "type": "node",
+  "id": 9310728712,
+  "lat": 22.5585802,
+  "lon": 114.0821888,
+  "tags": {
+    "name": "黄木岗",
+    "name:en": "Huangmugang",
+    "name:zh": "黄木岗",
+    "name:zh-Hans": "黄木岗",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27685067"
+  }
+},
+{
+  "type": "node",
+  "id": 9310728713,
+  "lat": 22.5589208,
+  "lon": 114.1247615,
+  "tags": {
+    "name": "翠竹",
+    "name:en": "Cuizhu",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5192824"
+  }
+},
+{
+  "type": "node",
+  "id": 9310728714,
+  "lat": 22.5521161,
+  "lon": 114.1176854,
+  "tags": {
+    "name": "晒布",
+    "name:en": "Shaibu",
+    "name:zh": "晒布",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942974"
+  }
+},
+{
+  "type": "node",
+  "id": 9326930437,
+  "lat": 22.5634938,
+  "lon": 114.0543283,
+  "tags": {
+    "name": "莲花北",
+    "name:en": "Lianhua North",
+    "operator": "港铁轨道交通（深圳）有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942499"
+  }
+},
+{
+  "type": "node",
+  "id": 9326930438,
+  "lat": 22.5512172,
+  "lon": 114.0549848,
+  "tags": {
+    "name": "少年宫‎",
+    "name:en": "Children's Palace",
+    "name:ru": "Детский дворец",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q877016"
+  }
+},
+{
+  "type": "node",
+  "id": 9326974494,
+  "lat": 22.5768941,
+  "lon": 114.1196698,
+  "tags": {
+    "name": "水贝",
+    "name:en": "Shuibei",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9326974495,
+  "lat": 22.5517084,
+  "lon": 114.0991765,
+  "tags": {
+    "name": "红岭",
+    "name:en": "Hongling",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5895901",
+    "wikipedia": "zh:紅嶺站"
+  }
+},
+{
+  "type": "node",
+  "id": 9326974496,
+  "lat": 22.5188095,
+  "lon": 114.0458971,
+  "tags": {
+    "name": "益田",
+    "name:en": "Yitian",
+    "name:zh": "益田",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q6119959"
+  }
+},
+{
+  "type": "node",
+  "id": 9327070279,
+  "lat": 22.5587011,
+  "lon": 114.1349580,
+  "tags": {
+    "name": "怡景",
+    "name:en": "Yijing",
+    "name:zh": "怡景",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6119448"
+  }
+},
+{
+  "type": "node",
+  "id": 9327070280,
+  "lat": 22.5835670,
+  "lon": 114.1329871,
+  "tags": {
+    "name": "布心",
+    "name:en": "Buxin",
+    "name:zh": "布心",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5003248"
+  }
+},
+{
+  "type": "node",
+  "id": 9327070281,
+  "lat": 22.5973734,
+  "lon": 114.1253278,
+  "tags": {
+    "name": "百鸽笼",
+    "name:en": "Baigelong",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4843213"
+  }
+},
+{
+  "type": "node",
+  "id": 9327070286,
+  "lat": 22.5847838,
+  "lon": 113.9140174,
+  "tags": {
+    "name": "兴东",
+    "name:en": "Xingdong",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5938847"
+  }
+},
+{
+  "type": "node",
+  "id": 9327070287,
+  "lat": 22.5777172,
+  "lon": 113.9057795,
+  "tags": {
+    "name": "洪浪北",
+    "name:en": "Honglang North",
+    "name:zh": "洪浪北",
+    "name:zh-Hans": "洪浪北",
+    "name:zh-Hant": "洪浪北",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5938769",
+    "wikimedia_commons": "Category:Honglang North Station",
+    "wikipedia": "zh:洪浪北站"
+  }
+},
+{
+  "type": "node",
+  "id": 9327070288,
+  "lat": 22.5719966,
+  "lon": 113.8992269,
+  "tags": {
+    "name": "灵芝",
+    "name:en": "Lingzhi",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6119306"
+  }
+},
+{
+  "type": "node",
+  "id": 9327070289,
+  "lat": 22.5527242,
+  "lon": 113.8802114,
+  "tags": {
+    "name": "宝华",
+    "name:en": "Baohua",
+    "name:zh": "宝华",
+    "name:zh-Hans": "宝华",
+    "name:zh-Hant": "寶華",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9327214022,
+  "lat": 22.5713017,
+  "lon": 113.9557754,
+  "tags": {
+    "name": "珠光",
+    "name:en": "Zhuguang",
+    "name:zh": "珠光",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27728560"
+  }
+},
+{
+  "type": "node",
+  "id": 9328278154,
+  "lat": 22.5399510,
+  "lon": 114.0816593,
+  "tags": {
+    "name": "华强南",
+    "name:en": "Huaqiang South",
+    "name:zh": "华强南",
+    "network": "深圳地铁",
+    "network:en": "Shenzhen Metro",
+    "network:wikidata": "Q867680",
+    "network:zh": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825803",
+    "wikipedia": "zh:华强南站"
+  }
+},
+{
+  "type": "node",
+  "id": 9328278155,
+  "lat": 22.5345383,
+  "lon": 114.0787937,
+  "tags": {
+    "name": "赤尾",
+    "name:en": "Chiwei",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825801"
+  }
+},
+{
+  "type": "node",
+  "id": 9328278156,
+  "lat": 22.5234511,
+  "lon": 114.0375543,
+  "tags": {
+    "addr:city": "Shenzhen",
+    "addr:district": "福田区",
+    "addr:province": "广东省",
+    "addr:street": "福强路",
+    "name": "沙尾",
+    "name:en": "Shawei",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27670004"
+  }
+},
+{
+  "type": "node",
+  "id": 10100989453,
+  "lat": 22.5832668,
+  "lon": 114.1079213,
+  "tags": {
+    "name": "罗湖北",
+    "name:en": "Luohu North",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q114702914"
+  }
+},
+{
+  "type": "node",
+  "id": 10111219544,
+  "lat": 22.4734087,
+  "lon": 113.8962603,
+  "tags": {
+    "name": "左炮台东",
+    "name:en": "Zuopaitai East",
+    "name:zh": "左炮台东",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q115041735"
+  }
+},
+{
+  "type": "node",
+  "id": 10111219606,
+  "lat": 22.4761311,
+  "lon": 113.9068609,
+  "tags": {
+    "name": "太子湾",
+    "name:en": "Taiziwan",
+    "name:zh": "太子湾",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q115519645"
+  }
+},
+{
+  "type": "node",
+  "id": 10111219622,
+  "lat": 22.5194767,
+  "lon": 113.9196472,
+  "tags": {
+    "name": "南光",
+    "name:en": "Nanguang",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q115378125"
+  }
+},
+{
+  "type": "node",
+  "id": 10111219650,
+  "lat": 22.5033048,
+  "lon": 113.9170382,
+  "tags": {
+    "name": "四海",
+    "name:en": "Sihai",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q115378137"
+  }
+},
+{
+  "type": "node",
+  "id": 10111219654,
+  "lat": 22.4972856,
+  "lon": 113.9141015,
+  "tags": {
+    "name": "花果山",
+    "name:en": "Huaguoshan",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q115378147"
+  }
+},
+{
+  "type": "node",
+  "id": 10111219662,
+  "lat": 22.4880191,
+  "lon": 113.9088351,
+  "tags": {
+    "name": "海上世界",
+    "name:en": "Sea World",
+    "name:zh": "海上世界",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942466"
+  }
+},
+{
+  "type": "node",
+  "id": 10210996803,
+  "lat": 22.5403527,
+  "lon": 113.9194304,
+  "tags": {
+    "name": "南头古城",
+    "name:en": "Nantou Ancient City",
+    "name:zh": "南头古城",
+    "name:zh-Hans": "南头古城",
+    "name:zh-Hant": "南頭古城",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q113510425",
+    "wikipedia": "zh:南头古城站"
+  }
+},
+{
+  "type": "node",
+  "id": 10210996804,
+  "lat": 22.5496509,
+  "lon": 113.9184616,
+  "tags": {
+    "name": "中山公园",
+    "name:en": "Zhongshan Park",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q115520183"
+  }
+},
+{
+  "type": "node",
+  "id": 10210996814,
+  "lat": 22.5593325,
+  "lon": 113.9139656,
+  "tags": {
+    "name": "同乐南",
+    "name:en": "Tongle South",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q115520534"
+  }
+},
+{
+  "type": "node",
+  "id": 10210999447,
+  "lat": 22.5797596,
+  "lon": 113.8914640,
+  "tags": {
+    "name": "上川",
+    "name:en": "Shangchuan",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q113515165"
+  }
+},
+{
+  "type": "node",
+  "id": 10210999451,
+  "lat": 22.5866899,
+  "lon": 113.8846491,
+  "tags": {
+    "name": "流塘",
+    "name:en": "Liutang",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q115345833",
+    "wikipedia": "zh:流塘站"
+  }
+},
+{
+  "type": "node",
+  "id": 10210999455,
+  "lat": 22.5925216,
+  "lon": 113.8786706,
+  "tags": {
+    "name": "宝安客运站",
+    "name:en": "Bao'an Passenger Transport Terminal",
+    "name:zh": "宝安客运站",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q115345871",
+    "wikipedia": "zh:宝安客运站 (地铁)"
+  }
+},
+{
+  "type": "node",
+  "id": 10210999457,
+  "lat": 22.5976255,
+  "lon": 113.8735497,
+  "tags": {
+    "name": "宝田一路",
+    "name:en": "Baotian 1st Road",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q115345881",
+    "wikipedia": "zh:宝田一路站"
+  }
+},
+{
+  "type": "node",
+  "id": 10211004524,
+  "lat": 22.5652752,
+  "lon": 113.9059616,
+  "tags": {
+    "name": "新安公园",
+    "name:en": "Xin'an Park",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q115345724",
+    "wikipedia": "zh:新安公园站"
+  }
+},
+{
+  "type": "node",
+  "id": 10694413854,
+  "lat": 22.5730589,
+  "lon": 114.0544128,
+  "tags": {
+    "name": "上梅林",
+    "name:en": "Shangmeilin",
+    "name:zh": "上梅林",
+    "operator": "港铁轨道交通（深圳）有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942540"
+  }
+},
+{
+  "type": "node",
+  "id": 10736155854,
+  "lat": 22.5179435,
+  "lon": 114.0627302,
+  "tags": {
+    "name": "福田口岸",
+    "name:en": "Futian Checkpoint",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2288286",
+    "wikipedia": "zh:福田口岸站"
+  }
+},
+{
+  "type": "node",
+  "id": 11093802917,
+  "lat": 22.5281768,
+  "lon": 114.1133387,
+  "tags": {
+    "access": "permit",
+    "border_control": "no",
+    "border_zone": "yes",
+    "brand": "港鐵 MTR",
+    "brand:en": "MTR",
+    "brand:ref": "MTR",
+    "brand:wikidata": "Q14751",
+    "brand:zh": "港鐵",
+    "name": "羅湖 Lo Wu",
+    "name:en": "Lo Wu",
+    "name:ru": "Ло Ву",
+    "name:zh": "羅湖",
+    "name:zh-Hans": "罗湖",
+    "network": "港鐵 MTR",
+    "network:en": "MTR",
+    "network:ref": "MTR",
+    "network:wikidata": "Q14751",
+    "network:zh": "港鐵",
+    "operator": "香港鐵路有限公司 MTR Corporation Limited",
+    "operator:en": "MTR Corporation Limited",
+    "operator:loc_name": "港鐵公司 MTR Corporation",
+    "operator:loc_name:en": "MTR Corporation",
+    "operator:loc_name:zh": "港鐵公司",
+    "operator:ref": "MTR",
+    "operator:short": "港鐵 MTRCL",
+    "operator:short:en": "MTRCL",
+    "operator:short:zh": "港鐵",
+    "operator:short_name": "港鐵 MTRCL",
+    "operator:short_name:en": "MTRCL",
+    "operator:short_name:zh": "港鐵",
+    "operator:wikidata": "Q1479375",
+    "operator:zh": "香港鐵路有限公司",
+    "operator:zh-Hans": "香港铁路有限公司",
+    "operator:zh-Hant": "香港鐵路有限公司",
+    "owner": "九廣鐵路公司 Kowloon-Canton Railway Corporation",
+    "owner:en": "Kowloon-Canton Railway Corporation",
+    "owner:wikidata": "Q838436",
+    "owner:zh": "九廣鐵路公司",
+    "ownership": "public",
+    "permit": "travel_document",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "LOW",
+    "security_area": "no",
+    "security_check": "no",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q15169",
+    "wikipedia": "zh:羅湖站 (香港)"
+  }
+},
+{
+  "type": "node",
+  "id": 11105039836,
+  "lat": 22.5516507,
+  "lon": 114.0012596,
+  "tags": {
+    "alt_name": "安托山站",
+    "location": "underground",
+    "name": "安托山",
+    "name:en": "Antuo Hill",
+    "name:zh": "安托山",
+    "network": "深圳地铁",
+    "network:en": "Shenzhen Metro",
+    "network:wikidata": "Q867680",
+    "network:zh": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4777458",
+    "wikipedia": "zh:安托山站"
+  }
+},
+{
+  "type": "node",
+  "id": 11136083090,
+  "lat": 22.5964998,
+  "lon": 113.9605400,
+  "tags": {
+    "name": "西丽湖",
+    "name:en": "Xili Lake",
+    "name:zh": "西丽湖",
+    "name:zh-Hans": "西丽湖",
+    "name:zh-Hant": "西麗湖",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27728525",
+    "wikipedia": "zh:西丽湖站"
+  }
+},
+{
+  "type": "node",
+  "id": 11170912278,
+  "lat": 22.5594070,
+  "lon": 113.9888592,
+  "tags": {
+    "name": "深云",
+    "name:en": "Shenyun",
+    "name:zh": "深云",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27728598"
+  }
+},
+{
+  "type": "node",
+  "id": 11170912279,
+  "lat": 22.5836964,
+  "lon": 113.9494105,
+  "tags": {
+    "name": "西丽",
+    "name:en": "Xili",
+    "name:zh": "西丽",
+    "name:zh-Hans": "西丽",
+    "name:zh-Hant": "西麗",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5939862",
+    "wikipedia": "zh:西麗站 (地鐵)"
+  }
+},
+{
+  "type": "node",
+  "id": 11955045287,
+  "lat": 22.5432833,
+  "lon": 114.0132044,
+  "tags": {
+    "alt_name": "农林站",
+    "location": "underground",
+    "name": "农林",
+    "name:en": "Nonglin",
+    "name:zh": "农林",
+    "network": "深圳地铁",
+    "network:en": "Shenzhen Metro",
+    "network:wikidata": "Q867680",
+    "network:zh": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27669999",
+    "wikipedia": "zh:农林站"
+  }
+},
+{
+  "type": "node",
+  "id": 12338850929,
+  "lat": 22.5352206,
+  "lon": 113.9406716,
+  "tags": {
+    "name": "粤海门",
+    "name:en": "Yuehaimen",
+    "name:zh": "粤海门",
+    "name:zh-Hans": "粤海门",
+    "name:zh-Hant": "粵海門",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12338850930,
+  "lat": 22.5352227,
+  "lon": 113.9408194,
+  "tags": {
+    "name": "粤海门",
+    "name:en": "Yuehaimen",
+    "name:zh": "粤海门",
+    "name:zh-Hans": "粤海门",
+    "name:zh-Hant": "粵海門",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12456006175,
+  "lat": 22.5148809,
+  "lon": 113.9383043,
+  "tags": {
+    "name": "人才公园",
+    "name:en": "Talent Park",
+    "name:zh": "人才公园",
+    "operator": "港铁中铁电化轨道交通（深圳）有限公司",
+    "phone": "+86 755 2939 8200",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "website": "https://www.mtrsz.com.cn/frontend/default/src/channel/site_detail.html?id=12002",
+    "wikidata": "Q116213445",
+    "wikipedia": "zh:人才公园站"
+  }
+},
+{
+  "type": "node",
+  "id": 12456006180,
+  "lat": 22.5060327,
+  "lon": 113.9453543,
+  "tags": {
+    "name": "深圳湾口岸",
+    "name:en": "Shenzhen Bay Checkpoint",
+    "name:zh": "深圳湾口岸",
+    "operator": "港铁中铁电化轨道交通（深圳）有限公司",
+    "phone": "+86 755 2939 8100",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "website": "https://www.mtrsz.com.cn/frontend/default/src/channel/site_detail.html?id=12001",
+    "wikidata": "Q116213444",
+    "wikipedia": "zh:深圳湾口岸站"
+  }
+},
+{
+  "type": "node",
+  "id": 12456016669,
+  "lat": 22.5499638,
+  "lon": 113.9404361,
+  "tags": {
+    "name": "高新中",
+    "name:en": "Hi-Tech Central",
+    "name:zh": "高新中",
+    "operator": "港铁中铁电化轨道交通（深圳）有限公司",
+    "phone": "+86 755 2939 8700",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-12-28",
+    "station": "subway",
+    "subway": "yes",
+    "was:name": "科兴",
+    "website": "https://www.mtrsz.com.cn/frontend/default/src/channel/site_detail.html?id=12007",
+    "wikidata": "Q116213906",
+    "wikipedia": "zh:高新中站"
+  }
+},
+{
+  "type": "node",
+  "id": 12456016670,
+  "lat": 22.5405167,
+  "lon": 113.9406631,
+  "tags": {
+    "name": "深大",
+    "name:en": "Shenzhen University",
+    "name:ru": "Шэньчжэньский университет",
+    "name:zh": "深大",
+    "operator": "港铁中铁电化轨道交通（深圳）有限公司",
+    "phone": "+86 755 2939 8600",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "website": "https://www.mtrsz.com.cn/frontend/default/src/channel/site_detail.html?id=12006",
+    "wikidata": "Q5963375",
+    "wikipedia": "zh:深大站"
+  }
+},
+{
+  "type": "node",
+  "id": 12456024436,
+  "lat": 22.5968908,
+  "lon": 113.9735271,
+  "tags": {
+    "name": "北大",
+    "name:en": "Peking University",
+    "name:zh": "北大",
+    "name:zh-Hans": "北大",
+    "name:zh-Hant": "北大",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q131578989"
+  }
+},
+{
+  "type": "node",
+  "id": 12456024437,
+  "lat": 22.5958420,
+  "lon": 113.9834192,
+  "tags": {
+    "name": "深大丽湖",
+    "name:en": "SZU Lihu Campus",
+    "name:zh": "深大丽湖",
+    "name:zh-Hans": "深大丽湖",
+    "name:zh-Hant": "深大麗湖",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-12-28",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q131578988"
+  }
+},
+{
+  "type": "node",
+  "id": 12456075426,
+  "lat": 22.5401886,
+  "lon": 114.0763000,
+  "tags": {
+    "name": "福星",
+    "name:en": "Fuxing",
+    "name:zh": "福星",
+    "network": "深圳地铁",
+    "network:en": "Shenzhen Metro",
+    "network:wikidata": "Q867680",
+    "network:zh": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-12-28",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q107059727",
+    "wikipedia": "zh:福星站"
+  }
+},
+{
+  "type": "node",
+  "id": 12456075427,
+  "lat": 22.5407047,
+  "lon": 114.0829812,
+  "tags": {
+    "name": "华强南",
+    "name:en": "Huaqiang South",
+    "name:zh": "华强南",
+    "network": "深圳地铁",
+    "network:en": "Shenzhen Metro",
+    "network:wikidata": "Q867680",
+    "network:zh": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825803",
+    "wikipedia": "zh:华强南站"
+  }
+},
+{
+  "type": "node",
+  "id": 13411831083,
+  "lat": 22.5847809,
+  "lon": 113.9390448,
+  "tags": {
+    "name": "留仙洞",
+    "name:en": "Liuxiandong",
+    "name:zh": "留仙洞",
+    "operator": "港铁中铁电化轨道交通（深圳）有限公司",
+    "phone": "+86 755 2939 9100",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-28",
+    "station": "subway",
+    "subway": "yes",
+    "website": "https://www.mtrsz.com.cn/frontend/default/src/channel/site_detail.html?id=13125",
+    "wikidata": "Q5939635",
+    "wikipedia": "zh:留仙洞站"
+  }
+},
+{
+  "type": "node",
+  "id": 13411831084,
+  "lat": 22.5777375,
+  "lon": 113.9391578,
+  "tags": {
+    "name": "石鼓",
+    "name:en": "Shigu",
+    "name:zh": "石鼓",
+    "operator": "港铁中铁电化轨道交通（深圳）有限公司",
+    "phone": "+86 755 2939 9000",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-28",
+    "station": "subway",
+    "subway": "yes",
+    "website": "https://www.mtrsz.com.cn/frontend/default/src/channel/site_detail.html?id=13124",
+    "wikidata": "Q116213909"
+  }
+},
+{
+  "type": "node",
+  "id": 13411831087,
+  "lat": 22.5597727,
+  "lon": 113.9405968,
+  "tags": {
+    "name": "高新北",
+    "name:en": "Hi-Tech North",
+    "name:zh": "高新北",
+    "operator": "港铁中铁电化轨道交通（深圳）有限公司",
+    "phone": "+86 755 2939 8800",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-28",
+    "station": "subway",
+    "subway": "yes",
+    "website": "https://www.mtrsz.com.cn/frontend/default/src/channel/site_detail.html?id=13123",
+    "wikidata": "Q116213907",
+    "wikipedia": "zh:高新北站"
+  }
+},
+{
+  "type": "node",
+  "id": 13414894549,
+  "lat": 22.5411579,
+  "lon": 114.1009321,
+  "tags": {
+    "name": "红岭南",
+    "name:en": "Hongling South",
+    "name:zh": "红岭南",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-28",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27825864",
+    "wikipedia": "zh:红岭南站"
+  }
+},
+{
+  "type": "node",
+  "id": 13415058655,
+  "lat": 22.5466951,
+  "lon": 114.1184144,
+  "tags": {
+    "name": "湖贝",
+    "name:en": "Hubei",
+    "name:zh-Hant": "湖貝",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942058"
+  }
+},
+{
+  "type": "node",
+  "id": 13415094321,
+  "lat": 22.5466946,
+  "lon": 114.1184141,
+  "tags": {
+    "name": "湖贝",
+    "name:en": "Hubei",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-28",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942058"
+  }
+},
+{
+  "type": "node",
+  "id": 13415094322,
+  "lat": 22.5456006,
+  "lon": 114.1118849,
+  "tags": {
+    "name": "东门",
+    "name:en": "Dongmen",
+    "name:zh": "东门",
+    "name:zh-Hans": "东门",
+    "name:zh-Hant": "東門",
+    "network": "深圳地铁",
+    "operator": "深圳地铁运营集团有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-28",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q135920910",
+    "wikipedia": "zh:东门站 (深圳市)"
+  }
+},
+{
+  "type": "node",
+  "id": 13452687740,
+  "lat": 22.5850344,
+  "lon": 113.9602375,
+  "tags": {
+    "name": "大学城",
+    "name:en": "University Town",
+    "name:zh": "大学城",
+    "name:zh-Hans": "大学城",
+    "name:zh-Hant": "大學城",
+    "operator": "深圳地铁运营集团有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5938992"
+  }
+},
+{
+  "type": "node",
+  "id": 14137759350,
+  "lat": 22.5505521,
+  "lon": 114.0557715,
+  "tags": {
+    "name": "少年宫‎",
+    "name:en": "Children's Palace",
+    "name:ru": "Детский дворец",
+    "operator": "港铁轨道交通（深圳）有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q877016"
+  }
+},
+{
+  "type": "node",
+  "id": 14137759351,
+  "lat": 22.5371759,
+  "lon": 114.0560103,
+  "tags": {
+    "name": "会展中心",
+    "name:en": "Convention & Exhibition Center",
+    "name:zh": "会展中心",
+    "name:zh-Hans": "会展中心",
+    "name:zh-Hant": "會展中心",
+    "network": "深圳市轨道交通",
+    "operator": "港铁轨道交通（深圳）有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q3270120",
+    "wikipedia": "zh:会展中心站 (深圳市)"
+  }
+},
+{
+  "type": "node",
+  "id": 14137759352,
+  "lat": 22.5206564,
+  "lon": 113.9384973,
+  "tags": {
+    "name": "后海",
+    "name:en": "Houhai",
+    "name:zh": "后海",
+    "operator": "港铁中铁电化轨道交通（深圳）有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5944050"
+  }
+},
+{
+  "type": "node",
+  "id": 14137759353,
+  "lat": 22.5293658,
+  "lon": 113.9409900,
+  "tags": {
+    "name": "科苑",
+    "name:en": "Keyuan",
+    "name:zh": "科苑",
+    "operator": "港铁中铁电化轨道交通（深圳）有限公司",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5942779",
+    "wikipedia": "zh:科苑站"
+  }
+},
+{
+  "type": "node",
+  "id": 14137759354,
+  "lat": 22.5352217,
+  "lon": 113.9407455,
+  "tags": {
+    "name": "粤海门",
+    "name:en": "Yuehaimen",
+    "name:zh": "粤海门",
+    "operator": "港铁中铁电化轨道交通（深圳）有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q64692589",
+    "wikipedia": "zh:粤海门站"
+  }
+}
+
+  ]
+}
