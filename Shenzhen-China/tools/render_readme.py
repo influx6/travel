@@ -306,6 +306,9 @@ def main():
     A("| **B. East Rail** | Tung Chung → Nam Cheong (南昌) → Hung Hom (红磡) → East Rail → Lok Ma Chau (落马洲) → Futian Port (福田口岸) → ~1.1 km walk | 2 h 10 – 2 h 40 | **HK$57.5** | Cheapest; the port is next to the hotel |")
     A("")
 
+    A("**Your booking: HSR departs West Kowloon at 14:35 on Wed 25 Nov.** Be through the border by 13:50 "
+      "(45 min before). That means leaving Tung Chung around **12:50** on the Tung Chung Line, or 12:40 if "
+      "you take the Nam Cheong → Austin shortcut. Futian arrival ≈ 14:50, hotel by 15:15.\n")
     A("### A — High-speed rail, step by step (recommended)\n")
     A("| Step | What | Time | Cost |")
     A("|---|---|---|---|")
@@ -523,30 +526,23 @@ def main():
       "after 18:00. Comfortable walking shoes matter more than a coat. Check the morning you set off — "
       "a cold front can take 5 °C off in a day.*\n")
 
-    A("### Wednesday 25 Nov — the west side, the tower, the spa\n")
+    A("### Wednesday 25 Nov — arrive 15:00, tower at sunset, bay at night\n")
     A("| Time | What | Cost |")
     A("|---|---|---|")
-    A("| On arrival | Check in at 加来酒店 (Calais Hotel), drop bags. | — |")
-    A("| 12:30 | DiDi to **MixC World (万象天地)**, Nanshan — 23 min. Lunch, then the outdoor lanes. "
-      "Swap for **The MixC (深圳万象城)** in Luohu if you'd rather stay east. | ¥46–60 |")
-    A("| 14:30 | **Robotaxi** (PonyPilot+) MixC World → **Shenzhen Bay Tech Park (深圳湾科技生态园)** — "
-      "3.5 km, ~12 min. See the robotaxi guide in §4. | ¥15–25 |")
-    A("| 14:45–15:45 | **Shenzhen Bay Tech Park** + **Talent Park (人才公园)** waterfront on foot — glass "
-      "towers, open water, the Houhai skyline. | free |")
-    A("| 16:00 | DiDi to **Ping An (平安金融中心)** — 20 min. | ~¥40 |")
-    A("| 16:30–18:00 | **Free Sky**, the 116F deck of Ping An: daylight → sunset (17:35) → the lights "
-      "coming on. Book online. | ¥180 |")
-    A("| 18:15 | DiDi to **Happy Harbour (欢乐港湾)**, Bao'an — 30 min. | ~¥55 |")
-    A("| 18:45–20:30 | **Bay Glory wheel (湾区之光)** lit up, the waterfront and the light show; eat here. | ¥150 + food |")
-    A("| 20:45 | DiDi back to **Convention & Exhibition Center (会展中心)** — 30 min. | ~¥60 |")
-    A("| 21:15–22:45 | **Manman Wellness SPA** — Jinzhonghuan Building (金中环商务大厦) A座 21F, room 2109, "
-      "at 会展中心 metro exit E. Open to 23:30; book ahead. | ¥200–400 |")
-    A("| 23:00 | DiDi home — 10 min. | ~¥14 |")
+    A("| 13:50 | Be at **West Kowloon** for the 14:35 HSR. | — |")
+    A("| 14:50 | Arrive **Futian (福田)**; DiDi to the hotel — 15 min. | ~¥15 |")
+    A("| 15:15 | Check in at 加来酒店 (Calais Hotel), drop bags. | — |")
+    A("| 16:15 | DiDi to **Ping An (平安金融中心)** — 8 min. | ~¥14 |")
+    A("| 16:30–18:00 | **Free Sky**, the 116F deck: daylight → sunset (17:35) → the lights coming on. "
+      "Book online. | ¥180 |")
+    A("| 18:15 | Dinner at **COCO Park (购物公园)** — 5 min walk from the tower. | ¥60–100 |")
+    A("| 19:30 | DiDi to **Happy Harbour (欢乐港湾)**, Bao'an — 30 min. | ~¥55 |")
+    A("| 20:00–21:30 | **Bay Glory wheel (湾区之光)** lit up + the waterfront light show. | ¥150 |")
+    A("| 21:45 | DiDi home — 30 min. | ~¥60 |")
     A("")
-    A("**This is the long one** — 12 hours, two skylines, three DiDi legs. It works because everything "
-      "after 16:00 is one straight line west and back. If you land after 14:00, cut MixC World and the "
-      "tech park and start at the tower. If you're wrecked at 21:00, the spa is the part to keep — it's "
-      "10 minutes from the hotel.\n")
+    A("**The 14:35 train eats the afternoon**, so MixC World, the robotaxi and the tech park move to Day 3 "
+      "morning — they need daylight and a relaxed start, and Friday gives you both. The spa moves to Day 3 "
+      "afternoon, which also happens to be the best way to kill time between checkout and the port.\n")
 
     A("### Thursday 26 Nov — the fun day\n")
     A("| Time | What | Cost |")
@@ -573,22 +569,26 @@ def main():
       "stock** (see the haggling section). Dongmen is on the way home, and Upper Hills is 15 minutes from "
       "the hotel — the easiest way to end the day.\n")
 
-    A("### Friday 27 Nov — MOCA, checkout, 水贝, home\n")
-    A("| Time | What |")
-    A("|---|---|")
-    A("| 09:30 | Breakfast, pack, leave the big bag at reception. |")
-    A("| 10:00–11:30 | **MOCA** (free, Tue–Sun from 10:00) — L4 福田口岸 → **Civic Center (市民中心)**, 3 stops. |")
-    A("| 12:00 | Lunch near Civic Center / **Shopping Park (购物公园)**. |")
-    A("| 13:30 | Back to the hotel; **14:00 checkout**, bags stay at reception. |")
-    A("| 14:30 | DiDi to **Shuibei Jewelry Center (水贝国际珠宝交易中心)** — 25 min, ~¥35. Gold and jade, "
-      "15:00–16:30. |")
-    A("| 16:45 | DiDi straight to **Futian Port (福田口岸)** — 25 min, ~¥30. |")
-    A("| 17:30 | Cross at Futian Port (open to 22:30) → **Lok Ma Chau (落马洲)** → East Rail home. |")
+    A("### Friday 27 Nov — tech, robotaxi, checkout, spa, home\n")
+    A("| Time | What | Cost |")
+    A("|---|---|---|")
+    A("| 09:45 | Bags to reception; DiDi to **MixC World (万象天地)** — 23 min. | ~¥50 |")
+    A("| 10:15–11:30 | Coffee and the outdoor lanes at MixC World. | — |")
+    A("| 11:30 | **Robotaxi** (PonyPilot+) MixC World → **Shenzhen Bay Tech Park (深圳湾科技生态园)** — "
+      "3.5 km, ~12 min. | ¥15–25 |")
+    A("| 11:45–12:30 | **Tech park + Talent Park (人才公园)** waterfront on foot. | free |")
+    A("| 12:45 | DiDi back to the hotel — 25 min; lunch nearby. | ~¥45 |")
+    A("| 14:00 | **Checkout**; bags stay at reception. | — |")
+    A("| 14:30–16:00 | **Manman Wellness SPA** — Jinzhonghuan Building (金中环商务大厦) A座 21F, room 2109, "
+      "at 会展中心 exit E. 10 min DiDi from the hotel. | ¥200–400 |")
+    A("| 16:15 | Collect the bags at the hotel. | — |")
+    A("| 16:45 | DiDi to **Futian Port (福田口岸)** — 20 min. | ~¥25 |")
+    A("| 17:15 | Cross at Futian Port (open to 22:30) → **Lok Ma Chau (落马洲)** → East Rail home. | HK$57.5 |")
     A("")
-    A("**Swaps:** if jewellery isn't your thing, do **Upper Hills (深业上城) + Lianhuashan Park (莲花山公园)** "
-      "instead (14 min from the hotel, easy) or **Nanyou Clothing Market (南油服装批发市场)** for designer "
-      "clothing (25 min each way — take it *instead of* Shuibei). Whichever you pick, be at the port by "
-      "**18:00–18:30**: Friday queues build, and the last East Rail trains leave Lok Ma Chau around 22:55.\n")
+    A("**If you'd rather shop than spa:** **Shuibei Jewelry (水贝国际珠宝交易中心)** is 25 min away and "
+      "fits 15:00–16:30 in the same slot. **MOCA** (free, closed Mondays) is the other option — it's 3 stops "
+      "from the hotel, but it needs the morning, so take it instead of MixC World. Whichever you pick, be at "
+      "the port by **18:00–18:30**; the last East Rail trains leave Lok Ma Chau around 22:55.\n")
 
     A("---\n")
     A("## 7. Wholesale markets — how to buy without getting tourist-priced\n")
