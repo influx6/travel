@@ -2,7 +2,7 @@
 
 **Hotel:** 加来酒店 (Calais Hotel) — 深圳福田口岸店  
 **Address:** 福田区福民路皇岗公园街8号 (皇岗公园东大门)  
-**Phone:** [+86-755-88257999](tel:+8675588257999) · Booking [removed]
+**Phone:** [+86-755-88257999](tel:+8675588257999)
 
 **Live page:** https://influx6.github.io/travel/  
 **Nearest metro:** 皇岗村 (Huanggangcun), Line 7, Exit A — 430 m / 7 min walk  
@@ -122,7 +122,7 @@ Two operators run commercial driverless cars in Shenzhen:
 
 **The catch, honestly:** both apps can demand a **+86 phone number** for SMS verification, and reports differ on whether a foreign SIM gets through. If yours fails, try the WeChat mini-program (separate registration, sometimes laxer), or ask the hotel front desk to book on their account — that works and is common. Weather also suspends service, and no eating or drinking in the car.
 
-**The ride to take on this trip:** a 3.5 km hop in Nanshan, **万象天地 → 深圳湾科技生态园** (~12 min, ¥15–25). It's squarely inside the zone, it lands you at the tech park, and you can walk the waterfront to 人才公园 afterwards. Book it while you're finishing lunch — if verification stalls, DiDi is 20 m away.
+**The ride to take on this trip:** a 3.5 km hop in Nanshan, **MixC World (万象天地) → Shenzhen Bay Tech Park (深圳湾科技生态园)** (~12 min, ¥15–25). It's squarely inside the zone, it lands you at the tech park, and you can walk the waterfront to 人才公园 afterwards. Book it while you're finishing lunch — if verification stalls, DiDi is 20 m away.
 
 **About direct DiDi links:** DiDi has no public link format that pre-fills an origin and destination. The supported way is DiDi's own API (the DiDi MCP, `taxi_generate_ride_app_link`, free key at mcp.didichuxing.com), which returns a `v.didi.cn` link that opens the app with both ends filled in. If you want those 14 links generated, get a key and I'll wire them in. Until then, each place below gives you a **copy-paste Chinese block** for the DiDi destination field, plus an Amap route link.
 
@@ -194,9 +194,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** 116F, the west/southwest corner windows about 30 min before sunset — you look straight down 益田路 and across to 莲花山公园. Do daylight → sunset → lights on one ¥180 ticket.
 - **What to expect:** Airport-style security (bag scan), a 55-second lift, then an open 360° deck. 45–60 min inside. Buy online (¥180) instead of ¥200 at the counter.
 - **Look out for:** Last entry 19:15, 20:15 on Fri/Sat. Haze after a humid day ruins the view — check the visibility before paying. No tripods.
-- **Eat nearby:** [海底捞](https://uri.amap.com/search?keyword=%E6%B5%B7%E5%BA%95%E6%8D%9E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — hotpot, COCO Park · [八合里海记](https://uri.amap.com/search?keyword=%E5%85%AB%E5%90%88%E9%87%8C%E6%B5%B7%E8%AE%B0&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — Chaoshan beef hotpot
+- **Eat nearby:** [Haidilao (海底捞)](https://uri.amap.com/search?keyword=%E6%B5%B7%E5%BA%95%E6%8D%9E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — hotpot, in COCO Park · [Bahelil Haiji (八合里海记)](https://uri.amap.com/search?keyword=%E5%85%AB%E5%90%88%E9%87%8C%E6%B5%B7%E8%AE%B0&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — Chaoshan beef hotpot
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=114.055865,22.533096&name=Ping%27an%20International%20Financial%20Center&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.055865,22.533096,Ping%27an%20International%20Financial%20Center&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/Ping'an+International+Financial+Center/@22.5331818,113.9200248,12z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f403f3fd7827:0xad499e4e2a20c5db!8m2!3d22.533096!4d114.055865!16s%2Fm%2F09k5qh4?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Ping'an International Financial Center:**
   ```
   平安金融中心
   ```
@@ -211,7 +211,7 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **What to expect:** 金中环商务大厦 A座 21F, room 2109 (会展中心站 E). Chinese/Thai massage, oil and hot-stone; 60–90 min treatments, ¥200–400. Open 10:30–23:30, last slots ~21:30.
 - **Look out for:** **Book ahead** on Klook, Trip.com or Ctrip — 21:00 walk-ins often wait. Say if you don't want oil. Showers and lockers are on site; bring your own underwear or use theirs.
 - **Links:** [Amap pin](https://uri.amap.com/search?keyword=%E6%85%A2%E6%85%A2%E7%94%9F%E6%B4%BB%E9%A6%86%C2%B7%E4%B8%AD%E6%B3%B0%E5%BC%8F%E6%8C%89%E6%91%A9%C2%B7SPA%EF%BC%88%E4%BC%9A%E5%B1%95%E4%B8%AD%E5%BF%83%E5%BA%97%EF%BC%89&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.062393,22.534301,Manman%20Wellness%20SPA&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/search/?api=1&query=22.534301,114.062393)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Manman Wellness SPA:**
   ```
   慢慢生活馆·中泰式按摩·SPA（会展中心店）
   ```
@@ -227,9 +227,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** The ground-floor atrium and the giant city-model hall (north wing, floors 3–5). The brushed-aluminium skin looks best in mid-afternoon light.
 - **What to expect:** Free, no booking, Tue–Sun 10:00–18:00. Security x-ray at the door, 1–1.5 h inside. English captions are patchy; the model is the highlight.
 - **Look out for:** Closed Mondays. Some touring exhibitions charge separately. No food or drink inside; free lockers at the entrance.
-- **Eat nearby:** [中心书城](https://uri.amap.com/search?keyword=%E4%B8%AD%E5%BF%83%E4%B9%A6%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — book-mall food floor, 市民中心
+- **Eat nearby:** [Central Book City (中心书城)](https://uri.amap.com/search?keyword=%E4%B8%AD%E5%BF%83%E4%B9%A6%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — book-mall food floor by Civic Center
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=114.061277,22.544771&name=Museum%20of%20Contemporary%20Art%20%26%20Planning%20Exhibition&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.061277,22.544771,Museum%20of%20Contemporary%20Art%20%26%20Planning%20Exhibition&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/Museum+of+Contemporary+Art+%26+Planning+Exhibition/@22.544771,112.841795,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f5fedadbc56d:0x237bf856bb4e0137!8m2!3d22.544771!4d114.0612774!16s%2Fg%2F11h283g971?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Museum of Contemporary Art & Planning Exhibition:**
   ```
   深圳当代艺术与城市规划馆
   ```
@@ -246,7 +246,7 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **What to expect:** One wristband, 10:00–22:00, **re-entry allowed** — leave for lunch and come back. 40+ activities over three levels (5F is a sauna). ¥268 weekday / ¥298 weekend; night pass ¥168 after 19:00.
 - **Look out for:** Karts and laser tag need closed shoes; skates are rented. Weekday afternoons are quietest. Join their WeChat group at the desk for 20 free claw-machine coins.
 - **Links:** [Amap pin](https://uri.amap.com/search?keyword=%E7%8E%A9%E7%BE%8E%E6%94%BB%E7%95%A5&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.084015,22.54146,WonderMeet&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/search/?api=1&query=22.54146,114.084015)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — WonderMeet:**
   ```
   玩美攻略
   ```
@@ -263,7 +263,7 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **What to expect:** Dense, loud, almost no English. Vendors quote fast — have the model number written on your phone. 45–90 min.
 - **Look out for:** Check IMEI/serial and that it isn't refurbished. Know the Taobao price first, then bargain. Cash as backup.
 - **Links:** [Amap pin](https://uri.amap.com/search?keyword=%E8%B5%9B%E6%A0%BC%E7%94%B5%E5%AD%90%E5%B8%82%E5%9C%BA&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.0822,22.54395,SEG%20Electronics%20Market&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/search/?api=1&query=22.54395,114.0822)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — SEG Electronics Market:**
   ```
   赛格电子市场
   ```
@@ -280,7 +280,7 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **What to expect:** Tight stalls, pushy staff, 30–45 min. Branded goods are the draw.
 - **Look out for:** Verify batch codes and expiry — some stock is grey-market. Very little haggling on brands.
 - **Links:** [Amap pin](https://uri.amap.com/search?keyword=%E6%98%8E%E9%80%9A%E5%8C%96%E5%A6%86%E5%93%81%E5%B8%82%E5%9C%BA&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.089,22.5452,Mingtong%20Cosmetics%20Market&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/search/?api=1&query=22.5452,114.089)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Mingtong Cosmetics Market:**
   ```
   明通化妆品市场
   ```
@@ -300,9 +300,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** The loft lanes and coffee terraces, then the footbridge into 莲花山公园 — a 15–20 min climb to the Deng Xiaoping statue for the classic CBD skyline at sunset, free.
 - **What to expect:** An open-air mall (MUJI Hotel/Diner, duty-free, design shops) plus a big park. 2–3 h if you do both. This is the best free sunset in the city.
 - **Look out for:** The bridge and park climb are unshaded — go after 16:00. Few toilets near the summit. The mall is quiet on weekday mornings.
-- **Eat nearby:** [MUJI Diner](https://uri.amap.com/search?keyword=MUJI%20Diner&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — in the mall · [深业上城](https://uri.amap.com/search?keyword=%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — upper-floor restaurants
+- **Eat nearby:** [Upper Hills (深业上城)](https://uri.amap.com/search?keyword=%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — upper-floor restaurants
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=114.070537,22.556332&name=Upper%20Hills%20%28%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E%29&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.070537,22.556332,Upper%20Hills%20%28%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E%29&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E/@22.5563318,114.070537,17z/data=!4m7!3m6!1s0x3403f5d813dfb6b9:0x7a85f14e08f5bce0!8m2!3d22.5563318!4d114.070537!16s%2Fg%2F11fhz0ljjc)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Upper Hills (深业上城):**
   ```
   深业上城
   ```
@@ -319,7 +319,7 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **What to expect:** 100+ stalls, wholesale prices even for one item. 30–45 min.
 - **Look out for:** Check the expiry on the box, not the sample. Cards work, cash gets a better number.
 - **Links:** [Amap pin](https://uri.amap.com/search?keyword=%E7%B4%AB%E8%8D%86%E5%9F%8E%E9%A3%9F%E5%93%81%E4%BA%A4%E6%98%93%E4%B8%AD%E5%BF%83&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.0888,22.5461,Zijingcheng%20Food%20Center&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/search/?api=1&query=22.5461,114.0888)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Zijingcheng Food Center:**
   ```
   紫荆城食品交易中心
   ```
@@ -333,9 +333,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** Whatever is on that week — it's a working arts centre, not a sight.
 - **What to expect:** A neighbourhood venue in 景田; small exhibitions and performances.
 - **Look out for:** Check the programme first; parts close on Mondays. Easy to skip on a 3-day trip.
-- **Eat nearby:** [景田](https://uri.amap.com/search?keyword=%E6%99%AF%E7%94%B0&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — neighbourhood noodle shops
+- **Eat nearby:** [Jingtian (景田)](https://uri.amap.com/search?keyword=%E6%99%AF%E7%94%B0&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — neighbourhood noodle shops
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=114.043557,22.55523&name=Shenzhen%20Cultural%20Center%20%28Jingtian%29&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.043557,22.55523,Shenzhen%20Cultural%20Center%20%28Jingtian%29&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/Shenzhen+Cultural+Center/@22.55523,112.8240746,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f38b835cc389:0xd796ef4f35c4b1cc!8m2!3d22.55523!4d114.043557!16s%2Fm%2F04ldglg?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Shenzhen Cultural Center (Jingtian):**
   ```
   深圳市文化馆
   ```
@@ -351,9 +351,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** The glass lobby lit up before a performance.
 - **What to expect:** A ticketed concert/ theatre house; without a ticket it's a 5-minute look.
 - **Look out for:** Don't build a day around it unless you've booked a show — check 大麦/Damai for that week.
-- **Eat nearby:** [万象城](https://uri.amap.com/search?keyword=%E4%B8%87%E8%B1%A1%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — food hall next door
+- **Eat nearby:** [The MixC (万象城)](https://uri.amap.com/search?keyword=%E4%B8%87%E8%B1%A1%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — food hall next door
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=114.10546,22.542692&name=Shenzhen%20Grand%20Theatre&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.10546,22.542692,Shenzhen%20Grand%20Theatre&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/Shenzhen+Grand+Theatre/@22.542692,112.8859776,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f5b7d46a8e0b:0x9656bf8761859c01!8m2!3d22.542692!4d114.10546!16s%2Fg%2F11x1nm6_8?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Shenzhen Grand Theatre:**
   ```
   深圳大剧院
   ```
@@ -369,9 +369,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** The luxury atrium and the basement food hall — the reliable rain plan.
 - **What to expect:** 1–2 h of shopping; clean, English-friendly, air-conditioned.
 - **Look out for:** It's a mall, not a landmark. Prices are Hong Kong-level.
-- **Eat nearby:** [万象城](https://uri.amap.com/search?keyword=%E4%B8%87%E8%B1%A1%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — food hall + restaurants
+- **Eat nearby:** [The MixC (万象城)](https://uri.amap.com/search?keyword=%E4%B8%87%E8%B1%A1%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — food hall + restaurants
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=114.110904,22.539827&name=The%20Mixc%20of%20Shenzhen%20City%20Crossing&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.110904,22.539827,The%20Mixc%20of%20Shenzhen%20City%20Crossing&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/The+Mixc+of+Shenzhen+City+Crossing/@22.539827,112.8914216,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f5c7a7397263:0xc0cfcceb6dc86221!8m2!3d22.539827!4d114.110904!16s%2Fg%2F1tfq6v3k?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — The Mixc of Shenzhen City Crossing:**
   ```
   深圳万象城
   ```
@@ -388,7 +388,7 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **What to expect:** A generic mall attached to DMD Food City.
 - **Look out for:** Skip unless it's raining or you need AC.
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=114.118764,22.544242&name=Dong%20Men%20Ding%20Plaza&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.118764,22.544242,Dong%20Men%20Ding%20Plaza&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/Dong+Men+Ding+Plaza/@22.5442424,112.8992816,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f5be47383aeb:0xc74e4979a2fa154e!8m2!3d22.5442424!4d114.118764!16s%2Fg%2F1tznjz4j?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Dong Men Ding Plaza:**
   ```
   东门町广场
   ```
@@ -404,9 +404,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** The back stall rows: 潮汕 beef balls, 生煎 buns, 糖水 desserts. Order by pointing; most stalls take WeChat/Alipay only.
 - **What to expect:** Loud, bright, crowded. ¥15–40 a dish, shared tables, 45–90 min. The cheapest good eating on this list.
 - **Look out for:** Peak 18:00–20:00 — go 17:00 or 20:30. Some stalls shut early on weekdays. Cash is often refused.
-- **Eat nearby:** [东门町美食城](https://uri.amap.com/search?keyword=%E4%B8%9C%E9%97%A8%E7%94%BA%E7%BE%8E%E9%A3%9F%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — you're standing in it
+- **Eat nearby:** [DMD Food City (东门町美食城)](https://uri.amap.com/search?keyword=%E4%B8%9C%E9%97%A8%E7%94%BA%E7%BE%8E%E9%A3%9F%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — you're standing in it
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=114.11894,22.544816&name=DMD%20Food%20City%20%28%E4%B8%9C%E9%97%A8%E7%94%BA%E7%BE%8E%E9%A3%9F%E5%9F%8E%29&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.11894,22.544816,DMD%20Food%20City%20%28%E4%B8%9C%E9%97%A8%E7%94%BA%E7%BE%8E%E9%A3%9F%E5%9F%8E%29&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/DMD+Food+City/@22.544816,112.8994574,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f5be1444dc89:0x5c89f1e03796e0f8!8m2!3d22.544816!4d114.1189398!16s%2Fg%2F11xlkt3zg?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — DMD Food City (东门町美食城):**
   ```
   东门町美食城
   ```
@@ -422,9 +422,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** The neon at dusk, then the side lanes off 解放路 for snacks.
 - **What to expect:** Shenzhen's original bargain street: clothes, phone cases, skewers, huge crowds. 1–2 h.
 - **Look out for:** Ignore anyone inviting you to a "tea ceremony" or "art show" — classic scam. Keep your phone zipped; it's shoulder-to-shoulder on weekends.
-- **Eat nearby:** [东门小吃街](https://uri.amap.com/search?keyword=%E4%B8%9C%E9%97%A8%E5%B0%8F%E5%90%83%E8%A1%97&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — street snacks, 老街 exit
+- **Eat nearby:** [Dongmen snack street (东门小吃街)](https://uri.amap.com/search?keyword=%E4%B8%9C%E9%97%A8%E5%B0%8F%E5%90%83%E8%A1%97&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — street snacks by Laojie exit
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=114.120344,22.545938&name=Dongmen%20Pedestrian%20Street&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.120344,22.545938,Dongmen%20Pedestrian%20Street&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/Shenzhen+Dongmen+Commercial+Pedestrian+Street+Unit+Management+Office/@22.545938,112.9008616,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f596017f6bf7:0x845ce96dbee1b478!8m2!3d22.545938!4d114.120344!16s%2Fg%2F1tmqctqv?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Dongmen Pedestrian Street:**
   ```
   东门步行街
   ```
@@ -441,7 +441,7 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **What to expect:** Six floors, 500+ stalls; some want two or three pieces minimum. 1–1.5 h.
 - **Look out for:** Sizes run small — try before paying. Walking away is your strongest move.
 - **Links:** [Amap pin](https://uri.amap.com/search?keyword=%E4%B8%9C%E9%97%A8%E7%99%BD%E9%A9%AC%E6%9C%8D%E8%A3%85%E5%B8%82%E5%9C%BA&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.120344,22.545938,Dongmen%20Baima%20Fashion%20Market&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/search/?api=1&query=22.545938,114.120344)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Dongmen Baima Fashion Market:**
   ```
   东门白马服装市场
   ```
@@ -457,9 +457,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** The promenade at the **Shenzhen Bay Park** metro exit, walking west: Hong Kong's hills across the water, the Houhai towers behind. 30 min before sunset.
 - **What to expect:** Free, flat, 15 km of path. Bikes to rent, no shade in the middle of the day.
 - **Look out for:** It's a long walk — pick a direction and commit, or rent a bike. Weekends are packed with cyclists.
-- **Eat nearby:** [海岸城](https://uri.amap.com/search?keyword=%E6%B5%B7%E5%B2%B8%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — 10 min inland for a real meal
+- **Eat nearby:** [Coastal City (海岸城)](https://uri.amap.com/search?keyword=%E6%B5%B7%E5%B2%B8%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — 10 min inland for a real meal
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=113.992963,22.521586&name=Shenzhen%20Bay%20Park&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.992963,22.521586,Shenzhen%20Bay%20Park&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/search/?api=1&query=22.521586,113.992963)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Shenzhen Bay Park:**
   ```
   深圳湾公园
   ```
@@ -475,9 +475,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** The lanes around **B10** and 旧天堂书店 — independent coffee, galleries, design shops. Best 16:00 onward when the light softens and the bars open.
 - **What to expect:** A former factory district; 1–2 h on foot. Free to wander, paid for whatever you drink.
 - **Look out for:** Weekday mornings are dead; weekends are busy with photo shoots. Some galleries close Mondays.
-- **Eat nearby:** [旧天堂书店](https://uri.amap.com/search?keyword=%E6%97%A7%E5%A4%A9%E5%A0%82%E4%B9%A6%E5%BA%97&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — bookshop café · [B10](https://uri.amap.com/search?keyword=B10&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — coffee + bars
+- **Eat nearby:** [Old Heaven Books (旧天堂书店)](https://uri.amap.com/search?keyword=%E6%97%A7%E5%A4%A9%E5%A0%82%E4%B9%A6%E5%BA%97&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — bookshop café · [B10 (B10)](https://uri.amap.com/search?keyword=B10&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — coffee and bars
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=113.993586,22.538318&name=OCT%20Loft&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.993586,22.538318,OCT%20Loft&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/search/?api=1&query=22.538318,113.993586)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — OCT Loft:**
   ```
   华侨城创意文化园
   ```
@@ -494,7 +494,7 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **What to expect:** Showrooms rather than stalls; staff will weigh and quote without pressure. 1–1.5 h. Weekdays are calmer than weekends.
 - **Look out for:** Insist on the certificate and a receipt, and check the 工费 isn't padded. Don't buy jade without a loupe and a second opinion.
 - **Links:** [Amap pin](https://uri.amap.com/search?keyword=%E6%B0%B4%E8%B4%9D%E5%9B%BD%E9%99%85%E7%8F%A0%E5%AE%9D%E4%BA%A4%E6%98%93%E4%B8%AD%E5%BF%83&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.1274,22.5662,Shuibei%20Jewelry%20Center&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/search/?api=1&query=22.5662,114.1274)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Shuibei Jewelry Center:**
   ```
   水贝国际珠宝交易中心
   ```
@@ -510,9 +510,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** The Eiffel copy at dusk, and the evening parade/fireworks show on the central plaza.
 - **What to expect:** A theme park of 130 landmark replicas. ¥220ish, half a day if you go inside; the exterior plaza is free to look at.
 - **Look out for:** Kitsch by design — go with that in mind or skip it. Weekends mean queues at the rides.
-- **Eat nearby:** [欧洲小镇](https://uri.amap.com/search?keyword=%E6%AC%A7%E6%B4%B2%E5%B0%8F%E9%95%87&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — cafés by the Eiffel copy
+- **Eat nearby:** [Europe Town (欧洲小镇)](https://uri.amap.com/search?keyword=%E6%AC%A7%E6%B4%B2%E5%B0%8F%E9%95%87&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — cafés by the Eiffel copy
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=113.973529,22.534551&name=Window%20of%20the%20World&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.973529,22.534551,Window%20of%20the%20World&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/search/?api=1&query=22.534551,113.973529)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Window of the World:**
   ```
   世界之窗
   ```
@@ -528,9 +528,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** The outdoor 里巷 lanes and sunken plaza — best coffee-and-dessert stop in the city.
 - **What to expect:** Design-led mall, 1–2 h, English menus common.
 - **Look out for:** Popular restaurants queue 45 min+ at weekends — reserve on 大众点评 (Dianping) first.
-- **Eat nearby:** [万象天地 里巷](https://uri.amap.com/search?keyword=%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%20%E9%87%8C%E5%B7%B7&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — outdoor restaurant lanes
+- **Eat nearby:** [Li Xiang lanes (里巷)](https://uri.amap.com/search?keyword=%E9%87%8C%E5%B7%B7&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — outdoor restaurant lanes
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=113.955538,22.541563&name=MixC%20World%20%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%20%28Nanshan%29&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.955538,22.541563,MixC%20World%20%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%20%28Nanshan%29&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/%E8%90%AC%E8%B1%A1%E5%A4%A9%E5%9C%B0+The+Mixc/@22.5415629,112.7360555,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403f1af79f8136b:0x1d2a318dc6483fa4!8m2!3d22.5415629!4d113.9555379!16s%2Fg%2F11ffvsc1km?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — MixC World 万象天地 (Nanshan):**
   ```
   万象天地
   ```
@@ -545,7 +545,7 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **What to expect:** An office campus, not an attraction — 45 min on foot, free, and the natural end point of a robotaxi ride. Tencent's Binhai towers are 1 km east.
 - **Look out for:** Weekday lunchtime is a wall of office workers; weekends are dead. No sights as such — go for the walk and the ride, not for a 'tech museum'.
 - **Links:** [Amap pin](https://uri.amap.com/search?keyword=%E6%B7%B1%E5%9C%B3%E6%B9%BE%E7%A7%91%E6%8A%80%E7%94%9F%E6%80%81%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.952382,22.530602,Shenzhen%20Bay%20Tech%20Park&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/search/?api=1&query=22.530602,113.952382)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Shenzhen Bay Tech Park:**
   ```
   深圳湾科技生态园
   ```
@@ -563,9 +563,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** The wooden boardwalk on the west side, looking back at 春笋 and the Houhai towers. 17:00–18:30 is the light you want.
 - **What to expect:** Free, flat ~2.5 km loop, 45–60 min. Locals run and fish here; it's calm on weekdays.
 - **Look out for:** Little shade; mosquitoes after dusk. The metro exit is a 10-min walk from the water.
-- **Eat nearby:** [海岸城](https://uri.amap.com/search?keyword=%E6%B5%B7%E5%B2%B8%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — Coastal City food floor · [万象天地](https://uri.amap.com/search?keyword=%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — 里巷 restaurants
+- **Eat nearby:** [Coastal City (海岸城)](https://uri.amap.com/search?keyword=%E6%B5%B7%E5%B2%B8%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — mall food floor · [MixC World (万象天地)](https://uri.amap.com/search?keyword=%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — restaurant lanes
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=113.946226,22.511216&name=Shenzhen%20Talent%20Park&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.946226,22.511216,Shenzhen%20Talent%20Park&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/Shenzhen+Talent+Park/@22.5112161,112.7267433,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403ef3288f2af21:0xcade8137080c45f1!8m2!3d22.5112161!4d113.9462257!16s%2Fg%2F11fj3dngyw?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Shenzhen Talent Park:**
   ```
   深圳人才公园
   ```
@@ -581,9 +581,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** Only if a show is on at the theatre.
 - **What to expect:** A local mall and theatre next to Talent Park.
 - **Look out for:** Skip as a destination; use it for AC or dinner after the park.
-- **Eat nearby:** [海岸城](https://uri.amap.com/search?keyword=%E6%B5%B7%E5%B2%B8%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — Coastal City, 10 min walk
+- **Eat nearby:** [Coastal City (海岸城)](https://uri.amap.com/search?keyword=%E6%B5%B7%E5%B2%B8%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — 10 min walk
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=113.93887,22.516386&name=Shenzhen%20Poly%20Cultural%20Plaza&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.93887,22.516386,Shenzhen%20Poly%20Cultural%20Plaza&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/Shenzhen+Poly+Cultural+Plaza,+%E5%AE%9D%E5%AE%89%E4%B8%AD%E5%BF%83%E5%8C%BA+Nan+Shan+Qu,+Shen+Zhen+Shi,+Guang+Dong+Sheng,+China,+518064/@22.5163863,112.7193876,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403ee3b74672d0f:0x2802395723eebd84!8m2!3d22.5163863!4d113.93887!16s%2Fg%2F12xpyqy4c?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Shenzhen Poly Cultural Plaza:**
   ```
   深圳保利文化广场
   ```
@@ -598,7 +598,7 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **What to expect:** Higher grade than 白马 at 3–5× the price. 10:00–19:00, 1.5–2 h.
 - **Look out for:** 25 min each way from the hotel in the wrong direction — only if clothing is the goal; skip 水贝 if you go.
 - **Links:** [Amap pin](https://uri.amap.com/search?keyword=%E5%8D%97%E6%B2%B9%E6%9C%8D%E8%A3%85%E6%89%B9%E5%8F%91%E5%B8%82%E5%9C%BA&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.924947,22.50905,Nanyou%20Clothing%20Market&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/search/?api=1&query=22.50905,113.924947)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Nanyou Clothing Market:**
   ```
   南油服装批发市场
   ```
@@ -620,9 +620,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** The south gate and main lane, plus coffee in the restored courtyard houses.
 - **What to expect:** 1.5–2 h at most — and only if you want a coffee stop.
 - **Look out for:** If you go anyway, go for coffee in a restored courtyard, not for sightseeing, and only on a weekday — weekends are packed and the shops repeat.
-- **Eat nearby:** [南头古城](https://uri.amap.com/search?keyword=%E5%8D%97%E5%A4%B4%E5%8F%A4%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — courtyard cafés
+- **Eat nearby:** [Nantou Ancient City (南头古城)](https://uri.amap.com/search?keyword=%E5%8D%97%E5%A4%B4%E5%8F%A4%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — courtyard cafés
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=113.920489,22.541119&name=Nantou%20Ancient%20City&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.920489,22.541119,Nantou%20Ancient%20City&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/Nantou+Ancient+City/@22.541119,112.7010066,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403ee7055e55f1d:0xf15bf63d2ac63f6f!8m2!3d22.541119!4d113.920489!16s%2Fg%2F1pxyjfh9r?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Nantou Ancient City:**
   ```
   南头古城
   ```
@@ -640,9 +640,9 @@ Only the observation deck is worth paying for — the tower and its plaza are a 
 - **Sweet spot:** The waterfront steps facing the wheel at sunset, then the light show after dark.
 - **What to expect:** Wheel ride ~20 min, ¥150 (¥180 public holidays). Promenade free. 2–3 h total.
 - **Look out for:** Tuesdays open 14:00 (maintenance day). Ticket sales stop 30 min before close. High wind closes the wheel — check the weather.
-- **Eat nearby:** [欢乐港湾](https://uri.amap.com/search?keyword=%E6%AC%A2%E4%B9%90%E6%B8%AF%E6%B9%BE&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — waterfront restaurants
+- **Eat nearby:** [Happy Harbour (欢乐港湾)](https://uri.amap.com/search?keyword=%E6%AC%A2%E4%B9%90%E6%B8%AF%E6%B9%BE&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0) — waterfront restaurants
 - **Links:** [Amap pin](https://uri.amap.com/marker?position=113.884501,22.544729&name=Happy%20Harbour&src=trip&coordinate=gaode&callnative=0) · [Amap route from hotel](https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.884501,22.544729,Happy%20Harbour&mode=bus&coordinate=gaode&callnative=0) · [Google Maps](https://www.google.com/maps/place/Happy+Harbour/@22.5447288,112.6650181,9z/data=!4m10!1m3!11m2!2sit_Z1UV5ArUkUOq6M16oRQ!3e3!3m5!1s0x3403ee9830aa7e1f:0x83e84a5f742fae9!8m2!3d22.5447288!4d113.8845005!16s%2Fg%2F11rv97l9rv?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
-- **DiDi destination (copy this):**
+- **DiDi destination (copy this) — Happy Harbour:**
   ```
   欢乐港湾
   ```
@@ -663,56 +663,56 @@ Wednesday 25 Nov · Thursday 26 Nov · Friday 27 Nov (checkout by 14:00). Two fu
 
 *Shenzhen in late November is dry-season cool: 13–16 °C at 08:00, 19–26 °C by 14:00, dropping fast after 18:00. Comfortable walking shoes matter more than a coat. Check the morning you set off — a cold front can take 5 °C off in a day.*
 
-### Wednesday 25 Nov — the west side, then the tower, then the spa
+### Wednesday 25 Nov — the west side, the tower, the spa
 
 | Time | What | Cost |
 |---|---|---|
-| On arrival | Check in at 加来酒店, drop bags. | — |
-| 12:30 | DiDi to **MixC World 万象天地** (Nanshan) — 23 min. Lunch, then the outdoor lanes. Swap for 深圳万象城 (Luohu) if you'd rather stay east. | ¥46–60 |
-| 14:30 | **Robotaxi** (PonyPilot+) 万象天地 → **深圳湾科技生态园** — 3.5 km, ~12 min. See the robotaxi guide in §4. | ¥15–25 |
-| 14:45–15:45 | **Tech park + 人才公园 waterfront** on foot — glass towers, open water, the Houhai skyline. | free |
-| 16:00 | DiDi to **Ping An** — 20 min. | ~¥40 |
-| 16:30–18:00 | **Free Sky** (116F): daylight → sunset (17:35) → the lights coming on. Book online. | ¥180 |
-| 18:15 | DiDi to **Happy Harbour** — 30 min. | ~¥55 |
-| 18:45–20:30 | **Bay Glory wheel** (¥150) lit up, the waterfront and the light show; eat here. | ¥150 + food |
-| 20:45 | DiDi back to 会展中心 — 30 min. | ~¥60 |
-| 21:15–22:45 | **Manman Wellness SPA** — 金中环商务大厦 A座 21F, room 2109 (会展中心站 E exit). Open to 23:30; book ahead. | ¥200–400 |
+| On arrival | Check in at 加来酒店 (Calais Hotel), drop bags. | — |
+| 12:30 | DiDi to **MixC World (万象天地)**, Nanshan — 23 min. Lunch, then the outdoor lanes. Swap for **The MixC (深圳万象城)** in Luohu if you'd rather stay east. | ¥46–60 |
+| 14:30 | **Robotaxi** (PonyPilot+) MixC World → **Shenzhen Bay Tech Park (深圳湾科技生态园)** — 3.5 km, ~12 min. See the robotaxi guide in §4. | ¥15–25 |
+| 14:45–15:45 | **Shenzhen Bay Tech Park** + **Talent Park (人才公园)** waterfront on foot — glass towers, open water, the Houhai skyline. | free |
+| 16:00 | DiDi to **Ping An (平安金融中心)** — 20 min. | ~¥40 |
+| 16:30–18:00 | **Free Sky**, the 116F deck of Ping An: daylight → sunset (17:35) → the lights coming on. Book online. | ¥180 |
+| 18:15 | DiDi to **Happy Harbour (欢乐港湾)**, Bao'an — 30 min. | ~¥55 |
+| 18:45–20:30 | **Bay Glory wheel (湾区之光)** lit up, the waterfront and the light show; eat here. | ¥150 + food |
+| 20:45 | DiDi back to **Convention & Exhibition Center (会展中心)** — 30 min. | ~¥60 |
+| 21:15–22:45 | **Manman Wellness SPA** — Jinzhonghuan Building (金中环商务大厦) A座 21F, room 2109, at 会展中心 metro exit E. Open to 23:30; book ahead. | ¥200–400 |
 | 23:00 | DiDi home — 10 min. | ~¥14 |
 
-**This is the long one** — 12 hours, two sunsets' worth of skyline, and three DiDi legs. It works because everything after 16:00 is one straight line west and back. If you land after 14:00, cut MixC World and the tech park and start at the tower. If you're wrecked at 21:00, the spa is the part to keep — it's 10 minutes from the hotel.
+**This is the long one** — 12 hours, two skylines, three DiDi legs. It works because everything after 16:00 is one straight line west and back. If you land after 14:00, cut MixC World and the tech park and start at the tower. If you're wrecked at 21:00, the spa is the part to keep — it's 10 minutes from the hotel.
 
 ### Thursday 26 Nov — the fun day
 
 | Time | What | Cost |
 |---|---|---|
-| 09:40 | L4 福田口岸 → 会展中心 → L1 华强路 (4 stops, ~22 min) | ¥3 |
-| 10:00–15:00 | **WonderMeet (玩美攻略)**, 世纪汇 1–3F: go-karts, laser tag, ice rink, PS5/Switch, KTV pods, arcade, bowling. Wristband = re-entry all day; lunch inside or in 世纪汇. | ¥268 (Thu) |
-| 15:15 | Walk 5 min to **SEG Electronics Market** (华强北路1002号) — 30–45 min | free |
-| 16:00 | **紫荆城食品交易中心** (振兴路55号) — imported snacks, buy a box | free |
-| 16:45 | **明通化妆品市场** — cosmetics, check batch codes | free |
-| 17:30 | L1 华强路 → 老街 (2 stops) — into 东门 | ¥2 |
-| 17:45–19:00 | **东门白马服装市场** — 2F women's, 5F export surplus. Late afternoon is when they clear stock. | free |
-| 19:00 | Dinner at **DMD Food City** (东门町美食城) — the best cheap eating on the trip | ¥40–60 |
-| 20:00 | 东门步行街 for the neon | free |
+| 09:40 | L4 **Futian Checkpoint (福田口岸)** → Convention & Exhibition Center → L1 **Huaqiang Rd (华强路)**, 4 stops, ~22 min. | ¥3 |
+| 10:00–15:00 | **WonderMeet (玩美攻略)** in Century Place (世纪汇), floors 1–3: go-karts, laser tag, ice rink, PS5/Switch, KTV pods, arcade, bowling. Wristband = re-entry all day; lunch inside. | ¥268 |
+| 15:15 | Walk 5 min to **SEG Electronics Market (赛格电子市场)**, 华强北路1002号 — 30–45 min. | free |
+| 16:00 | **Zijingcheng Food Center (紫荆城食品交易中心)**, 振兴路55号 — imported snacks, buy a box. | free |
+| 16:45 | **Mingtong Cosmetics Market (明通化妆品市场)** — check batch codes. | free |
+| 17:30 | L1 Huaqiang Rd → **Laojie (老街)**, 2 stops — into **Dongmen (东门)**. | ¥2 |
+| 17:45–19:00 | **Dongmen Baima (东门白马服装市场)** — clothing wholesale: 2F women's, 5F export surplus. Late afternoon is when they clear stock. | free |
+| 19:00 | Dinner at **DMD Food City (东门町美食城)** — the best cheap eating on the trip. | ¥40–60 |
+| 20:00 | **Dongmen Pedestrian Street (东门步行街)** for the neon. | free |
 | 20:30 | DiDi to **Upper Hills (深业上城)** — 15 min. Dessert and coffee in the loft lanes. | ~¥25 |
-| 21:00–22:00 | Footbridge into **莲花山公园** — the climb to the statue for the CBD skyline lit up. Free, 20 min up. | free |
+| 21:00–22:00 | Footbridge into **Lianhuashan Park (莲花山公园)** — 20 min up to the Deng Xiaoping statue for the CBD skyline lit up. | free |
 | 22:15 | DiDi home — 14 min. | ~¥22 |
 
-**Why this order:** WonderMeet is the only fixed-cost, fixed-hour block — do it first while you're fresh. The 华强北 markets are a 5-minute walk apart, and 16:00–18:30 is when vendors start clearing stock (see the haggling section below). 东门 is on the way home, and Upper Hills is 15 minutes from the hotel — the easiest way to end the day.
+**Why this order:** WonderMeet is the only fixed-cost, fixed-hour block — do it first while you're fresh. The Huaqiangbei (华强北) markets are a 5-minute walk apart, and **16:00 onward is when vendors start clearing stock** (see the haggling section). Dongmen is on the way home, and Upper Hills is 15 minutes from the hotel — the easiest way to end the day.
 
 ### Friday 27 Nov — MOCA, checkout, 水贝, home
 
 | Time | What |
 |---|---|
 | 09:30 | Breakfast, pack, leave the big bag at reception. |
-| 10:00–11:30 | **MOCA** (free, Tue–Sun from 10:00) — L4 福田口岸 → 市民中心, 3 stops. |
-| 12:00 | Lunch near 市民中心 / 购物公园. |
+| 10:00–11:30 | **MOCA** (free, Tue–Sun from 10:00) — L4 福田口岸 → **Civic Center (市民中心)**, 3 stops. |
+| 12:00 | Lunch near Civic Center / **Shopping Park (购物公园)**. |
 | 13:30 | Back to the hotel; **14:00 checkout**, bags stay at reception. |
-| 14:30 | DiDi to **水贝珠宝 (Shuibei Jewelry Center)** — 25 min, ~¥35. Gold and jade, 15:00–16:30. |
-| 16:45 | DiDi straight to **福田口岸** — 25 min, ~¥30. |
-| 17:30 | Cross at 福田口岸 (open to 22:30) → 落马洲 → East Rail home. |
+| 14:30 | DiDi to **Shuibei Jewelry Center (水贝国际珠宝交易中心)** — 25 min, ~¥35. Gold and jade, 15:00–16:30. |
+| 16:45 | DiDi straight to **Futian Port (福田口岸)** — 25 min, ~¥30. |
+| 17:30 | Cross at Futian Port (open to 22:30) → **Lok Ma Chau (落马洲)** → East Rail home. |
 
-**Swaps:** if jewellery isn't your thing, do **Upper Hills + 莲花山公园** instead (14 min from the hotel, easy) or **南油服装市场** for designer clothing (25 min each way — take it *instead of* 水贝). Whichever you pick, be at the port by **18:00–18:30**: Friday queues build, and the last East Rail trains leave 落马洲 around 22:55.
+**Swaps:** if jewellery isn't your thing, do **Upper Hills (深业上城) + Lianhuashan Park (莲花山公园)** instead (14 min from the hotel, easy) or **Nanyou Clothing Market (南油服装批发市场)** for designer clothing (25 min each way — take it *instead of* Shuibei). Whichever you pick, be at the port by **18:00–18:30**: Friday queues build, and the last East Rail trains leave Lok Ma Chau around 22:55.
 
 ---
 
@@ -799,7 +799,7 @@ If they insist on their own template, download it and paste these columns in —
 - **zijingcheng** — [Huaqiangbei July 2024 (1).jpg](https://commons.wikimedia.org/wiki/File:Huaqiangbei_July_2024_(1).jpg) · Lyg 2001 · CC BY-SA 4.0
 - **mingtong** — [Man on a scooter pulling a cart with packages in Shenzhen's Huaqiangbei..jpg](https://commons.wikimedia.org/wiki/File:Man_on_a_scooter_pulling_a_cart_with_packages_in_Shenzhen%27s_Huaqiangbei..jpg) · Shenzhen Pages · CC BY-SA 4.0
 - **shuibei** — [特发水贝珠宝大厦.jpg](https://commons.wikimedia.org/wiki/File:%E7%89%B9%E5%8F%91%E6%B0%B4%E8%B4%9D%E7%8F%A0%E5%AE%9D%E5%A4%A7%E5%8E%A6.jpg) · Lhzss8 · CC BY-SA 4.0
-- **baima** — [SZ 深圳 Shenzhen 羅湖 Luohu 老街 LaoJie Dongmen 寶華樓 BaoHua Lau 新白馬服裝批發商場 New White Horse Clothing Wholesale Market logistics bags n hand carts September 2025 R12S 01](https://commons.wikimedia.org/w/index.php?curid=175715824) · FALINSAM HU MMOPPY · CC0
+- **baima** — [SZ 深圳 Shenzhen 羅湖 Luohu 老街 LaoJie Dongmen 寶華樓 BaoHua Lau 新白馬服裝批發商場 New White Horse Clothing Wholesale Market logistics bags n hand carts September 2025 R12S 13](https://commons.wikimedia.org/w/index.php?curid=175715849) · FALINSAM HU MMOPPY · CC0
 - **oct** — [OCT LOFT, SHENZHEN (41).jpg](https://commons.wikimedia.org/wiki/File:OCT_LOFT,_SHENZHEN_(41).jpg) · Dinkun Chen · CC BY-SA 4.0
 - **baypark** — [Shenzhen Bay Bridge To HK on Shenzhen Side.jpg](https://commons.wikimedia.org/wiki/File:Shenzhen_Bay_Bridge_To_HK_on_Shenzhen_Side.jpg) · Sparktour · CC BY-SA 4.0
 - **window** — [WINDOWS OF THE WORLD SHENZHEN (37).jpg](https://commons.wikimedia.org/wiki/File:WINDOWS_OF_THE_WORLD_SHENZHEN_(37).jpg) · Dinkun Chen · CC BY-SA 4.0
@@ -812,6 +812,5 @@ If they insist on their own template, download it and paste these columns in —
 - `places.csv` — all 21 places with GCJ/WGS coordinates, Amap + Google links, times and notes
 - `amap_import.csv` — bulk-import file for wia.amap.com
 - `amap_links.md` — every Amap link in one place
-- `booking.md` — hotel confirmation and reviews
 - `images/` — photos (credits above)
 - `tools/` — the scripts that generated all of this
