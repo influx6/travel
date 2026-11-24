@@ -160,6 +160,45 @@ EDIT = {
         expect="Six floors, 500+ stalls; some want two or three pieces minimum. 1–1.5 h.",
         watch="Sizes run small — try before paying. Walking away is your strongest move.",
         img2=None),
+    "techpark": dict(
+        img=None, cap="",
+        sweet="Walk the deck behind 万象天地 toward 人才公园 — glass towers on one side, open water and the "
+              "Houhai skyline on the other. Best light after 16:00.",
+        expect="An office campus, not an attraction — 45 min on foot, free, and the natural end point of a "
+               "robotaxi ride. Tencent's Binhai towers are 1 km east.",
+        watch="Weekday lunchtime is a wall of office workers; weekends are dead. No sights as such — go for "
+              "the walk and the ride, not for a 'tech museum'.",
+        img2=None),
+    "oct": dict(
+        img="oct", cap="OCT Loft (华侨城创意文化园) after dark",
+        sweet="The lanes around **B10** and 旧天堂书店 — independent coffee, galleries, design shops. "
+              "Best 16:00 onward when the light softens and the bars open.",
+        expect="A former factory district; 1–2 h on foot. Free to wander, paid for whatever you drink.",
+        watch="Weekday mornings are dead; weekends are busy with photo shoots. Some galleries close Mondays.",
+        img2=None),
+    "baypark": dict(
+        img="baypark", cap="Shenzhen Bay Park (深圳湾公园) — the bayfront walk",
+        sweet="The promenade at the **Shenzhen Bay Park** metro exit, walking west: Hong Kong's hills "
+              "across the water, the Houhai towers behind. 30 min before sunset.",
+        expect="Free, flat, 15 km of path. Bikes to rent, no shade in the middle of the day.",
+        watch="It's a long walk — pick a direction and commit, or rent a bike. Weekends are packed with "
+              "cyclists.",
+        img2=None),
+    "window": dict(
+        img="window", cap="Window of the World (世界之窗) — the Eiffel replica and gardens",
+        sweet="The Eiffel copy at dusk, and the evening parade/fireworks show on the central plaza.",
+        expect="A theme park of 130 landmark replicas. ¥220ish, half a day if you go inside; the "
+               "exterior plaza is free to look at.",
+        watch="Kitsch by design — go with that in mind or skip it. Weekends mean queues at the rides.",
+        img2=None),
+    "spa": dict(
+        img=None, cap="",
+        sweet="A **21:00–22:30** slot — the city is lit, your feet are done, and it's 10 min from the hotel.",
+        expect="金中环商务大厦 A座 21F, room 2109 (会展中心站 E). Chinese/Thai massage, oil and hot-stone; "
+               "60–90 min treatments, ¥200–400. Open 10:30–23:30, last slots ~21:30.",
+        watch="**Book ahead** on Klook, Trip.com or Ctrip — 21:00 walk-ins often wait. Say if you don't "
+              "want oil. Showers and lockers are on site; bring your own underwear or use theirs.",
+        img2=None),
     "nanyou": dict(
         img=None, cap="",
         sweet="Dozens of buildings of original-design women's wear in the 南海大道 / 东滨路 grid — "
@@ -193,7 +232,35 @@ key_for = {
     "Shuibei Jewelry Center": "shuibei",
     "Dongmen Baima Fashion Market": "baima",
     "Nanyou Clothing Market": "nanyou",
+    "Manman Wellness SPA": "spa",
+    "Shenzhen Bay Tech Park": "techpark",
+    "OCT Loft": "oct",
+    "Shenzhen Bay Park": "baypark",
+    "Window of the World": "window",
 }
+
+FOOD = {
+    "pingan": [("海底捞", "hotpot, COCO Park"), ("八合里海记", "Chaoshan beef hotpot")],
+    "moca": [("中心书城", "book-mall food floor, 市民中心")],
+    "upperhills": [("MUJI Diner", "in the mall"), ("深业上城", "upper-floor restaurants")],
+    "mixc_crossing": [("万象城", "food hall + restaurants")],
+    "dmd": [("东门町美食城", "you're standing in it")],
+    "dongmen": [("东门小吃街", "street snacks, 老街 exit")],
+    "talent": [("海岸城", "Coastal City food floor"), ("万象天地", "里巷 restaurants")],
+    "happy": [("欢乐港湾", "waterfront restaurants")],
+    "mixc_tiandi": [("万象天地 里巷", "outdoor restaurant lanes")],
+    "poly": [("海岸城", "Coastal City, 10 min walk")],
+    "nantou": [("南头古城", "courtyard cafés")],
+    "oct": [("旧天堂书店", "bookshop café"), ("B10", "coffee + bars")],
+    "baypark": [("海岸城", "10 min inland for a real meal")],
+    "window": [("欧洲小镇", "cafés by the Eiffel copy")],
+    "grand": [("万象城", "food hall next door")],
+    "culture": [("景田", "neighbourhood noodle shops")],
+}
+
+def amap_search(name):
+    return ("https://uri.amap.com/search?keyword=" + __import__("urllib.parse").parse.quote(name)
+            + "&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0")
 
 def main():
     rows = list(csv.DictReader(open('../places.csv', encoding='utf-8-sig')))
@@ -235,7 +302,6 @@ def main():
     A("|---|---|---|---|---|")
     A("| **A. High-speed rail** | Tung Chung → Kowloon → walk to West Kowloon → HSR to 福田 → DiDi | 1 h 50 – 2 h 15 | ≈ HK$19 + ¥68 + ¥15 ≈ **HK$110** | Fastest, one immigration, easiest with bags |")
     A("| **B. East Rail** | Tung Chung → Nam Cheong (南昌) → Hung Hom (红磡) → East Rail → Lok Ma Chau (落马洲) → Futian Port (福田口岸) → ~1.1 km walk | 2 h 10 – 2 h 40 | **HK$57.5** | Cheapest; the port is next to the hotel |")
-    A("| **C. Coach** | S1 bus to HKIA → cross-border coach → 福田/皇岗 | 2 h 30 + | ~HK$120–180 | Only if you're already at the airport |")
     A("")
 
     A("### A — High-speed rail, step by step (recommended)\n")
@@ -288,11 +354,6 @@ def main():
       "route if you land late**. For late arrivals use the HSR (runs to ~23:00) or 皇岗口岸 "
       "(Huanggang Port, 24 h, 1.4 km from the hotel).\n")
 
-    A("### C — Coach from the airport\n")
-    A("S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border coach to Futian (福田) or "
-      "Huanggang (皇岗) (~HK$120–180, "
-      "60–90 min plus the border). Slower than the train and you still queue — only worth it if you're "
-      "already at HKIA with a lot of luggage.\n")
 
     A("---\n")
     A("## 3. Getting back to Hong Kong (East Rail, not HSR)\n")
@@ -328,6 +389,36 @@ def main():
       "drivers call to confirm; the in-app chat auto-translates.")
     A("- Typical fares from the hotel are listed on each place below (DiDi Express, no surge).")
     A("- At stations and malls use the signed **网约车 (ride-hailing) pickup point**, not the taxi rank.\n")
+    A("**Driverless cars (robotaxi) — how to book**")
+    A("Two operators run commercial driverless cars in Shenzhen:\n")
+    A("- **Pony.ai (小马智行)** — the one to try. Citywide permit, zone covering 南山 / 前海 / 深圳湾, "
+      "~10,000 pickup points, roughly **07:00–22:00**. Book in the **PonyPilot+** app or the WeChat "
+      "mini-program (Pony.ai also appears inside Amap). It's the operator that accepts passports and "
+      "foreign cards.")
+    A("- **Apollo Go (萝卜快跑)** — 南山 / 宝安 / 坪山, **07:00–23:00**, but **station-to-station**: you "
+      "walk to a green pickup dot (usually a bus stop or metro exit), you can't pick an exact address. "
+      "App, WeChat mini-program, or Baidu Maps. Registration leans on Chinese ID.")
+    A("")
+    A("**Booking it, in order:**")
+    A("1. Install **PonyPilot+** (or open its WeChat mini-program). Register with your phone; have your "
+      "**passport** ready for verification — it takes about 10 minutes.")
+    A("2. Set pickup + drop-off. Both must sit inside the green zone on the map; for Apollo Go, pick one of "
+      "its fixed stations instead.")
+    A("3. Request. Waits run 3–15 min off-peak; a busy Saturday can be longer.")
+    A("4. Match the **plate and car number**, then unlock from the app (Bluetooth) or type the last four "
+      "digits of your phone on the door screen.")
+    A("5. Sit in the back (front seats are blocked), belt up, and tap **Start** on the seat screen.")
+    A("")
+    A("**Cost:** ¥10–30 for a 3–6 km hop. Pony.ai runs ~50% above DiDi; Apollo Go often has promo vouchers "
+      "that make it cheaper than a taxi.\n")
+    A("**The catch, honestly:** both apps can demand a **+86 phone number** for SMS verification, and "
+      "reports differ on whether a foreign SIM gets through. If yours fails, try the WeChat mini-program "
+      "(separate registration, sometimes laxer), or ask the hotel front desk to book on their account — "
+      "that works and is common. Weather also suspends service, and no eating or drinking in the car.\n")
+    A("**The ride to take on this trip:** a 3.5 km hop in Nanshan, **万象天地 → 深圳湾科技生态园** "
+      "(~12 min, ¥15–25). It's squarely inside the zone, it lands you at the tech park, and you can walk "
+      "the waterfront to 人才公园 afterwards. Book it while you're finishing lunch — if verification "
+      "stalls, DiDi is 20 m away.\n")
     A("**About direct DiDi links:** DiDi has no public link format that pre-fills an origin and "
       "destination. The supported way is DiDi's own API (the DiDi MCP, `taxi_generate_ride_app_link`, "
       "free key at mcp.didichuxing.com), which returns a `v.didi.cn` link that opens the app with both "
@@ -404,6 +495,9 @@ def main():
         A(f"- **Sweet spot:** {e['sweet']}")
         A(f"- **What to expect:** {e['expect']}")
         A(f"- **Look out for:** {e['watch']}")
+        if key in FOOD:
+            bits = [f"[{zh}]({amap_search(zh)}) — {note}" for zh, note in FOOD[key]]
+            A(f"- **Eat nearby:** {' · '.join(bits)}")
         A(f"- **Links:** [Amap pin]({r['amap_link']}) · [Amap route from hotel]({r['amap_route_link']}) · "
           f"[Google Maps]({r['google_link']})")
         A(f"- **DiDi destination (copy this):**")
@@ -424,22 +518,30 @@ def main():
     A("| Fri 27 Nov | 16–26 °C | 18% | Mainly clear | Lightest day; a shirt is enough by afternoon. |")
     A("")
     A("*Shenzhen in late November is dry-season cool: 13–16 °C at 08:00, 19–26 °C by 14:00, dropping fast "
-      "after 18:00. Comfortable walking shoes matter more than a coat. Check again the morning you fly — "
+      "after 18:00. Comfortable walking shoes matter more than a coat. Check the morning you set off — "
       "a cold front can take 5 °C off in a day.*\n")
 
-    A("### Wednesday 25 Nov — arrive, settle, first sunset\n")
-    A("| Time | What |")
-    A("|---|---|")
-    A("| On arrival | Check in at 加来酒店, drop bags, 15 min to reset. |")
-    A("| 14:00 | **东门白马服装市场 (Dongmen Baima)** — clothing wholesale: 2F women's, 5F export surplus. "
-      "L1 福田口岸 → 老街 (2 + 5 stops, ~30 min) or DiDi 25 min. 1–1.5 h. |")
-    A("| 16:00 | L1 老街 → 购物公园 (3 stops) + 5 min walk to the tower. |")
-    A("| 16:30 | **Ping An Free Sky** — booked online; enter now for daylight → sunset → lights. |")
-    A("| 18:30 | Dinner around 购物公园 / COCO Park — hotpot or 潮汕 beef. |")
-    A("| 20:00 | Walk the 市民中心 plaza and 莲花山 footpath; home by L4 or ¥12 DiDi. |")
+    A("### Wednesday 25 Nov — the west side: mall, bay, spa\n")
+    A("| Time | What | Cost |")
+    A("|---|---|---|")
+    A("| On arrival | Check in at 加来酒店, drop bags. | — |")
+    A("| 13:00 | DiDi to **MixC World 万象天地** (Nanshan) — 23 min. Lunch, then the outdoor lanes. "
+      "Swap for 深圳万象城 (Luohu) if you'd rather stay east. | ¥46–60 |")
+    A("| 14:45 | **Robotaxi** (PonyPilot+) from 万象天地 to **深圳湾科技生态园** — 3.5 km, ~12 min. "
+      "See the robotaxi guide in §4. | ¥15–25 |")
+    A("| 15:00–16:00 | **Tech park + 人才公园 waterfront** on foot — glass towers, open water, the "
+      "Houhai skyline. | free |")
+    A("| 16:15 | DiDi to **Happy Harbour** (Bao'an) — 25 min. | ~¥50 |")
+    A("| 16:45–19:00 | **Bay Glory wheel** (¥150) + the waterfront. Sunset is ~17:35; stay for the light show. | ¥150 |")
+    A("| 19:00 | Dinner on the waterfront. | ¥60–100 |")
+    A("| 20:15 | DiDi back east to 会展中心 — 30 min. | ~¥60 |")
+    A("| 21:00–22:30 | **Manman Wellness SPA** — 金中环商务大厦 A座 21F, room 2109 (会展中心站 E exit). "
+      "Open to 23:30; book ahead. | ¥200–400 |")
+    A("| 22:45 | DiDi home — 10 min. | ~¥14 |")
     A("")
-    A("**If you land after 14:00**, drop 白马 and move it to Day 3 morning — the Free Sky is the one "
-      "fixed point, and it's the sunset you're paying for.\n")
+    A("**This is the long day** — one DiDi chain west and back. If you land after 14:00, cut MixC World and "
+      "go straight to Happy Harbour; the wheel still works. If you're wrecked, the spa is the part to keep "
+      "— it's 10 minutes from the hotel, not 30.\n")
 
     A("### Thursday 26 Nov — the fun day\n")
     A("| Time | What | Cost |")
@@ -451,28 +553,32 @@ def main():
     A("| 16:00 | **紫荆城食品交易中心** (振兴路55号) — imported snacks, buy a box | free |")
     A("| 16:45 | **明通化妆品市场** — cosmetics, check batch codes | free |")
     A("| 17:30 | L1 华强路 → 老街 (2 stops) — into 东门 | ¥2 |")
-    A("| 18:00 | Dinner at **DMD Food City** (东门町美食城) — the best cheap eating on the trip | ¥40–60 |")
-    A("| 19:30 | 东门步行街 for the neon, then L1/L3 home | ¥2 |")
+    A("| 17:45–19:00 | **东门白马服装市场** — 2F women's, 5F export surplus. Late afternoon is when they clear stock. | free |")
+    A("| 19:00 | Dinner at **DMD Food City** (东门町美食城) — the best cheap eating on the trip | ¥40–60 |")
+    A("| 20:00 | 东门步行街 for the neon, then L1/L3 home | ¥2 |")
     A("")
     A("**Why this order:** WonderMeet is the only fixed-cost, fixed-hour block — do it first while you're "
       "fresh. The 华强北 markets are a 5-minute walk apart, and 16:00–18:30 is when vendors start clearing "
       "stock (see the haggling section below). 东门 is on the way home.\n")
 
-    A("### Friday 27 Nov — checkout 14:00, then home\n")
+    A("### Friday 27 Nov — checkout 14:00, skyline, home\n")
     A("| Time | What |")
     A("|---|---|")
     A("| 09:30 | Breakfast, pack, leave the big bag at reception. |")
     A("| 10:00–11:30 | **MOCA** (free, Tue–Sun from 10:00) — L4 福田口岸 → 市民中心, 3 stops. |")
     A("| 12:00 | Lunch near 市民中心 / 购物公园. |")
     A("| 13:30 | Back to the hotel; **14:00 checkout**, bags stay at reception. |")
-    A("| 14:30 | DiDi to **水贝珠宝 (Shuibei Jewelry Center)** — 25 min, ~¥35. Gold and jade, 15:00–16:30. |")
-    A("| 16:45 | DiDi straight to **福田口岸** (25 min) or back via the hotel for bags. |")
-    A("| 17:30 | Cross at 福田口岸 (open to 22:30) → 落马洲 → East Rail home. |")
+    A("| 14:30–16:00 | **Ping An Free Sky** — 8 min DiDi from the hotel. Daylight rather than sunset, "
+      "but you see the whole bay and there's no queue. |")
+    A("| 16:15 | Collect the bags at the hotel. |")
+    A("| 16:45 | DiDi to **福田口岸** — 20 min, ~¥25. |")
+    A("| 17:15 | Cross at 福田口岸 (open to 22:30) → 落马洲 → East Rail home. |")
     A("")
-    A("**Swap options for the afternoon:** if jewellery isn't your thing, do **Upper Hills + 莲花山公园** "
-      "instead (coffee, bridge, skyline — 14 min from the hotel) and leave at 17:30. **南油服装市场** is the "
-      "best clothing market but it's 25 min each way in the wrong direction — take it *instead of* 水贝, "
-      "not as well as. If you skipped 白马 on Day 1, this morning (10:00–11:30) is its slot.\n")
+    A("**Swaps for the afternoon:** if you'd rather shop than go up a tower, take **水贝珠宝 (Shuibei "
+      "Jewelry)** — 25 min DiDi, gold and jade, 15:00–16:30 — or **南油服装市场** for designer clothing "
+      "(25 min each way, the best clothing market in the city). Both mean leaving the hotel by 14:20 and "
+      "going straight to the port afterwards. **Upper Hills + 莲花山公园** is the third option and the "
+      "closest to the hotel.\n")
     A("**Don't cut it close:** be at the port by **18:00–18:30**. Friday evening queues build, and the last "
       "East Rail trains leave 落马洲 around 22:55.\n")
 

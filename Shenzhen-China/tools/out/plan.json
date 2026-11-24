@@ -45,6 +45,42 @@
    "rank": 1
   },
   {
+   "key": "spa",
+   "name": "Manman Wellness SPA",
+   "zh": "慢慢生活馆·中泰式按摩·SPA（会展中心店）",
+   "area": "Futian",
+   "kind": "Massage & spa",
+   "fun": 7,
+   "lat": 22.534301,
+   "lng": 114.062393,
+   "note": "金中环商务大厦 A座 21F, room 2109 — 会展中心站 E exit. Open 10:30–23:30; last slots ~21:30. Book ahead on Klook, Trip.com or Ctrip. Chinese/Thai massage, oil and hot-stone.",
+   "metro": "Convention & Exhibition Center 会展中心 (L1/L4), exit E — in the building",
+   "metro_walk": 200,
+   "metro_plan": "L4 Futian Checkpoint → Convention & Exhibition Center (2 stops) + exit E",
+   "metro_min": 15,
+   "didi_min": 10,
+   "didi_km": 2.8,
+   "lat_gcj": 22.534301,
+   "lng_gcj": 114.062393,
+   "lat_wgs": 22.53702,
+   "lng_wgs": 114.05728,
+   "straight_km": 1.45,
+   "raw": {
+    "href": "https://www.google.com/maps/search/?api=1&query=22.534301,114.062393",
+    "address": "",
+    "rating": null,
+    "category": "Massage & spa",
+    "coords": [
+     22.534301,
+     114.062393
+    ]
+   },
+   "cluster": "venue",
+   "group": "venue",
+   "didi_cost": "¥13–17",
+   "rank": 2
+  },
+  {
    "key": "moca",
    "name": "Museum of Contemporary Art & Planning Exhibition",
    "zh": "深圳当代艺术与城市规划馆",
@@ -81,7 +117,7 @@
     "placeId": "0x3403f5fedadbc56d:0x237bf856bb4e0137"
    },
    "didi_cost": "¥15–19",
-   "rank": 2
+   "rank": 3
   },
   {
    "key": "wondermeet",
@@ -117,7 +153,7 @@
    "cluster": "venue",
    "group": "venue",
    "didi_cost": "¥20–26",
-   "rank": 3
+   "rank": 4
   },
   {
    "key": "seg",
@@ -153,7 +189,7 @@
    "cluster": "venue",
    "group": "venue",
    "didi_cost": "¥20–26",
-   "rank": 4
+   "rank": 5
   },
   {
    "key": "mingtong",
@@ -189,7 +225,7 @@
    "cluster": "venue",
    "group": "venue",
    "didi_cost": "¥23–30",
-   "rank": 5
+   "rank": 6
   },
   {
    "key": "upperhills",
@@ -227,7 +263,7 @@
     "placeId": "0x3403f5d813dfb6b9:0x7a85f14e08f5bce0"
    },
    "didi_cost": "¥20–26",
-   "rank": 6
+   "rank": 7
   },
   {
    "key": "zijingcheng",
@@ -263,7 +299,7 @@
    "cluster": "venue",
    "group": "venue",
    "didi_cost": "¥23–30",
-   "rank": 7
+   "rank": 8
   },
   {
    "key": "culture",
@@ -302,7 +338,7 @@
     "placeId": "0x3403f38b835cc389:0xd796ef4f35c4b1cc"
    },
    "didi_cost": "¥22–28",
-   "rank": 8
+   "rank": 9
   },
   {
    "key": "grand",
@@ -341,7 +377,7 @@
     "placeId": "0x3403f5b7d46a8e0b:0x9656bf8761859c01"
    },
    "didi_cost": "¥23–31",
-   "rank": 9
+   "rank": 10
   },
   {
    "key": "mixc_crossing",
@@ -380,7 +416,7 @@
     "placeId": "0x3403f5c7a7397263:0xc0cfcceb6dc86221"
    },
    "didi_cost": "¥26–33",
-   "rank": 10
+   "rank": 11
   },
   {
    "key": "dingplaza",
@@ -419,7 +455,7 @@
     "placeId": "0x3403f5be47383aeb:0xc74e4979a2fa154e"
    },
    "didi_cost": "¥29–38",
-   "rank": 11
+   "rank": 12
   },
   {
    "key": "dmd",
@@ -458,7 +494,7 @@
     "placeId": "0x3403f5be1444dc89:0x5c89f1e03796e0f8"
    },
    "didi_cost": "¥29–37",
-   "rank": 12
+   "rank": 13
   },
   {
    "key": "dongmen",
@@ -497,7 +533,7 @@
     "placeId": "0x3403f596017f6bf7:0x845ce96dbee1b478"
    },
    "didi_cost": "¥29–38",
-   "rank": 13
+   "rank": 14
   },
   {
    "key": "baima",
@@ -533,7 +569,87 @@
    "cluster": "venue",
    "group": "venue",
    "didi_cost": "¥29–38",
-   "rank": 14
+   "rank": 15
+  },
+  {
+   "key": "baypark",
+   "name": "Shenzhen Bay Park",
+   "zh": "深圳湾公园",
+   "area": "Futian",
+   "kind": "Bayfront promenade",
+   "fun": 7,
+   "lat": 22.521586,
+   "lng": 113.992963,
+   "note": "15 km of waterfront path along the bay — Hong Kong's hills on the far side, the Houhai skyline behind you. Free, flat, best 30 min before sunset.",
+   "metro": "Shenzhen Bay Park 深圳湾公园 (L9) — at the exit",
+   "metro_walk": 50,
+   "metro_plan": "L9 from Futian, direct",
+   "metro_min": 25,
+   "didi_min": 14,
+   "didi_km": 10.0,
+   "cluster": "Futian",
+   "lat_gcj": 22.521586,
+   "lng_gcj": 113.992963,
+   "lat_wgs": 22.52449,
+   "lng_wgs": 113.988,
+   "straight_km": 6.88,
+   "raw": {
+    "name": "Shenzhen Bay Park",
+    "ok": true,
+    "href": "https://www.google.com/maps/search/?api=1&query=22.521586,113.992963",
+    "urlName": "深圳湾公园",
+    "h1": "深圳湾公园",
+    "address": "",
+    "rating": null,
+    "category": "",
+    "coords": [
+     22.521586,
+     113.992963
+    ],
+    "placeId": null
+   },
+   "didi_cost": "¥30–39",
+   "rank": 16
+  },
+  {
+   "key": "oct",
+   "name": "OCT Loft",
+   "zh": "华侨城创意文化园",
+   "area": "Nanshan",
+   "kind": "Arts district",
+   "fun": 7,
+   "lat": 22.538318,
+   "lng": 113.993586,
+   "note": "Former factory blocks turned galleries, design shops and the best independent coffee in the city. Busy on weekends, sleepy on weekday mornings. 1–2 h.",
+   "metro": "Qiaocheng East 侨城东 (L1) ~710 m",
+   "metro_walk": 710,
+   "metro_plan": "L1 Qiaocheng East + 10 min walk",
+   "metro_min": 35,
+   "didi_min": 20,
+   "didi_km": 11.7,
+   "cluster": "West",
+   "lat_gcj": 22.538318,
+   "lng_gcj": 113.993586,
+   "lat_wgs": 22.54122,
+   "lng_wgs": 113.98862,
+   "straight_km": 7.07,
+   "raw": {
+    "name": "OCT Loft",
+    "ok": true,
+    "href": "https://www.google.com/maps/search/?api=1&query=22.538318,113.993586",
+    "urlName": "华侨城创意文化园",
+    "h1": "华侨城创意文化园",
+    "address": "",
+    "rating": null,
+    "category": "",
+    "coords": [
+     22.538318,
+     113.993586
+    ],
+    "placeId": null
+   },
+   "didi_cost": "¥34–45",
+   "rank": 17
   },
   {
    "key": "shuibei",
@@ -569,7 +685,47 @@
    "cluster": "venue",
    "group": "venue",
    "didi_cost": "¥40–51",
-   "rank": 15
+   "rank": 18
+  },
+  {
+   "key": "window",
+   "name": "Window of the World",
+   "zh": "世界之窗",
+   "area": "Nanshan",
+   "kind": "Theme park",
+   "fun": 6,
+   "lat": 22.534551,
+   "lng": 113.973529,
+   "note": "130 replicas of world landmarks in one park — kitsch, but the Eiffel copy and the evening show are genuinely fun. ¥220ish, half a day if you go in.",
+   "metro": "Window of the World 世界之窗 (L1/L2) ~270 m",
+   "metro_walk": 270,
+   "metro_plan": "L1 Window of the World + 5 min walk",
+   "metro_min": 35,
+   "didi_min": 24,
+   "didi_km": 14.0,
+   "cluster": "West",
+   "lat_gcj": 22.534551,
+   "lng_gcj": 113.973529,
+   "lat_wgs": 22.53751,
+   "lng_wgs": 113.96861,
+   "straight_km": 8.99,
+   "raw": {
+    "name": "Window of the World",
+    "ok": true,
+    "href": "https://www.google.com/maps/search/?api=1&query=22.534551,113.973529",
+    "urlName": "世界之窗",
+    "h1": "世界之窗",
+    "address": "",
+    "rating": null,
+    "category": "",
+    "coords": [
+     22.534551,
+     113.973529
+    ],
+    "placeId": null
+   },
+   "didi_cost": "¥40–52",
+   "rank": 19
   },
   {
    "key": "mixc_tiandi",
@@ -608,7 +764,43 @@
     "placeId": "0x3403f1af79f8136b:0x1d2a318dc6483fa4"
    },
    "didi_cost": "¥46–60",
-   "rank": 16
+   "rank": 20
+  },
+  {
+   "key": "techpark",
+   "name": "Shenzhen Bay Tech Park",
+   "zh": "深圳湾科技生态园",
+   "area": "Nanshan",
+   "kind": "Tech campus + waterfront",
+   "fun": 6,
+   "lat": 22.530602,
+   "lng": 113.952382,
+   "note": "The campus behind 万象天地: glass towers, the 深圳湾创业广场 square, and a walkable waterfront that runs into 人才公园. Tencent's Binhai towers are 1 km east. 45 min on foot.",
+   "metro": "Talent Park 人才公园 (L13) ~700 m / Houhai 后海 (L2/L11/L13)",
+   "metro_walk": 700,
+   "metro_plan": "L13 人才公园, or L2/L11/L13 后海",
+   "metro_min": 45,
+   "didi_min": 22,
+   "didi_km": 16.0,
+   "lat_gcj": 22.530602,
+   "lng_gcj": 113.952382,
+   "lat_wgs": 22.53361,
+   "lng_wgs": 113.9475,
+   "straight_km": 11.09,
+   "raw": {
+    "href": "https://www.google.com/maps/search/?api=1&query=22.530602,113.952382",
+    "address": "",
+    "rating": null,
+    "category": "Tech campus + waterfront",
+    "coords": [
+     22.530602,
+     113.952382
+    ]
+   },
+   "cluster": "venue",
+   "group": "venue",
+   "didi_cost": "¥45–58",
+   "rank": 21
   },
   {
    "key": "talent",
@@ -647,7 +839,7 @@
     "placeId": "0x3403ef3288f2af21:0xcade8137080c45f1"
    },
    "didi_cost": "¥46–60",
-   "rank": 17
+   "rank": 22
   },
   {
    "key": "poly",
@@ -686,7 +878,7 @@
     "placeId": "0x3403ee3b74672d0f:0x2802395723eebd84"
    },
    "didi_cost": "¥45–59",
-   "rank": 18
+   "rank": 23
   },
   {
    "key": "nanyou",
@@ -722,7 +914,7 @@
    "cluster": "venue",
    "group": "venue",
    "didi_cost": "¥51–66",
-   "rank": 19
+   "rank": 24
   },
   {
    "key": "nantou",
@@ -761,7 +953,7 @@
     "placeId": "0x3403ee7055e55f1d:0xf15bf63d2ac63f6f"
    },
    "didi_cost": "¥58–76",
-   "rank": 20
+   "rank": 25
   },
   {
    "key": "happy",
@@ -800,12 +992,12 @@
     "placeId": "0x3403ee9830aa7e1f:0x83e84a5f742fae9"
    },
    "didi_cost": "¥67–87",
-   "rank": 21
+   "rank": 26
   }
  ],
  "links": {
-  "futian_luohu": "https://uri.amap.com/marker?markers=114.055865,22.533096,Ping%27an%20International%20Financial%20Center|114.061277,22.544771,Museum%20of%20Contemporary%20Art%20%26%20Planning%20Exhibition|114.070537,22.556332,Upper%20Hills%20%28%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E%29|114.043557,22.55523,Shenzhen%20Cultural%20Center%20%28Jingtian%29|114.10546,22.542692,Shenzhen%20Grand%20Theatre|114.110904,22.539827,The%20Mixc%20of%20Shenzhen%20City%20Crossing|114.118764,22.544242,Dong%20Men%20Ding%20Plaza|114.11894,22.544816,DMD%20Food%20City%20%28%E4%B8%9C%E9%97%A8%E7%94%BA%E7%BE%8E%E9%A3%9F%E5%9F%8E%29|114.120344,22.545938,Dongmen%20Pedestrian%20Street&src=trip&coordinate=gaode&callnative=0",
-  "nanshan_baoan": "https://uri.amap.com/marker?markers=113.955538,22.541563,MixC%20World%20%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%20%28Nanshan%29|113.946226,22.511216,Shenzhen%20Talent%20Park|113.93887,22.516386,Shenzhen%20Poly%20Cultural%20Plaza|113.920489,22.541119,Nantou%20Ancient%20City|113.884501,22.544729,Happy%20Harbour&src=trip&coordinate=gaode&callnative=0",
-  "markets": "https://uri.amap.com/marker?markers=114.084015,22.54146,WonderMeet|114.0822,22.54395,SEG%20Electronics%20Market|114.089,22.5452,Mingtong%20Cosmetics%20Market|114.0888,22.5461,Zijingcheng%20Food%20Center|114.120344,22.545938,Dongmen%20Baima%20Fashion%20Market|114.1274,22.5662,Shuibei%20Jewelry%20Center|113.924947,22.50905,Nanyou%20Clothing%20Market&src=trip&coordinate=gaode&callnative=0"
+  "futian_luohu": "https://uri.amap.com/marker?markers=114.055865,22.533096,Ping%27an%20International%20Financial%20Center|114.061277,22.544771,Museum%20of%20Contemporary%20Art%20%26%20Planning%20Exhibition|114.070537,22.556332,Upper%20Hills%20%28%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E%29|114.043557,22.55523,Shenzhen%20Cultural%20Center%20%28Jingtian%29|114.10546,22.542692,Shenzhen%20Grand%20Theatre|114.110904,22.539827,The%20Mixc%20of%20Shenzhen%20City%20Crossing|114.118764,22.544242,Dong%20Men%20Ding%20Plaza|114.11894,22.544816,DMD%20Food%20City%20%28%E4%B8%9C%E9%97%A8%E7%94%BA%E7%BE%8E%E9%A3%9F%E5%9F%8E%29|114.120344,22.545938,Dongmen%20Pedestrian%20Street|113.992963,22.521586,Shenzhen%20Bay%20Park&src=trip&coordinate=gaode&callnative=0",
+  "nanshan_baoan": "https://uri.amap.com/marker?markers=113.993586,22.538318,OCT%20Loft|113.973529,22.534551,Window%20of%20the%20World|113.955538,22.541563,MixC%20World%20%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%20%28Nanshan%29|113.946226,22.511216,Shenzhen%20Talent%20Park|113.93887,22.516386,Shenzhen%20Poly%20Cultural%20Plaza|113.920489,22.541119,Nantou%20Ancient%20City|113.884501,22.544729,Happy%20Harbour&src=trip&coordinate=gaode&callnative=0",
+  "markets": "https://uri.amap.com/marker?markers=114.062393,22.534301,Manman%20Wellness%20SPA|114.084015,22.54146,WonderMeet|114.0822,22.54395,SEG%20Electronics%20Market|114.089,22.5452,Mingtong%20Cosmetics%20Market|114.0888,22.5461,Zijingcheng%20Food%20Center|114.120344,22.545938,Dongmen%20Baima%20Fashion%20Market|114.1274,22.5662,Shuibei%20Jewelry%20Center|113.952382,22.530602,Shenzhen%20Bay%20Tech%20Park|113.924947,22.50905,Nanyou%20Clothing%20Market&src=trip&coordinate=gaode&callnative=0"
  }
 }

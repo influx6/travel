@@ -2,8 +2,8 @@
 
 ## All places (Amap caps a link at 10 points)
 
-- Futian + Luohu: https://uri.amap.com/marker?markers=114.055865,22.533096,Ping%27an%20International%20Financial%20Center|114.061277,22.544771,Museum%20of%20Contemporary%20Art%20%26%20Planning%20Exhibition|114.070537,22.556332,Upper%20Hills%20%28%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E%29|114.043557,22.55523,Shenzhen%20Cultural%20Center%20%28Jingtian%29|114.10546,22.542692,Shenzhen%20Grand%20Theatre|114.110904,22.539827,The%20Mixc%20of%20Shenzhen%20City%20Crossing|114.118764,22.544242,Dong%20Men%20Ding%20Plaza|114.11894,22.544816,DMD%20Food%20City%20%28%E4%B8%9C%E9%97%A8%E7%94%BA%E7%BE%8E%E9%A3%9F%E5%9F%8E%29|114.120344,22.545938,Dongmen%20Pedestrian%20Street&src=trip&coordinate=gaode&callnative=0
-- Nanshan + Bao'an: https://uri.amap.com/marker?markers=113.955538,22.541563,MixC%20World%20%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%20%28Nanshan%29|113.946226,22.511216,Shenzhen%20Talent%20Park|113.93887,22.516386,Shenzhen%20Poly%20Cultural%20Plaza|113.920489,22.541119,Nantou%20Ancient%20City|113.884501,22.544729,Happy%20Harbour&src=trip&coordinate=gaode&callnative=0
+- Futian + Luohu: https://uri.amap.com/marker?markers=114.055865,22.533096,Ping%27an%20International%20Financial%20Center|114.061277,22.544771,Museum%20of%20Contemporary%20Art%20%26%20Planning%20Exhibition|114.070537,22.556332,Upper%20Hills%20%28%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E%29|114.043557,22.55523,Shenzhen%20Cultural%20Center%20%28Jingtian%29|114.10546,22.542692,Shenzhen%20Grand%20Theatre|114.110904,22.539827,The%20Mixc%20of%20Shenzhen%20City%20Crossing|114.118764,22.544242,Dong%20Men%20Ding%20Plaza|114.11894,22.544816,DMD%20Food%20City%20%28%E4%B8%9C%E9%97%A8%E7%94%BA%E7%BE%8E%E9%A3%9F%E5%9F%8E%29|114.120344,22.545938,Dongmen%20Pedestrian%20Street|113.992963,22.521586,Shenzhen%20Bay%20Park&src=trip&coordinate=gaode&callnative=0
+- Nanshan + Bao'an: https://uri.amap.com/marker?markers=113.993586,22.538318,OCT%20Loft|113.973529,22.534551,Window%20of%20the%20World|113.955538,22.541563,MixC%20World%20%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%20%28Nanshan%29|113.946226,22.511216,Shenzhen%20Talent%20Park|113.93887,22.516386,Shenzhen%20Poly%20Cultural%20Plaza|113.920489,22.541119,Nantou%20Ancient%20City|113.884501,22.544729,Happy%20Harbour&src=trip&coordinate=gaode&callnative=0
 
 ## Hotel
 - https://uri.amap.com/marker?position=114.05994,22.52147&name=%E5%8A%A0%E6%9D%A5%E9%85%92%E5%BA%97&src=trip&coordinate=gaode&callnative=0
@@ -13,6 +13,10 @@
 ### Ping'an International Financial Center (平安金融中心)
 - Pin: https://uri.amap.com/marker?position=114.055865,22.533096&name=Ping%27an%20International%20Financial%20Center&src=trip&coordinate=gaode&callnative=0
 - Route from hotel: https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.055865,22.533096,Ping%27an%20International%20Financial%20Center&mode=bus&coordinate=gaode&callnative=0
+
+### Manman Wellness SPA (慢慢生活馆·中泰式按摩·SPA（会展中心店）)
+- Pin: https://uri.amap.com/search?keyword=%E6%85%A2%E6%85%A2%E7%94%9F%E6%B4%BB%E9%A6%86%C2%B7%E4%B8%AD%E6%B3%B0%E5%BC%8F%E6%8C%89%E6%91%A9%C2%B7SPA%EF%BC%88%E4%BC%9A%E5%B1%95%E4%B8%AD%E5%BF%83%E5%BA%97%EF%BC%89&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0
+- Route from hotel: https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.062393,22.534301,Manman%20Wellness%20SPA&mode=bus&coordinate=gaode&callnative=0
 
 ### Museum of Contemporary Art & Planning Exhibition (深圳当代艺术与城市规划馆)
 - Pin: https://uri.amap.com/marker?position=114.061277,22.544771&name=Museum%20of%20Contemporary%20Art%20%26%20Planning%20Exhibition&src=trip&coordinate=gaode&callnative=0
@@ -66,13 +70,29 @@
 - Pin: https://uri.amap.com/search?keyword=%E4%B8%9C%E9%97%A8%E7%99%BD%E9%A9%AC%E6%9C%8D%E8%A3%85%E5%B8%82%E5%9C%BA&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0
 - Route from hotel: https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.120344,22.545938,Dongmen%20Baima%20Fashion%20Market&mode=bus&coordinate=gaode&callnative=0
 
+### Shenzhen Bay Park (深圳湾公园)
+- Pin: https://uri.amap.com/marker?position=113.992963,22.521586&name=Shenzhen%20Bay%20Park&src=trip&coordinate=gaode&callnative=0
+- Route from hotel: https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.992963,22.521586,Shenzhen%20Bay%20Park&mode=bus&coordinate=gaode&callnative=0
+
+### OCT Loft (华侨城创意文化园)
+- Pin: https://uri.amap.com/marker?position=113.993586,22.538318&name=OCT%20Loft&src=trip&coordinate=gaode&callnative=0
+- Route from hotel: https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.993586,22.538318,OCT%20Loft&mode=bus&coordinate=gaode&callnative=0
+
 ### Shuibei Jewelry Center (水贝国际珠宝交易中心)
 - Pin: https://uri.amap.com/search?keyword=%E6%B0%B4%E8%B4%9D%E5%9B%BD%E9%99%85%E7%8F%A0%E5%AE%9D%E4%BA%A4%E6%98%93%E4%B8%AD%E5%BF%83&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0
 - Route from hotel: https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=114.1274,22.5662,Shuibei%20Jewelry%20Center&mode=bus&coordinate=gaode&callnative=0
 
+### Window of the World (世界之窗)
+- Pin: https://uri.amap.com/marker?position=113.973529,22.534551&name=Window%20of%20the%20World&src=trip&coordinate=gaode&callnative=0
+- Route from hotel: https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.973529,22.534551,Window%20of%20the%20World&mode=bus&coordinate=gaode&callnative=0
+
 ### MixC World 万象天地 (Nanshan) (万象天地)
 - Pin: https://uri.amap.com/marker?position=113.955538,22.541563&name=MixC%20World%20%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%20%28Nanshan%29&src=trip&coordinate=gaode&callnative=0
 - Route from hotel: https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.955538,22.541563,MixC%20World%20%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%20%28Nanshan%29&mode=bus&coordinate=gaode&callnative=0
+
+### Shenzhen Bay Tech Park (深圳湾科技生态园)
+- Pin: https://uri.amap.com/search?keyword=%E6%B7%B1%E5%9C%B3%E6%B9%BE%E7%A7%91%E6%8A%80%E7%94%9F%E6%80%81%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0
+- Route from hotel: https://uri.amap.com/navigation?from=114.05994,22.52147,Hotel&to=113.952382,22.530602,Shenzhen%20Bay%20Tech%20Park&mode=bus&coordinate=gaode&callnative=0
 
 ### Shenzhen Talent Park (深圳人才公园)
 - Pin: https://uri.amap.com/marker?position=113.946226,22.511216&name=Shenzhen%20Talent%20Park&src=trip&coordinate=gaode&callnative=0

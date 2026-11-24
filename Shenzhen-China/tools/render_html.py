@@ -1,7 +1,7 @@
 """Render a mobile-first HTML plan from the dataset + editorial notes."""
 import csv, json, html, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from render_readme import EDIT, key_for
+from render_readme import EDIT, key_for, FOOD, amap_search
 
 E = html.escape
 import re as _re
@@ -43,6 +43,10 @@ def main():
             f'<figure><img src="images/{i}.jpg" alt="{E(c)}" loading="lazy"><figcaption>{E(c)}</figcaption></figure>'
             for i, c in imgs)
         phcls = 'ph single' if len(imgs) == 1 else 'ph'
+        food = ''
+        if key in FOOD:
+            bits = ' · '.join(f'<a href="{amap_search(zh)}">{E(zh)}</a> — {E(note)}' for zh, note in FOOD[key])
+            food = f'<p><b>Eat nearby:</b> {bits}</p>'
         rev = ''
         if e.get('review'):
             rev = (f'<aside class="review"><h4>Fanny\'s review</h4>'
@@ -61,6 +65,7 @@ def main():
             {f'<p><b>Sweet spot:</b> {mini(e["sweet"])}</p>' if e.get('sweet') else ''}
             {f'<p><b>Expect:</b> {mini(e["expect"])}</p>' if e.get('expect') else ''}
             {f'<p class="warn"><b>Look out:</b> {mini(e["watch"])}</p>' if e.get('watch') else ''}
+            {food}
             <p class="links"><a href="{r['amap_link']}">Amap pin</a>
               <a href="{r['amap_route_link']}">Amap route</a>
               <a href="{r['google_link']}">Google Maps</a></p>
@@ -77,11 +82,14 @@ def main():
 
     day1 = '''
       <li><b>On arrival</b> — check in at 加来酒店, drop bags.</li>
-      <li><b>14:00</b> — <a href="#baima">东门白马 clothing market</a> (L1 老街, ~30 min or DiDi 25). 1–1.5 h.</li>
-      <li><b>16:00</b> — L1 老街 → 购物公园 (3 stops).</li>
-      <li><b>16:30</b> — <a href="#pingan">Ping An Free Sky</a>, booked online: daylight → sunset → lights.</li>
-      <li><b>18:30</b> — dinner in 购物公园 / COCO Park.</li>
-      <li><b>20:00</b> — 市民中心 plaza + 莲花山 footpath, home by metro or ¥12 DiDi.</li>'''
+      <li><b>13:00</b> — DiDi to <a href="#mixc_tiandi">MixC World 万象天地</a> (23 min, ¥46–60): lunch, then the outdoor lanes.</li>
+      <li><b>14:45</b> — <b>Robotaxi</b> (PonyPilot+) 万象天地 → <a href="#techpark">深圳湾科技生态园</a>, 3.5 km, ¥15–25.</li>
+      <li><b>15:00–16:00</b> — tech park + 人才公园 waterfront on foot.</li>
+      <li><b>16:15</b> — DiDi to <a href="#happy">Happy Harbour</a> (25 min, ~¥50).</li>
+      <li><b>16:45–19:00</b> — Bay Glory wheel (¥150), sunset ~17:35, light show.</li>
+      <li><b>19:00</b> — dinner on the waterfront.</li>
+      <li><b>20:15</b> — DiDi back to 会展中心 (30 min, ~¥60).</li>
+      <li><b>21:00–22:30</b> — <a href="#spa">Manman Wellness SPA</a>, 金中环 A座 21F room 2109. Book ahead.</li>'''
     day2 = '''
       <li><b>09:40</b> — L4 福田口岸 → 会展中心 → L1 华强路, ¥3.</li>
       <li><b>10:00–15:00</b> — <a href="#wondermeet">WonderMeet</a> (世纪汇 1–3F). ¥268 on a Thursday; wristband = re-entry. Lunch inside.</li>
@@ -89,15 +97,17 @@ def main():
       <li><b>16:00</b> — <a href="#zijingcheng">紫荆城</a> imported snacks.</li>
       <li><b>16:45</b> — <a href="#mingtong">明通</a> cosmetics.</li>
       <li><b>17:30</b> — L1 华强路 → 老街, into 东门.</li>
-      <li><b>18:00</b> — dinner at <a href="#dmd">DMD Food City</a>, then 东门步行街.</li>'''
+      <li><b>17:45–19:00</b> — <a href="#baima">东门白马</a> clothing (2F women's, 5F export surplus).</li>
+      <li><b>19:00</b> — dinner at <a href="#dmd">DMD Food City</a>, then 东门步行街.</li>'''
     day3 = '''
       <li><b>09:30</b> — pack, leave bags at reception.</li>
       <li><b>10:00–11:30</b> — <a href="#moca">MOCA</a> (free, L4 → 市民中心).</li>
       <li><b>12:00</b> — lunch near 市民中心 / 购物公园.</li>
       <li><b>14:00</b> — checkout; bags stay at the desk.</li>
-      <li><b>14:30</b> — DiDi to <a href="#shuibei">水贝 jewellery</a> (25 min, ~¥35).</li>
-      <li><b>16:45</b> — DiDi to 福田口岸 (25 min).</li>
-      <li><b>17:30</b> — cross, 落马洲, East Rail home. Port closes 22:30.</li>'''
+      <li><b>14:30–16:00</b> — <a href="#pingan">Ping An Free Sky</a> (8 min DiDi) — daylight, no queue.</li>
+      <li><b>16:15</b> — collect the bags at the hotel.</li>
+      <li><b>16:45</b> — DiDi to 福田口岸 (20 min, ~¥25).</li>
+      <li><b>17:15</b> — cross, 落马洲, East Rail home. Port closes 22:30.</li>'''
 
     doc = f'''<!doctype html>
 <html lang="en"><head>
@@ -248,6 +258,21 @@ function toggleTheme(){{
     <tr><td><b>Out</b></td><td>Hotel → 福田口岸 (1.1 km) → 落马洲 → East Rail → 红磡 → 南昌 → 东涌</td><td>~2 h 15</td><td>HK$57.5</td></tr>
   </tbody></table>
   <p class="note">Port hours 06:30–22:30 · last East Rail from 落马洲 ≈ 22:55 · be at the port by 18:00–18:30 on the 27th.</p>
+
+  <h2>Driverless cars <span class="zh">无人驾驶出租车</span></h2>
+  <div class="day">
+    <p><b>Pony.ai (小马智行)</b> is the one to try — citywide permit, zone over 南山 / 前海 / 深圳湾, ~10,000 pickup points, 07:00–22:00. Book in the <b>PonyPilot+</b> app or its WeChat mini-program. It's the operator that accepts passports and foreign cards.</p>
+    <p class="note"><b>Apollo Go (萝卜快跑)</b> also runs in 南山 / 宝安 / 坪山 (07:00–23:00) but is <b>station-to-station</b> — you walk to a green pickup dot, not an address.</p>
+    <ol class="tips">
+      <li>Register in PonyPilot+ with your phone and <b>passport</b> — ~10 minutes.</li>
+      <li>Set pickup + drop-off inside the green zone.</li>
+      <li>Wait 3–15 min; match the plate and car number.</li>
+      <li>Unlock from the app (Bluetooth) or type your phone's last 4 digits on the door.</li>
+      <li>Back seat only, belt up, tap <b>Start</b> on the screen.</li>
+    </ol>
+    <p><b>Cost:</b> ¥10–30 for 3–6 km. <b>The catch:</b> both apps may demand a +86 number for SMS — if yours fails, try the WeChat mini-program, or ask the front desk to book on their account. Weather suspends service.</p>
+    <p><b>Ride to take:</b> 万象天地 → 深圳湾科技生态园, 3.5 km, ~12 min, ¥15–25 — inside the zone and lands you at the tech park.</p>
+  </div>
 
   <h2>All the places</h2>
   {''.join(card(r) for r in sights)}

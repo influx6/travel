@@ -81,6 +81,24 @@ PLACES = [
          metro="Houhai 后海 (L2/L11/L13)", metro_walk=180,
          metro_plan="L7 Huanggangcun → Chegongmiao → L11 Houhai (4 + 2 stops)",
          metro_min=40, cluster="West"),
+    dict(key="oct", name="OCT Loft", zh="华侨城创意文化园", area="Nanshan",
+         kind="Arts district", fun=7, lat=22.538318, lng=113.993586,
+         note="Former factory blocks turned galleries, design shops and the best independent coffee in "
+              "the city. Busy on weekends, sleepy on weekday mornings. 1–2 h.",
+         metro="Qiaocheng East 侨城东 (L1) ~710 m", metro_walk=710,
+         metro_plan="L1 Qiaocheng East + 10 min walk", metro_min=35, didi_min=20, didi_km=11.7, cluster="West"),
+    dict(key="baypark", name="Shenzhen Bay Park", zh="深圳湾公园", area="Futian",
+         kind="Bayfront promenade", fun=7, lat=22.521586, lng=113.992963,
+         note="15 km of waterfront path along the bay — Hong Kong's hills on the far side, the Houhai "
+              "skyline behind you. Free, flat, best 30 min before sunset.",
+         metro="Shenzhen Bay Park 深圳湾公园 (L9) — at the exit", metro_walk=50,
+         metro_plan="L9 from Futian, direct", metro_min=25, didi_min=14, didi_km=10.0, cluster="Futian"),
+    dict(key="window", name="Window of the World", zh="世界之窗", area="Nanshan",
+         kind="Theme park", fun=6, lat=22.534551, lng=113.973529,
+         note="130 replicas of world landmarks in one park — kitsch, but the Eiffel copy and the evening "
+              "show are genuinely fun. ¥220ish, half a day if you go in.",
+         metro="Window of the World 世界之窗 (L1/L2) ~270 m", metro_walk=270,
+         metro_plan="L1 Window of the World + 5 min walk", metro_min=35, didi_min=24, didi_km=14.0, cluster="West"),
     dict(key="upperhills", name="Upper Hills (深业上城)", zh="深业上城",
          area="Futian", kind="Lifestyle mall + park bridge", fun=7,
          note="Big open-air mall: coffee, design shops, rooftop-style lanes. A footbridge links it "
@@ -147,6 +165,20 @@ VENUES = [
          metro="Laojie 老街 (L1/L3), exit A — 5 min", metro_walk=700,
          metro_plan="L1 Laojie from Huaqiang Rd (2 stops)",
          metro_min=30, didi_min=25, didi_km=9.7),
+    dict(key="techpark", name="Shenzhen Bay Tech Park", zh="深圳湾科技生态园", area="Nanshan",
+         kind="Tech campus + waterfront", fun=6, lat=22.530602, lng=113.952382,
+         note="The campus behind 万象天地: glass towers, the 深圳湾创业广场 square, and a walkable "
+              "waterfront that runs into 人才公园. Tencent's Binhai towers are 1 km east. 45 min on foot.",
+         metro="Talent Park 人才公园 (L13) ~700 m / Houhai 后海 (L2/L11/L13)", metro_walk=700,
+         metro_plan="L13 人才公园, or L2/L11/L13 后海",
+         metro_min=45, didi_min=22, didi_km=16.0),
+    dict(key="spa", name="Manman Wellness SPA", zh="慢慢生活馆·中泰式按摩·SPA（会展中心店）", area="Futian",
+         kind="Massage & spa", fun=7, lat=22.534301, lng=114.062393,
+         note="金中环商务大厦 A座 21F, room 2109 — 会展中心站 E exit. Open 10:30–23:30; last slots ~21:30. "
+              "Book ahead on Klook, Trip.com or Ctrip. Chinese/Thai massage, oil and hot-stone.",
+         metro="Convention & Exhibition Center 会展中心 (L1/L4), exit E — in the building", metro_walk=200,
+         metro_plan="L4 Futian Checkpoint → Convention & Exhibition Center (2 stops) + exit E",
+         metro_min=15, didi_min=10, didi_km=2.8),
     dict(key="nanyou", name="Nanyou Clothing Market", zh="南油服装批发市场", area="Nanshan",
          kind="Designer clothing wholesale", fun=6, lat=22.50905, lng=113.924947,
          note="南海大道南油第一工业区 — dozens of buildings of original-design women's wear, "
@@ -170,6 +202,9 @@ DRIVING = {
     "Shenzhen Poly Cultural Plaza": (23, 16.3),
     "Shenzhen Cultural Center": (16, 6.4),
     "The Mixc of Shenzhen City Crossing": (21, 8.1),
+    "OCT Loft": (20, 11.7),
+    "Shenzhen Bay Park": (14, 10.0),
+    "Window of the World": (24, 14.0),
     "Shenye Upper Hills": (14, 5.6),
 }
 KEYMAP = {"pingan": "Ping'an International Financial Center", "nantou": "Nantou Ancient City",
@@ -179,6 +214,7 @@ KEYMAP = {"pingan": "Ping'an International Financial Center", "nantou": "Nantou 
           "moca": "Museum of Contemporary Art & Planning Exhibition", "mixc_tiandi": "萬象天地 The Mixc",
           "poly": "Shenzhen Poly Cultural Plaza", "culture": "Shenzhen Cultural Center",
           "upperhills": "Shenye Upper Hills",
+          "oct": "OCT Loft", "baypark": "Shenzhen Bay Park", "window": "Window of the World",
           "mixc_crossing": "The Mixc of Shenzhen City Crossing"}
 
 

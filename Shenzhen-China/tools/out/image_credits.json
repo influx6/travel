@@ -220,5 +220,29 @@
   "artist": "FALINSAM HU MMOPPY",
   "license": "CC0",
   "source": "openverse"
+ },
+ "oct": {
+  "file": "images/oct.jpg",
+  "title": "File:OCT LOFT, SHENZHEN (41).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:OCT_LOFT,_SHENZHEN_(41).jpg",
+  "artist": "Dinkun Chen",
+  "license": "CC BY-SA 4.0",
+  "source": "commons"
+ },
+ "baypark": {
+  "file": "images/baypark.jpg",
+  "title": "File:Shenzhen Bay Bridge To HK on Shenzhen Side.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Shenzhen_Bay_Bridge_To_HK_on_Shenzhen_Side.jpg",
+  "artist": "Sparktour",
+  "license": "CC BY-SA 4.0",
+  "source": "commons"
+ },
+ "window": {
+  "file": "images/window.jpg",
+  "title": "File:WINDOWS OF THE WORLD SHENZHEN (37).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:WINDOWS_OF_THE_WORLD_SHENZHEN_(37).jpg",
+  "artist": "Dinkun Chen",
+  "license": "CC BY-SA 4.0",
+  "source": "commons"
  }
 }
