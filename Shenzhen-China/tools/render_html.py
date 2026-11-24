@@ -84,11 +84,13 @@ def main():
       <li><b>13:50</b> — at West Kowloon for the <b>14:35 HSR</b>.</li>
       <li><b>14:50</b> — arrive Futian (福田); DiDi to the hotel, 15 min.</li>
       <li><b>15:15</b> — check in at 加来酒店 (Calais Hotel), drop bags.</li>
-      <li><b>15:45</b> — DiDi to <a href="#shuibei">Shuibei Jewelry (水贝国际珠宝交易中心)</a>, 25 min, ~¥35.</li>
-      <li><b>16:10–17:15</b> — gold and jade: weigh × rate + 工费, compare towers, get the certificate.</li>
-      <li><b>17:30</b> — DiDi to <a href="#pingan">Ping An (平安金融中心)</a>, 20 min.</li>
-      <li><b>17:45–19:15</b> — <a href="#pingan">Free Sky</a> (116F): dusk into the lights. Last entry 19:15.</li>
-      <li><b>19:30</b> — dinner at COCO Park (购物公园).</li>
+      <li><b>15:35</b> — DiDi to <a href="#shuibei">Shuibei Jewelry (水贝国际珠宝交易中心)</a>, 25 min.</li>
+      <li><b>16:00–16:45</b> — Shuibei, fast pass: weigh × rate + 工费, certificate.</li>
+      <li><b>16:50</b> — DiDi to <a href="#techpark">Shenzhen Bay Tech Park (深圳湾科技生态园)</a>, 35 min (robotaxi can't: Luohu is outside the zone, 25 km across town).</li>
+      <li><b>17:25–17:55</b> — tech park + <a href="#talent">Talent Park (人才公园)</a> waterfront, right at sunset.</li>
+      <li><b>18:00</b> — <b>Robotaxi</b> tech park → <a href="#pingan">Ping An (平安金融中心)</a> if the app accepts the drop-off; otherwise DiDi, same 20 min.</li>
+      <li><b>18:20–19:10</b> — <a href="#pingan">Free Sky</a> (116F): the city lit up. 50 min is plenty.</li>
+      <li><b>19:15</b> — dinner at COCO Park (购物公园).</li>
       <li><b>20:15</b> — DiDi to <a href="#happy">Happy Harbour (欢乐港湾)</a>, 30 min.</li>
       <li><b>20:45–22:00</b> — Bay Glory wheel lit up + the waterfront light show.</li>
       <li><b>22:15</b> — DiDi home, 30 min.</li>'''
