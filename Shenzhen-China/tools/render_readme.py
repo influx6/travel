@@ -526,23 +526,26 @@ def main():
       "after 18:00. Comfortable walking shoes matter more than a coat. Check the morning you set off — "
       "a cold front can take 5 °C off in a day.*\n")
 
-    A("### Wednesday 25 Nov — arrive 15:00, tower at sunset, bay at night\n")
+    A("### Wednesday 25 Nov — arrive, 水贝, tower, bay\n")
     A("| Time | What | Cost |")
     A("|---|---|---|")
     A("| 13:50 | Be at **West Kowloon** for the 14:35 HSR. | — |")
     A("| 14:50 | Arrive **Futian (福田)**; DiDi to the hotel — 15 min. | ~¥15 |")
     A("| 15:15 | Check in at 加来酒店 (Calais Hotel), drop bags. | — |")
-    A("| 16:15 | DiDi to **Ping An (平安金融中心)** — 8 min. | ~¥14 |")
-    A("| 16:30–18:00 | **Free Sky**, the 116F deck: daylight → sunset (17:35) → the lights coming on. "
-      "Book online. | ¥180 |")
-    A("| 18:15 | Dinner at **COCO Park (购物公园)** — 5 min walk from the tower. | ¥60–100 |")
-    A("| 19:30 | DiDi to **Happy Harbour (欢乐港湾)**, Bao'an — 30 min. | ~¥55 |")
-    A("| 20:00–21:30 | **Bay Glory wheel (湾区之光)** lit up + the waterfront light show. | ¥150 |")
-    A("| 21:45 | DiDi home — 30 min. | ~¥60 |")
+    A("| 15:45 | DiDi to **Shuibei Jewelry Center (水贝国际珠宝交易中心)** — 25 min. | ~¥35 |")
+    A("| 16:10–17:15 | Gold and jade: ask **weight × rate + 工费**, compare two or three towers, "
+      "get the certificate. | free to browse |")
+    A("| 17:30 | DiDi to **Ping An (平安金融中心)** — 20 min. | ~¥40 |")
+    A("| 17:45–19:15 | **Free Sky**, 116F — dusk into the lights. Last entry is 19:15; book online. | ¥180 |")
+    A("| 19:30 | Dinner at **COCO Park (购物公园)** — 5 min walk. | ¥60–100 |")
+    A("| 20:15 | DiDi to **Happy Harbour (欢乐港湾)**, Bao'an — 30 min. | ~¥55 |")
+    A("| 20:45–22:00 | **Bay Glory wheel (湾区之光)** lit up + the waterfront light show. | ¥150 |")
+    A("| 22:15 | DiDi home — 30 min. | ~¥60 |")
     A("")
-    A("**The 14:35 train eats the afternoon**, so MixC World, the robotaxi and the tech park move to Day 3 "
-      "morning — they need daylight and a relaxed start, and Friday gives you both. The spa moves to Day 3 "
-      "afternoon, which also happens to be the best way to kill time between checkout and the port.\n")
+    A("**The trade-off:** putting 水贝 here costs you the 17:35 sunset on the deck — you arrive at 17:45, "
+      "which is dusk into the lights. Most people prefer that view anyway, and you gain the jewellery "
+      "market without touching Day 2 or the checkout day. If you'd rather have the sunset, flip 水贝 to "
+      "Day 27's 14:30 slot and take the spa out.\n")
 
     A("### Thursday 26 Nov — the fun day\n")
     A("| Time | What | Cost |")
@@ -582,12 +585,22 @@ def main():
     A("| 14:30–16:00 | **Manman Wellness SPA** — Jinzhonghuan Building (金中环商务大厦) A座 21F, room 2109, "
       "at 会展中心 exit E. 10 min DiDi from the hotel. | ¥200–400 |")
     A("| 16:15 | Collect the bags at the hotel. | — |")
-    A("| 16:45 | DiDi to **Futian Port (福田口岸)** — 20 min. | ~¥25 |")
-    A("| 17:15 | Cross at Futian Port (open to 22:30) → **Lok Ma Chau (落马洲)** → East Rail home. | HK$57.5 |")
+    A("| 16:45 | Collect bags, then home — **two options below**. |")
     A("")
+    A("**Getting home — pick one:**\n")
+    A("| Option | Route | Door to door | Cost |")
+    A("|---|---|---|---|")
+    A("| **HSR** (fastest) | DiDi to **Futian Station (福田站)** — 10 min → 福田 → 西九龙 (West Kowloon), "
+      "14–18 min. Book a ticket; HK entry is done at West Kowloon. Allow 30–40 min before departure. | "
+      "~1 h 10 | ¥68 + ¥15 DiDi |")
+    A("| **East Rail** (no booking) | DiDi to **Futian Port (福田口岸)** — 20 min → cross → "
+      "**Lok Ma Chau (落马洲)** → East Rail. Port open to 22:30; last trains ~22:55. | ~2 h | HK$57.5 |")
+    A("")
+    A("Take the HSR if you've booked a seat and want to be back by ~18:30; take the East Rail if you'd "
+      "rather not commit to a departure time — it runs every few minutes and needs no ticket.\n")
     A("**If you'd rather shop than spa:** **Shuibei Jewelry (水贝国际珠宝交易中心)** is 25 min away and "
       "fits 15:00–16:30 in the same slot. **MOCA** (free, closed Mondays) is the other option — it's 3 stops "
-      "from the hotel, but it needs the morning, so take it instead of MixC World. Whichever you pick, be at "
+      "from the hotel, but it needs the morning, so take it instead of MixC World. Whichever you pick, the spa is the decompression before the train — a good way to end the trip. Be at "
       "the port by **18:00–18:30**; the last East Rail trains leave Lok Ma Chau around 22:55.\n")
 
     A("---\n")
