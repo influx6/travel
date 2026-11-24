@@ -150,7 +150,7 @@ You asked for the regular train home — this is the 福田口岸 → 落马洲 
 | 20 | Nantou Ancient City | 南头古城 | Nanshan | 14.49 | 24 min · 21.7 km · ¥58–76 | L7 Huanggangcun → Chegongmiao → L1 Taoyuan → L12 Nantou Ancient City (2 changes) · 55 min | **5** |
 | 21 | Happy Harbour | 欢乐港湾 | Bao'an | 18.2 | 31 min · 25.4 km · ¥67–87 | L7 Huanggangcun → Chegongmiao → L11 Qianhai Bay → L5 Linhai · 50 min | **8** |
 
-### Play + markets (Day 2 and 3)
+### WonderMeet + the markets
 
 | # | Place | 中文 | km | DiDi | Metro | Fun |
 |---|---|---|---|---|---|---|

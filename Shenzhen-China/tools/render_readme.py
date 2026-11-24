@@ -359,7 +359,7 @@ def main():
           f"{r['didi_min']} min · {r['didi_km']} km · {r['didi_cost']} | {r['metro_plan']} · {r['metro_min']} min | "
           f"**{r['fun_factor_1_10']}** |")
     A("")
-    A("### Play + markets (Day 2 and 3)\n")
+    A("### WonderMeet + the markets\n")
     A("| # | Place | 中文 | km | DiDi | Metro | Fun |")
     A("|---|---|---|---|---|---|---|")
     for r in [x for x in rows if x.get('group') == 'venue']:
