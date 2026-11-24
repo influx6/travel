@@ -82,32 +82,34 @@ def main():
 
     day1 = '''
       <li><b>On arrival</b> — check in at 加来酒店, drop bags.</li>
-      <li><b>13:00</b> — DiDi to <a href="#mixc_tiandi">MixC World 万象天地</a> (23 min, ¥46–60): lunch, then the outdoor lanes.</li>
-      <li><b>14:45</b> — <b>Robotaxi</b> (PonyPilot+) 万象天地 → <a href="#techpark">深圳湾科技生态园</a>, 3.5 km, ¥15–25.</li>
-      <li><b>15:00–16:00</b> — tech park + 人才公园 waterfront on foot.</li>
-      <li><b>16:15</b> — DiDi to <a href="#happy">Happy Harbour</a> (25 min, ~¥50).</li>
-      <li><b>16:45–19:00</b> — Bay Glory wheel (¥150), sunset ~17:35, light show.</li>
-      <li><b>19:00</b> — dinner on the waterfront.</li>
-      <li><b>20:15</b> — DiDi back to 会展中心 (30 min, ~¥60).</li>
-      <li><b>21:00–22:30</b> — <a href="#spa">Manman Wellness SPA</a>, 金中环 A座 21F room 2109. Book ahead.</li>'''
+      <li><b>12:30</b> — DiDi to <a href="#mixc_tiandi">MixC World 万象天地</a> (23 min): lunch + the outdoor lanes.</li>
+      <li><b>14:30</b> — <b>Robotaxi</b> to <a href="#techpark">深圳湾科技生态园</a> — 3.5 km, ¥15–25.</li>
+      <li><b>14:45–15:45</b> — tech park + 人才公园 waterfront.</li>
+      <li><b>16:00</b> — DiDi to <a href="#pingan">Ping An</a> (20 min).</li>
+      <li><b>16:30–18:00</b> — <a href="#pingan">Free Sky</a>: daylight → sunset → the lights.</li>
+      <li><b>18:15</b> — DiDi to <a href="#happy">Happy Harbour</a> (30 min).</li>
+      <li><b>18:45–20:30</b> — Bay Glory wheel lit up, light show, dinner on the waterfront.</li>
+      <li><b>20:45</b> — DiDi to 会展中心 (30 min).</li>
+      <li><b>21:15–22:45</b> — <a href="#spa">Manman Wellness SPA</a>, 金中环 A座 21F room 2109.</li>'''
     day2 = '''
       <li><b>09:40</b> — L4 福田口岸 → 会展中心 → L1 华强路, ¥3.</li>
-      <li><b>10:00–15:00</b> — <a href="#wondermeet">WonderMeet</a> (世纪汇 1–3F). ¥268 on a Thursday; wristband = re-entry. Lunch inside.</li>
+      <li><b>10:00–15:00</b> — <a href="#wondermeet">WonderMeet</a> (世纪汇 1–3F). ¥268 on a Thursday; wristband = re-entry.</li>
       <li><b>15:15</b> — <a href="#seg">SEG</a> electronics market (30–45 min).</li>
       <li><b>16:00</b> — <a href="#zijingcheng">紫荆城</a> imported snacks.</li>
       <li><b>16:45</b> — <a href="#mingtong">明通</a> cosmetics.</li>
       <li><b>17:30</b> — L1 华强路 → 老街, into 东门.</li>
-      <li><b>17:45–19:00</b> — <a href="#baima">东门白马</a> clothing (2F women's, 5F export surplus).</li>
-      <li><b>19:00</b> — dinner at <a href="#dmd">DMD Food City</a>, then 东门步行街.</li>'''
+      <li><b>17:45–19:00</b> — <a href="#baima">东门白马</a> clothing.</li>
+      <li><b>19:00</b> — dinner at <a href="#dmd">DMD Food City</a>, then 东门步行街.</li>
+      <li><b>20:30</b> — DiDi to <a href="#upperhills">Upper Hills</a> (15 min): dessert, loft lanes.</li>
+      <li><b>21:00–22:00</b> — footbridge to 莲花山公园; the statue for the lit-up skyline.</li>'''
     day3 = '''
       <li><b>09:30</b> — pack, leave bags at reception.</li>
       <li><b>10:00–11:30</b> — <a href="#moca">MOCA</a> (free, L4 → 市民中心).</li>
       <li><b>12:00</b> — lunch near 市民中心 / 购物公园.</li>
       <li><b>14:00</b> — checkout; bags stay at the desk.</li>
-      <li><b>14:30–16:00</b> — <a href="#pingan">Ping An Free Sky</a> (8 min DiDi) — daylight, no queue.</li>
-      <li><b>16:15</b> — collect the bags at the hotel.</li>
-      <li><b>16:45</b> — DiDi to 福田口岸 (20 min, ~¥25).</li>
-      <li><b>17:15</b> — cross, 落马洲, East Rail home. Port closes 22:30.</li>'''
+      <li><b>14:30</b> — DiDi to <a href="#shuibei">水贝 jewellery</a> (25 min, ~¥35).</li>
+      <li><b>16:45</b> — DiDi to 福田口岸 (25 min, ~¥30).</li>
+      <li><b>17:30</b> — cross, 落马洲, East Rail home. Port closes 22:30.</li>'''
 
     doc = f'''<!doctype html>
 <html lang="en"><head>

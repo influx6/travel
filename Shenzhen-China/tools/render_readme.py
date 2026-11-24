@@ -521,27 +521,29 @@ def main():
       "after 18:00. Comfortable walking shoes matter more than a coat. Check the morning you set off — "
       "a cold front can take 5 °C off in a day.*\n")
 
-    A("### Wednesday 25 Nov — the west side: mall, bay, spa\n")
+    A("### Wednesday 25 Nov — the west side, then the tower, then the spa\n")
     A("| Time | What | Cost |")
     A("|---|---|---|")
     A("| On arrival | Check in at 加来酒店, drop bags. | — |")
-    A("| 13:00 | DiDi to **MixC World 万象天地** (Nanshan) — 23 min. Lunch, then the outdoor lanes. "
+    A("| 12:30 | DiDi to **MixC World 万象天地** (Nanshan) — 23 min. Lunch, then the outdoor lanes. "
       "Swap for 深圳万象城 (Luohu) if you'd rather stay east. | ¥46–60 |")
-    A("| 14:45 | **Robotaxi** (PonyPilot+) from 万象天地 to **深圳湾科技生态园** — 3.5 km, ~12 min. "
+    A("| 14:30 | **Robotaxi** (PonyPilot+) 万象天地 → **深圳湾科技生态园** — 3.5 km, ~12 min. "
       "See the robotaxi guide in §4. | ¥15–25 |")
-    A("| 15:00–16:00 | **Tech park + 人才公园 waterfront** on foot — glass towers, open water, the "
-      "Houhai skyline. | free |")
-    A("| 16:15 | DiDi to **Happy Harbour** (Bao'an) — 25 min. | ~¥50 |")
-    A("| 16:45–19:00 | **Bay Glory wheel** (¥150) + the waterfront. Sunset is ~17:35; stay for the light show. | ¥150 |")
-    A("| 19:00 | Dinner on the waterfront. | ¥60–100 |")
-    A("| 20:15 | DiDi back east to 会展中心 — 30 min. | ~¥60 |")
-    A("| 21:00–22:30 | **Manman Wellness SPA** — 金中环商务大厦 A座 21F, room 2109 (会展中心站 E exit). "
+    A("| 14:45–15:45 | **Tech park + 人才公园 waterfront** on foot — glass towers, open water, the Houhai "
+      "skyline. | free |")
+    A("| 16:00 | DiDi to **Ping An** — 20 min. | ~¥40 |")
+    A("| 16:30–18:00 | **Free Sky** (116F): daylight → sunset (17:35) → the lights coming on. Book online. | ¥180 |")
+    A("| 18:15 | DiDi to **Happy Harbour** — 30 min. | ~¥55 |")
+    A("| 18:45–20:30 | **Bay Glory wheel** (¥150) lit up, the waterfront and the light show; eat here. | ¥150 + food |")
+    A("| 20:45 | DiDi back to 会展中心 — 30 min. | ~¥60 |")
+    A("| 21:15–22:45 | **Manman Wellness SPA** — 金中环商务大厦 A座 21F, room 2109 (会展中心站 E exit). "
       "Open to 23:30; book ahead. | ¥200–400 |")
-    A("| 22:45 | DiDi home — 10 min. | ~¥14 |")
+    A("| 23:00 | DiDi home — 10 min. | ~¥14 |")
     A("")
-    A("**This is the long day** — one DiDi chain west and back. If you land after 14:00, cut MixC World and "
-      "go straight to Happy Harbour; the wheel still works. If you're wrecked, the spa is the part to keep "
-      "— it's 10 minutes from the hotel, not 30.\n")
+    A("**This is the long one** — 12 hours, two sunsets' worth of skyline, and three DiDi legs. It works "
+      "because everything after 16:00 is one straight line west and back. If you land after 14:00, cut "
+      "MixC World and the tech park and start at the tower. If you're wrecked at 21:00, the spa is the "
+      "part to keep — it's 10 minutes from the hotel.\n")
 
     A("### Thursday 26 Nov — the fun day\n")
     A("| Time | What | Cost |")
@@ -555,33 +557,32 @@ def main():
     A("| 17:30 | L1 华强路 → 老街 (2 stops) — into 东门 | ¥2 |")
     A("| 17:45–19:00 | **东门白马服装市场** — 2F women's, 5F export surplus. Late afternoon is when they clear stock. | free |")
     A("| 19:00 | Dinner at **DMD Food City** (东门町美食城) — the best cheap eating on the trip | ¥40–60 |")
-    A("| 20:00 | 东门步行街 for the neon, then L1/L3 home | ¥2 |")
+    A("| 20:00 | 东门步行街 for the neon | free |")
+    A("| 20:30 | DiDi to **Upper Hills (深业上城)** — 15 min. Dessert and coffee in the loft lanes. | ~¥25 |")
+    A("| 21:00–22:00 | Footbridge into **莲花山公园** — the climb to the statue for the CBD skyline lit up. "
+      "Free, 20 min up. | free |")
+    A("| 22:15 | DiDi home — 14 min. | ~¥22 |")
     A("")
     A("**Why this order:** WonderMeet is the only fixed-cost, fixed-hour block — do it first while you're "
       "fresh. The 华强北 markets are a 5-minute walk apart, and 16:00–18:30 is when vendors start clearing "
-      "stock (see the haggling section below). 东门 is on the way home.\n")
+      "stock (see the haggling section below). 东门 is on the way home, and Upper Hills is 15 minutes from "
+      "the hotel — the easiest way to end the day.\n")
 
-    A("### Friday 27 Nov — checkout 14:00, skyline, home\n")
+    A("### Friday 27 Nov — MOCA, checkout, 水贝, home\n")
     A("| Time | What |")
     A("|---|---|")
     A("| 09:30 | Breakfast, pack, leave the big bag at reception. |")
     A("| 10:00–11:30 | **MOCA** (free, Tue–Sun from 10:00) — L4 福田口岸 → 市民中心, 3 stops. |")
     A("| 12:00 | Lunch near 市民中心 / 购物公园. |")
     A("| 13:30 | Back to the hotel; **14:00 checkout**, bags stay at reception. |")
-    A("| 14:30–16:00 | **Ping An Free Sky** — 8 min DiDi from the hotel. Daylight rather than sunset, "
-      "but you see the whole bay and there's no queue. |")
-    A("| 16:15 | Collect the bags at the hotel. |")
-    A("| 16:45 | DiDi to **福田口岸** — 20 min, ~¥25. |")
-    A("| 17:15 | Cross at 福田口岸 (open to 22:30) → 落马洲 → East Rail home. |")
+    A("| 14:30 | DiDi to **水贝珠宝 (Shuibei Jewelry Center)** — 25 min, ~¥35. Gold and jade, 15:00–16:30. |")
+    A("| 16:45 | DiDi straight to **福田口岸** — 25 min, ~¥30. |")
+    A("| 17:30 | Cross at 福田口岸 (open to 22:30) → 落马洲 → East Rail home. |")
     A("")
-    A("**Swaps for the afternoon:** if you'd rather shop than go up a tower, take **水贝珠宝 (Shuibei "
-      "Jewelry)** — 25 min DiDi, gold and jade, 15:00–16:30 — or **南油服装市场** for designer clothing "
-      "(25 min each way, the best clothing market in the city). Both mean leaving the hotel by 14:20 and "
-      "going straight to the port afterwards. **Upper Hills + 莲花山公园** is the third option and the "
-      "closest to the hotel.\n")
-    A("**Don't cut it close:** be at the port by **18:00–18:30**. Friday evening queues build, and the last "
-      "East Rail trains leave 落马洲 around 22:55.\n")
-
+    A("**Swaps:** if jewellery isn't your thing, do **Upper Hills + 莲花山公园** instead (14 min from the "
+      "hotel, easy) or **南油服装市场** for designer clothing (25 min each way — take it *instead of* 水贝). "
+      "Whichever you pick, be at the port by **18:00–18:30**: Friday queues build, and the last East Rail "
+      "trains leave 落马洲 around 22:55.\n")
     A("---\n")
     A("## 7. Wholesale markets — how to buy without getting tourist-priced\n")
     A("The rule of the trade: **look like a buyer, not a shopper.**\n")
