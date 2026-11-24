@@ -12,9 +12,11 @@ EDIT = {
         expect="Airport-style security (bag scan), a 55-second lift, then an open 360° deck. "
                "45–60 min inside. Buy online (¥180) instead of ¥200 at the counter.",
         watch="Last entry 19:15, 20:15 on Fri/Sat. Haze after a humid day ruins the view — check the "
-              "visibility before paying. No tripods. **Fanny's note:** the tower's base is just a "
-              "commercial block next to COCO Park — the observation deck is the only reason to go; "
-              "skip the building itself.",
+              "visibility before paying. No tripods.",
+        review="Ping An Financial Center is nearby the COCO Park shopping mall, no need to go there, just "
+               "a commercial area, unless you want to go to COCO Park shopping mall.",
+        verdict="Only the observation deck is worth paying for — the tower and its plaza are a commercial "
+                "block. If you don't want the skyline ticket, skip it.",
         img2=None),
     "moca": dict(
         img="moca", cap="Museum of Contemporary Art & Planning Exhibition (当代艺术与城市规划馆)",
@@ -96,9 +98,12 @@ EDIT = {
     "nantou": dict(
         img="nantou", cap="South gate of Nantou Ancient City (南头古城)",
         sweet="The south gate and main lane, plus coffee in the restored courtyard houses.",
-        expect="1.5–2 h. **Fanny's verdict:** *\"not very interesting — they turned it into a "
-               "pedestrian street, small shops on both sides, and the street isn't long.\"*",
-        watch="Weekends are packed and the shops repeat. Go for coffee, not sightseeing.",
+        expect="1.5–2 h at most — and only if you want a coffee stop.",
+        watch="If you go anyway, go for coffee in a restored courtyard, not for sightseeing, and only on "
+              "a weekday — weekends are packed and the shops repeat.",
+        review="I went to Nantou Ancient City with Heidi, it's not very interesting, they turn this place "
+               "to a pedestrian street, both sides are small shops and the street is not very long.",
+        verdict="**Skip it.** The weakest thing on this list — your contact's verdict, not mine.",
         img2=None),
     "happy": dict(
         img="happy", cap="Happy Harbour (欢乐港湾) and the Bay Glory wheel, Bao'an",
@@ -106,6 +111,62 @@ EDIT = {
         expect="Wheel ride ~20 min, ¥150 (¥180 public holidays). Promenade free. 2–3 h total.",
         watch="Tuesdays open 14:00 (maintenance day). Ticket sales stop 30 min before close. "
               "High wind closes the wheel — check the weather.",
+        img2=None),
+    "wondermeet": dict(
+        img="wondermeet", cap="Inside 世纪汇 (Century Place) — WonderMeet occupies levels 1–3",
+        sweet="Start on **3F**: go-karts and laser tag before queues build, then 2F (ice rink, PS5/Switch, "
+              "KTV pods), then 1F arcade as the afternoon fills.",
+        expect="One wristband, 10:00–22:00, **re-entry allowed** — leave for lunch and come back. "
+               "40+ activities over three levels (5F is a sauna). ¥268 weekday / ¥298 weekend; "
+               "night pass ¥168 after 19:00.",
+        watch="Karts and laser tag need closed shoes; skates are rented. Weekday afternoons are quietest. "
+              "Join their WeChat group at the desk for 20 free claw-machine coins.",
+        img2=None),
+    "seg": dict(
+        img="seg", cap="Inside SEG Plaza (赛格) — six floors of components and repair benches",
+        sweet="Floors 1–3 for phones and laptops, the basement for components and tools. The repair "
+              "benches are the real show.",
+        expect="Dense, loud, almost no English. Vendors quote fast — have the model number written on "
+               "your phone. 45–90 min.",
+        watch="Check IMEI/serial and that it isn't refurbished. Know the Taobao price first, then "
+              "bargain. Cash as backup.",
+        img2=None),
+    "zijingcheng": dict(
+        img="zijingcheng", cap="华强北 — the block that 紫荆城食品交易中心 sits in",
+        sweet="Two floors of imported snacks: buy a **box** of nuts or a case of drinks, not singles.",
+        expect="100+ stalls, wholesale prices even for one item. 30–45 min.",
+        watch="Check the expiry on the box, not the sample. Cards work, cash gets a better number.",
+        img2=None),
+    "mingtong": dict(
+        img="mingtong", cap="The 华强北 wholesale grid — 明通 cosmetics is one of its towers",
+        sweet="Korean/Japanese skincare at near-duty-free prices. Ask for **批发价** (wholesale price) "
+              "and buy three of something rather than one.",
+        expect="Tight stalls, pushy staff, 30–45 min. Branded goods are the draw.",
+        watch="Verify batch codes and expiry — some stock is grey-market. Very little haggling on brands.",
+        img2=None),
+    "shuibei": dict(
+        img="shuibei", cap="特发水贝珠宝大厦 — one of the Shuibei jewelry towers",
+        sweet="Price = **gold weight × the day's rate + 工费 (labour)**. Ask for both numbers separately, "
+              "then compare two or three towers on the same street.",
+        expect="Showrooms rather than stalls; staff will weigh and quote without pressure. 1–1.5 h. "
+               "Weekdays are calmer than weekends.",
+        watch="Insist on the certificate and a receipt, and check the 工费 isn't padded. Don't buy jade "
+              "without a loupe and a second opinion.",
+        img2=None),
+    "baima": dict(
+        img="baima", cap="Wholesale clothing floors around 老街 — 白马 / 宝华楼",
+        sweet="**2F** women's trend, 3–4F men's, **5F export surplus**. Hit it 16:00–18:00 as they "
+              "clear stock.",
+        expect="Six floors, 500+ stalls; some want two or three pieces minimum. 1–1.5 h.",
+        watch="Sizes run small — try before paying. Walking away is your strongest move.",
+        img2=None),
+    "nanyou": dict(
+        img=None, cap="",
+        sweet="Dozens of buildings of original-design women's wear in the 南海大道 / 东滨路 grid — "
+              "the best-quality clothing market in the city.",
+        expect="Higher grade than 白马 at 3–5× the price. 10:00–19:00, 1.5–2 h.",
+        watch="25 min each way from the hotel in the wrong direction — only if clothing is the goal; "
+              "skip 水贝 if you go.",
         img2=None),
 }
 
@@ -125,6 +186,13 @@ key_for = {
     "Shenzhen Poly Cultural Plaza": "poly",
     "Nantou Ancient City": "nantou",
     "Happy Harbour": "happy",
+    "WonderMeet": "wondermeet",
+    "SEG Electronics Market": "seg",
+    "Mingtong Cosmetics Market": "mingtong",
+    "Zijingcheng Food Center": "zijingcheng",
+    "Shuibei Jewelry Center": "shuibei",
+    "Dongmen Baima Fashion Market": "baima",
+    "Nanyou Clothing Market": "nanyou",
 }
 
 def main():
@@ -156,7 +224,7 @@ def main():
       "华强北 + 东门 markets), Fri 27 Nov (MOCA in the morning, 水贝 after 14:00 checkout, East Rail home).")
     A("- **Best of the list:** WonderMeet · Ping An Free Sky at sunset · DMD Food City · Upper Hills + "
       "莲花山公园 · 水贝 jewellery · Talent Park at sunset.")
-    A("- **Skip unless passing:** 文化馆, 保利文化广场, 东门町广场.")
+    A("- **Skip:** **南头古城** (not worth the trip — see Fanny's note) · 文化馆 · 保利文化广场 · 东门町广场.")
     A("- **Money:** Alipay or WeChat Pay with a foreign card; metro gates also take contactless Visa/Mastercard.")
     A("- **Bring:** passport everywhere — trains, hotel, museums.\n")
 
@@ -288,7 +356,7 @@ def main():
     A("|---|---|---|---|---|---|---|---|")
     for r in [x for x in rows if x.get('group') != 'venue']:
         A(f"| {r['rank']} | {r['name']} | {r['chinese_name']} | {r['area']} | {r['distance_km_straight']} | "
-          f"{r['didi_min']} min / {r['didi_km']} km | {r['metro_plan']} · {r['metro_min']} min | "
+          f"{r['didi_min']} min · {r['didi_km']} km · {r['didi_cost']} | {r['metro_plan']} · {r['metro_min']} min | "
           f"**{r['fun_factor_1_10']}** |")
     A("")
     A("### Play + markets (Day 2 and 3)\n")
@@ -297,7 +365,7 @@ def main():
     for r in [x for x in rows if x.get('group') == 'venue']:
         A(f"| {r['rank']} | [{r['name']}]({r['amap_link']}) | {r['chinese_name']} | "
           f"{r['distance_km_straight']} | "
-          f"{r['didi_min']} min / {r['didi_km']} km | {r['metro_plan']} · {r['metro_min']} min | "
+          f"{r['didi_min']} min · {r['didi_km']} km · {r['didi_cost']} | {r['metro_plan']} · {r['metro_min']} min | "
           f"**{r['fun_factor_1_10']}** |")
     A("")
 
@@ -308,8 +376,6 @@ def main():
         'happy': [('happy_wheel', "Bay Glory (湾区之光), 128 m, on the Bao'an waterfront")],
     }
     for r in rows:
-        if r.get('group') == 'venue':
-            continue
         key = key_for.get(r['name'])
         e = EDIT.get(key) if key else None
         if not e:
@@ -326,10 +392,14 @@ def main():
             A(f"![{ecap}](images/{ek}.jpg)")
             A(f"*{ecap}*")
         A("")
+        if e.get('review'):
+            A("#### Fanny's review\n")
+            A(f"> {e['review']}\n")
+            A(f"{e['verdict']}\n")
         A(f"**Fun {r['fun_factor_1_10']}/10** · {r['area']} · {r['type']} · "
           f"**{r['distance_km_straight']} km** from the hotel\n")
         A(f"- **Getting there:** {r['metro_plan']} (~{r['metro_min']} min) or DiDi "
-          f"{r['didi_min']} min / {r['didi_km']} km.")
+          f"{r['didi_min']} min / {r['didi_km']} km, **{r['didi_cost']}**.")
         A(f"- **Sweet spot:** {e['sweet']}")
         A(f"- **What to expect:** {e['expect']}")
         A(f"- **Look out for:** {e['watch']}")
@@ -360,12 +430,15 @@ def main():
     A("| Time | What |")
     A("|---|---|")
     A("| On arrival | Check in at 加来酒店, drop bags, 15 min to reset. |")
-    A("| 15:30 | Walk 皇岗公园 (the park at your door) or rest. |")
-    A("| 16:00 | **Ping An Free Sky** — DiDi 8 min, ¥15. Booked online, enter 16:30 for daylight → sunset → lights. |")
-    A("| 18:30 | Dinner around 购物公园 / COCO Park — pick a hotpot or 潮汕 beef place. |")
-    A("| 20:00 | Walk the 市民中心 plaza and 莲花山 footpath; back by metro L4 or ¥12 DiDi. |")
+    A("| 14:00 | **东门白马服装市场 (Dongmen Baima)** — clothing wholesale: 2F women's, 5F export surplus. "
+      "L1 福田口岸 → 老街 (2 + 5 stops, ~30 min) or DiDi 25 min. 1–1.5 h. |")
+    A("| 16:00 | L1 老街 → 购物公园 (3 stops) + 5 min walk to the tower. |")
+    A("| 16:30 | **Ping An Free Sky** — booked online; enter now for daylight → sunset → lights. |")
+    A("| 18:30 | Dinner around 购物公园 / COCO Park — hotpot or 潮汕 beef. |")
+    A("| 20:00 | Walk the 市民中心 plaza and 莲花山 footpath; home by L4 or ¥12 DiDi. |")
     A("")
-    A("If you land late, drop the plaza walk — the Free Sky is the one fixed point.\n")
+    A("**If you land after 14:00**, drop 白马 and move it to Day 3 morning — the Free Sky is the one "
+      "fixed point, and it's the sunset you're paying for.\n")
 
     A("### Thursday 26 Nov — the fun day\n")
     A("| Time | What | Cost |")
@@ -376,9 +449,9 @@ def main():
     A("| 15:15 | Walk 5 min to **SEG Electronics Market** (华强北路1002号) — 30–45 min | free |")
     A("| 16:00 | **紫荆城食品交易中心** (振兴路55号) — imported snacks, buy a box | free |")
     A("| 16:45 | **明通化妆品市场** — cosmetics, check batch codes | free |")
-    A("| 17:30 | L1 华强路 → 老街 (2 stops) → **东门白马服装市场** (鸿展商城, 2F women's / 5F export surplus) | ¥2 |")
-    A("| 19:00 | Dinner at **DMD Food City** (东门町美食城) — the best cheap eating on the trip | ¥40–60 |")
-    A("| 20:30 | Walk it off on 东门步行街, then L1/L3 home | ¥2 |")
+    A("| 17:30 | L1 华强路 → 老街 (2 stops) — into 东门 | ¥2 |")
+    A("| 18:00 | Dinner at **DMD Food City** (东门町美食城) — the best cheap eating on the trip | ¥40–60 |")
+    A("| 19:30 | 东门步行街 for the neon, then L1/L3 home | ¥2 |")
     A("")
     A("**Why this order:** WonderMeet is the only fixed-cost, fixed-hour block — do it first while you're "
       "fresh. The 华强北 markets are a 5-minute walk apart, and 16:00–18:30 is when vendors start clearing "
@@ -397,7 +470,8 @@ def main():
     A("")
     A("**Swap options for the afternoon:** if jewellery isn't your thing, do **Upper Hills + 莲花山公园** "
       "instead (coffee, bridge, skyline — 14 min from the hotel) and leave at 17:30. **南油服装市场** is the "
-      "best clothing market but it's 25 min each way in the wrong direction — only if you skip 水贝.\n")
+      "best clothing market but it's 25 min each way in the wrong direction — take it *instead of* 水贝, "
+      "not as well as. If you skipped 白马 on Day 1, this morning (10:00–11:30) is its slot.\n")
     A("**Don't cut it close:** be at the port by **18:00–18:30**. Friday evening queues build, and the last "
       "East Rail trains leave 落马洲 around 22:55.\n")
 

@@ -172,5 +172,53 @@
   "artist": "Iswzo",
   "license": "CC BY-SA 4.0",
   "source": "commons"
+ },
+ "wondermeet": {
+  "file": "images/wondermeet.jpg",
+  "title": "File:SZ 深圳 Shenzhen 福田 Futian 華強北 Huaqiang North 世紀匯購物中心 Century Place Shopping Mall February 2025 R12S 15.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E8%8F%AF%E5%BC%B7%E5%8C%97_Huaqiang_North_%E4%B8%96%E7%B4%80%E5%8C%AF%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83_Century_Place_Shopping_Mall_February_2025_R12S_15.jpg",
+  "artist": "BAIEDEIN iwm Twoiammx",
+  "license": "CC0",
+  "source": "commons"
+ },
+ "seg": {
+  "file": "images/seg.jpg",
+  "title": "File:Inside SEG Plaza (Bobbie Johnson) - Flickr.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Inside_SEG_Plaza_(Bobbie_Johnson)_-_Flickr.jpg",
+  "artist": "Bobbie Johnson from San Francisco, USA",
+  "license": "CC BY-SA 2.0",
+  "source": "commons"
+ },
+ "zijingcheng": {
+  "file": "images/zijingcheng.jpg",
+  "title": "File:Huaqiangbei July 2024 (1).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Huaqiangbei_July_2024_(1).jpg",
+  "artist": "Lyg 2001",
+  "license": "CC BY-SA 4.0",
+  "source": "commons"
+ },
+ "mingtong": {
+  "file": "images/mingtong.jpg",
+  "title": "File:Man on a scooter pulling a cart with packages in Shenzhen's Huaqiangbei..jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Man_on_a_scooter_pulling_a_cart_with_packages_in_Shenzhen%27s_Huaqiangbei..jpg",
+  "artist": "Shenzhen Pages",
+  "license": "CC BY-SA 4.0",
+  "source": "commons"
+ },
+ "shuibei": {
+  "file": "images/shuibei.jpg",
+  "title": "File:特发水贝珠宝大厦.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%E7%89%B9%E5%8F%91%E6%B0%B4%E8%B4%9D%E7%8F%A0%E5%AE%9D%E5%A4%A7%E5%8E%A6.jpg",
+  "artist": "Lhzss8",
+  "license": "CC BY-SA 4.0",
+  "source": "commons"
+ },
+ "baima": {
+  "file": "images/baima.jpg",
+  "title": "SZ 深圳 Shenzhen 羅湖 Luohu 老街 LaoJie Dongmen 寶華樓 BaoHua Lau 新白馬服裝批發商場 New White Horse Clothing Wholesale Market logistics bags n hand carts September 2025 R12S 01",
+  "page": "https://commons.wikimedia.org/w/index.php?curid=175715824",
+  "artist": "FALINSAM HU MMOPPY",
+  "license": "CC0",
+  "source": "openverse"
  }
 }

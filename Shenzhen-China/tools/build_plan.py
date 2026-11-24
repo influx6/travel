@@ -241,6 +241,11 @@ def main():
                  (v['lat'], v['lng'])), 2), raw=raw_v, cluster='venue', group='venue')
         rows.append(v)
 
+    for r in rows:
+        km = float(r['didi_km'])
+        low = 11 + 2.4 * max(0.0, km - 2.0)
+        r['didi_cost'] = f"¥{round(low):d}–{round(low * 1.3):d}"
+
     rows.sort(key=lambda r: r['straight_km'])
     for i, r in enumerate(rows, 1):
         r['rank'] = i
@@ -250,7 +255,7 @@ def main():
     with open('../places.csv', 'w', newline='', encoding='utf-8-sig') as f:
         w = csv.writer(f)
         w.writerow(['rank', 'name', 'chinese_name', 'area', 'type', 'fun_factor_1_10',
-                    'distance_km_straight', 'didi_km', 'didi_min', 'nearest_metro', 'metro_walk_m',
+                    'distance_km_straight', 'didi_km', 'didi_min', 'didi_cost', 'nearest_metro', 'metro_walk_m',
                     'metro_plan', 'metro_min', 'lat_gcj02', 'lng_gcj02', 'lat_wgs84', 'lng_wgs84',
                     'amap_link', 'amap_route_link', 'google_link', 'why'])
         for r in rows:
@@ -264,7 +269,7 @@ def main():
                      f"&to={r['lng_gcj']},{r['lat_gcj']},{urllib.parse.quote(r['name'])}"
                      f"&mode=bus&coordinate=gaode&callnative=0")
             w.writerow([r['rank'], r['name'], r['zh'], r['area'], r['kind'], r['fun'], r['straight_km'],
-                        r['didi_km'], r['didi_min'], r['metro'], r['metro_walk'], r['metro_plan'],
+                        r['didi_km'], r['didi_min'], r['didi_cost'], r['metro'], r['metro_walk'], r['metro_plan'],
                         r['metro_min'], r['lat_gcj'], r['lng_gcj'], r['lat_wgs'], r['lng_wgs'],
                         amap, route, r['raw']['href'], r['note']])
 

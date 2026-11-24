@@ -41,6 +41,7 @@
     ],
     "placeId": "0x3403f403f3fd7827:0xad499e4e2a20c5db"
    },
+   "didi_cost": "¥13–17",
    "rank": 1
   },
   {
@@ -79,6 +80,7 @@
     ],
     "placeId": "0x3403f5fedadbc56d:0x237bf856bb4e0137"
    },
+   "didi_cost": "¥15–19",
    "rank": 2
   },
   {
@@ -114,6 +116,7 @@
    },
    "cluster": "venue",
    "group": "venue",
+   "didi_cost": "¥20–26",
    "rank": 3
   },
   {
@@ -149,6 +152,7 @@
    },
    "cluster": "venue",
    "group": "venue",
+   "didi_cost": "¥20–26",
    "rank": 4
   },
   {
@@ -184,6 +188,7 @@
    },
    "cluster": "venue",
    "group": "venue",
+   "didi_cost": "¥23–30",
    "rank": 5
   },
   {
@@ -221,6 +226,7 @@
     ],
     "placeId": "0x3403f5d813dfb6b9:0x7a85f14e08f5bce0"
    },
+   "didi_cost": "¥20–26",
    "rank": 6
   },
   {
@@ -256,6 +262,7 @@
    },
    "cluster": "venue",
    "group": "venue",
+   "didi_cost": "¥23–30",
    "rank": 7
   },
   {
@@ -294,6 +301,7 @@
     ],
     "placeId": "0x3403f38b835cc389:0xd796ef4f35c4b1cc"
    },
+   "didi_cost": "¥22–28",
    "rank": 8
   },
   {
@@ -332,6 +340,7 @@
     ],
     "placeId": "0x3403f5b7d46a8e0b:0x9656bf8761859c01"
    },
+   "didi_cost": "¥23–31",
    "rank": 9
   },
   {
@@ -370,6 +379,7 @@
     ],
     "placeId": "0x3403f5c7a7397263:0xc0cfcceb6dc86221"
    },
+   "didi_cost": "¥26–33",
    "rank": 10
   },
   {
@@ -408,6 +418,7 @@
     ],
     "placeId": "0x3403f5be47383aeb:0xc74e4979a2fa154e"
    },
+   "didi_cost": "¥29–38",
    "rank": 11
   },
   {
@@ -446,6 +457,7 @@
     ],
     "placeId": "0x3403f5be1444dc89:0x5c89f1e03796e0f8"
    },
+   "didi_cost": "¥29–37",
    "rank": 12
   },
   {
@@ -484,6 +496,7 @@
     ],
     "placeId": "0x3403f596017f6bf7:0x845ce96dbee1b478"
    },
+   "didi_cost": "¥29–38",
    "rank": 13
   },
   {
@@ -519,6 +532,7 @@
    },
    "cluster": "venue",
    "group": "venue",
+   "didi_cost": "¥29–38",
    "rank": 14
   },
   {
@@ -554,6 +568,7 @@
    },
    "cluster": "venue",
    "group": "venue",
+   "didi_cost": "¥40–51",
    "rank": 15
   },
   {
@@ -592,6 +607,7 @@
     ],
     "placeId": "0x3403f1af79f8136b:0x1d2a318dc6483fa4"
    },
+   "didi_cost": "¥46–60",
    "rank": 16
   },
   {
@@ -630,6 +646,7 @@
     ],
     "placeId": "0x3403ef3288f2af21:0xcade8137080c45f1"
    },
+   "didi_cost": "¥46–60",
    "rank": 17
   },
   {
@@ -668,6 +685,7 @@
     ],
     "placeId": "0x3403ee3b74672d0f:0x2802395723eebd84"
    },
+   "didi_cost": "¥45–59",
    "rank": 18
   },
   {
@@ -703,6 +721,7 @@
    },
    "cluster": "venue",
    "group": "venue",
+   "didi_cost": "¥51–66",
    "rank": 19
   },
   {
@@ -741,6 +760,7 @@
     ],
     "placeId": "0x3403ee7055e55f1d:0xf15bf63d2ac63f6f"
    },
+   "didi_cost": "¥58–76",
    "rank": 20
   },
   {
@@ -779,6 +799,7 @@
     ],
     "placeId": "0x3403ee9830aa7e1f:0x83e84a5f742fae9"
    },
+   "didi_cost": "¥67–87",
    "rank": 21
   }
  ],

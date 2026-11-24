@@ -43,14 +43,20 @@ def main():
             f'<figure><img src="images/{i}.jpg" alt="{E(c)}" loading="lazy"><figcaption>{E(c)}</figcaption></figure>'
             for i, c in imgs)
         phcls = 'ph single' if len(imgs) == 1 else 'ph'
+        rev = ''
+        if e.get('review'):
+            rev = (f'<aside class="review"><h4>Fanny\'s review</h4>'
+                   f'<blockquote>{mini(e["review"])}</blockquote>'
+                   f'<p>{mini(e["verdict"])}</p></aside>')
         return f'''
         <article class="place" id="{key or r['rank']}">
           <div class="{phcls}">{pic}</div>
+          {rev}
           <div class="pb">
             <h3>{E(r['name'])} <span class="zh">{E(r['chinese_name'])}</span></h3>
             <p class="meta"><span class="fun">Fun {r['fun_factor_1_10']}/10</span>
                <span>{E(r['area'])}</span> · <span>{r['distance_km_straight']} km</span> ·
-               <span>DiDi {r['didi_min']} min / {r['didi_km']} km</span></p>
+               <span>DiDi {r['didi_min']} min · {r['didi_km']} km · {r['didi_cost']}</span></p>
             <p class="go"><b>Getting there:</b> {E(r['metro_plan'])} · {r['metro_min']} min</p>
             {f'<p><b>Sweet spot:</b> {mini(e["sweet"])}</p>' if e.get('sweet') else ''}
             {f'<p><b>Expect:</b> {mini(e["expect"])}</p>' if e.get('expect') else ''}
@@ -71,8 +77,9 @@ def main():
 
     day1 = '''
       <li><b>On arrival</b> — check in at 加来酒店, drop bags.</li>
-      <li><b>15:30</b> — 皇岗公园 walk, or rest.</li>
-      <li><b>16:00</b> — <a href="#pingan">Ping An Free Sky</a> (DiDi 8 min, ¥15). Enter 16:30 for daylight → sunset → lights.</li>
+      <li><b>14:00</b> — <a href="#baima">东门白马 clothing market</a> (L1 老街, ~30 min or DiDi 25). 1–1.5 h.</li>
+      <li><b>16:00</b> — L1 老街 → 购物公园 (3 stops).</li>
+      <li><b>16:30</b> — <a href="#pingan">Ping An Free Sky</a>, booked online: daylight → sunset → lights.</li>
       <li><b>18:30</b> — dinner in 购物公园 / COCO Park.</li>
       <li><b>20:00</b> — 市民中心 plaza + 莲花山 footpath, home by metro or ¥12 DiDi.</li>'''
     day2 = '''
@@ -81,8 +88,8 @@ def main():
       <li><b>15:15</b> — <a href="#seg">SEG</a> electronics market (30–45 min).</li>
       <li><b>16:00</b> — <a href="#zijingcheng">紫荆城</a> imported snacks.</li>
       <li><b>16:45</b> — <a href="#mingtong">明通</a> cosmetics.</li>
-      <li><b>17:30</b> — L1 华强路 → 老街 → <a href="#baima">东门白马</a> clothing.</li>
-      <li><b>19:00</b> — dinner at <a href="#dmd">DMD Food City</a>, then 东门步行街.</li>'''
+      <li><b>17:30</b> — L1 华强路 → 老街, into 东门.</li>
+      <li><b>18:00</b> — dinner at <a href="#dmd">DMD Food City</a>, then 东门步行街.</li>'''
     day3 = '''
       <li><b>09:30</b> — pack, leave bags at reception.</li>
       <li><b>10:00–11:30</b> — <a href="#moca">MOCA</a> (free, L4 → 市民中心).</li>
@@ -135,6 +142,10 @@ def main():
   .ph figure {{ margin:0; }}
   .ph img {{ width:100%; height:210px; object-fit:cover; display:block; }}
   .ph figcaption {{ font-size:11px; color:var(--mut); padding:4px 10px 6px; }}
+  .review {{ margin:0; padding:12px 16px; background:var(--warn); border-left:4px solid var(--accent2); }}
+  .review h4 {{ margin:0 0 6px; font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:var(--accent2); }}
+  .review blockquote {{ margin:0 0 8px; padding:0; font-style:italic; }}
+  .review p {{ margin:0; font-weight:600; }}
   .pb {{ padding:14px 16px 16px; }}
   .meta {{ font-size:13px; color:var(--mut); margin:0 0 8px; }}
   .fun {{ color:var(--accent); font-weight:700; }}
@@ -184,9 +195,11 @@ def main():
   <div class="day"><h3>Thu 26 Nov — the fun day</h3><ol>{day2}</ol></div>
   <div class="day"><h3>Fri 27 Nov — checkout 14:00, then home</h3><ol>{day3}</ol></div>
 
-  <h2>WonderMeet + markets <span class="zh">玩美攻略 &amp; 批发市场</span></h2>
-  <table><thead><tr><th>Place (tap for Amap)</th><th>From hotel</th><th>Fun</th></tr></thead>
-  <tbody>{''.join(vcard(r) for r in venues)}</tbody></table>
+  <h2>WonderMeet + the markets <span class="zh">玩美攻略 &amp; 批发市场</span></h2>
+  <div class="strip">
+    {''.join(f'<a class="chip" href="{r["amap_link"]}" style="text-decoration:none;color:inherit"><b>{E(r["chinese_name"])}</b>{E(r["name"])}<br><small>{r["distance_km_straight"]} km · {r["didi_min"]} min DiDi</small></a>' for r in venues)}
+  </div>
+  {''.join(card(r) for r in venues)}
 
   <h2>Buying at the markets</h2>
   <div class="day">
