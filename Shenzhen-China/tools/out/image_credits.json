@@ -124,5 +124,53 @@
   "license": "CC BY 4.0",
   "source": "commons",
   "query": "manual"
+ },
+ "pingan_sunset": {
+  "file": "images/pingan_sunset.jpg",
+  "title": "云际观光层 2019 - 11",
+  "page": "https://commons.wikimedia.org/w/index.php?curid=83973634",
+  "artist": "Mx. Granger",
+  "license": "CC0",
+  "source": "openverse"
+ },
+ "lianhua_sunset": {
+  "file": "images/lianhua_sunset.jpg",
+  "title": "Shenzhen skyline at dusk from LianHua Mt. park, China (3)",
+  "page": "https://www.flickr.com/photos/43656947@N00/5131399625",
+  "artist": "BoydJones",
+  "license": "BY-NC-ND",
+  "source": "openverse"
+ },
+ "skyline_dusk": {
+  "file": "images/skyline_dusk.jpg",
+  "title": "Shanghai Nights",
+  "page": "https://www.flickr.com/photos/86135961@N00/3532340427",
+  "artist": "SF Brit",
+  "license": "BY",
+  "source": "openverse"
+ },
+ "talent_sunset": {
+  "file": "images/talent_sunset.jpg",
+  "title": "File:20201112 The skyline at Shenzhen Bay.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:20201112_The_skyline_at_Shenzhen_Bay.jpg",
+  "artist": "Windmemories",
+  "license": "CC BY-SA 4.0",
+  "source": "commons"
+ },
+ "happy_night": {
+  "file": "images/happy_night.jpg",
+  "title": "File:SZ 深圳 Shenzhen 寶安區 Bao'An 歡樂港灣商場 OH Bay Baoan Shopping Mall shop machine catcher July 2023 Px3.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E5%AF%B6%E5%AE%89%E5%8D%80_Bao%27An_%E6%AD%A1%E6%A8%82%E6%B8%AF%E7%81%A3%E5%95%86%E5%A0%B4_OH_Bay_Baoan_Shopping_Mall_shop_machine_catcher_July_2023_Px3.jpg",
+  "artist": "QINGFATTIEAM 2002",
+  "license": "CC BY-SA 4.0",
+  "source": "commons"
+ },
+ "happy_wheel": {
+  "file": "images/happy_wheel.jpg",
+  "title": "File:Bay Glory 2022.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bay_Glory_2022.jpg",
+  "artist": "Iswzo",
+  "license": "CC BY-SA 4.0",
+  "source": "commons"
  }
 }

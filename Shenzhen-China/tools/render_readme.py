@@ -110,6 +110,23 @@ EDIT = {
 }
 
 
+key_for = {
+    "Ping'an International Financial Center": "pingan",
+    "Museum of Contemporary Art & Planning Exhibition": "moca",
+    "Upper Hills (深业上城)": "upperhills",
+    "Shenzhen Cultural Center (Jingtian)": "culture",
+    "Shenzhen Grand Theatre": "grand",
+    "The Mixc of Shenzhen City Crossing": "mixc_crossing",
+    "Dong Men Ding Plaza": "dingplaza",
+    "DMD Food City (东门町美食城)": "dmd",
+    "Dongmen Pedestrian Street": "dongmen",
+    "MixC World 万象天地 (Nanshan)": "mixc_tiandi",
+    "Shenzhen Talent Park": "talent",
+    "Shenzhen Poly Cultural Plaza": "poly",
+    "Nantou Ancient City": "nantou",
+    "Happy Harbour": "happy",
+}
+
 def main():
     rows = list(csv.DictReader(open('../places.csv', encoding='utf-8-sig')))
     plan = json.load(open('out/plan.json'))
@@ -120,22 +137,6 @@ def main():
             if e['img'] == k:
                 pass
     # map rows to editorial keys via image name guess = first token of name
-    key_for = {
-        "Ping'an International Financial Center": "pingan",
-        "Museum of Contemporary Art & Planning Exhibition": "moca",
-        "Upper Hills (深业上城)": "upperhills",
-        "Shenzhen Cultural Center (Jingtian)": "culture",
-        "Shenzhen Grand Theatre": "grand",
-        "The Mixc of Shenzhen City Crossing": "mixc_crossing",
-        "Dong Men Ding Plaza": "dingplaza",
-        "DMD Food City (东门町美食城)": "dmd",
-        "Dongmen Pedestrian Street": "dongmen",
-        "MixC World 万象天地 (Nanshan)": "mixc_tiandi",
-        "Shenzhen Talent Park": "talent",
-        "Shenzhen Poly Cultural Plaza": "poly",
-        "Nantou Ancient City": "nantou",
-        "Happy Harbour": "happy",
-    }
 
     out = []
     A = out.append
@@ -146,13 +147,15 @@ def main():
     A("**Phone:** [+86-755-88257999](tel:+8675588257999) · Booking [removed]\n")
     A("**Nearest metro:** 皇岗村 (Huanggangcun), Line 7, Exit A — 430 m / 7 min walk  ")
     A("**Also close:** Futian Checkpoint (福田口岸), Lines 4 & 10 — ~1.1 km / 15 min walk\n")
-    A("14 places, sorted closest → furthest. Photos are freely licensed (credits at the bottom).\n")
+    A("21 places, sorted closest → furthest. Photos are freely licensed (credits at the bottom).\n")
     A("---\n")
 
     A("## 1. The short version\n")
     A("- **Arrive:** high-speed rail from West Kowloon to **福田 (Futian)** — 14 min, ¥68 — then a 3 km DiDi.")
-    A("- **Best of the list:** Ping An Free Sky at sunset · Talent Park at sunset · Happy Harbour wheel · "
-      "DMD Food City · Upper Hills + 莲花山公园.")
+    A("- **Two full days + a half-day:** Wed 25 Nov (arrive, Free Sky at sunset), Thu 26 Nov (WonderMeet + "
+      "华强北 + 东门 markets), Fri 27 Nov (MOCA in the morning, 水贝 after 14:00 checkout, East Rail home).")
+    A("- **Best of the list:** WonderMeet · Ping An Free Sky at sunset · DMD Food City · Upper Hills + "
+      "莲花山公园 · 水贝 jewellery · Talent Park at sunset.")
     A("- **Skip unless passing:** 文化馆, 保利文化广场, 东门町广场.")
     A("- **Money:** Alipay or WeChat Pay with a foreign card; metro gates also take contactless Visa/Mastercard.")
     A("- **Bring:** passport everywhere — trains, hotel, museums.\n")
@@ -223,7 +226,25 @@ def main():
       "already at HKIA with a lot of luggage.\n")
 
     A("---\n")
-    A("## 3. Trains and metro — the details\n")
+    A("## 3. Getting back to Hong Kong (East Rail, not HSR)\n")
+    A("You asked for the regular train home — this is the 福田口岸 → 落马洲 crossing, which is the "
+      "closest border to the hotel.\n")
+    A("| Step | What | Time | Cost |")
+    A("|---|---|---|---|")
+    A("| 1 | Hotel → **福田口岸 (Futian Port)** — 1.1 km, walk or ¥10 DiDi | 15 min | ¥0–10 |")
+    A("| 2 | HK exit + mainland exit at the port (two checks, one covered walkway) | 15–30 min | — |")
+    A("| 3 | **落马洲 (Lok Ma Chau)** station, East Rail southbound | — | — |")
+    A("| 4 | East Rail → 红磡 (Hung Hom), change to Tuen Ma Line → 南昌 (Nam Cheong) → Tung Chung Line | ~1 h 45 | **HK$57.5** total |")
+    A("")
+    A("**Timing that matters:** the port is open **06:30–22:30**, and the last East Rail trains leave "
+      "落马洲 around **22:55**. Aim to be at the port by **21:00** so a queue can't strand you.\n")
+    A("**What to expect:** the walkway is flat and covered, with moving walkways most of the way — easy "
+      "with a suitcase. There's no duty-free shop worth stopping for. The East Rail is a normal commuter "
+      "train: luggage racks at the carriage ends, no reservation, Octopus or contactless card.\n")
+    A("**Alternative:** 罗湖 (Lo Wu) is the same line and the same fare — use it only if 福田口岸 is "
+      "heaving, since it's further from the hotel.\n")
+    A("---\n")
+    A("## 4. Trains and metro — the details\n")
     A("**Shenzhen Metro, in practice**")
     A("- 17 lines, 400+ stations, announcements in Mandarin/Cantonese/English, signage in English.")
     A("- **Pay:** tap a contactless **Visa / Mastercard / Amex / JCB** on the gate (works across the "
@@ -245,18 +266,50 @@ def main():
       "Until then, each place below gives you a **copy-paste Chinese block** for the DiDi destination "
       "field, plus an Amap route link.\n")
 
+    A("**Buying the paid tickets online**")
+    A("- **Free Sky (Ping An):** open **Trip.com** (English app, foreign cards accepted) and search "
+      "*\"Ping An Finance Center Free Sky\"* — ¥180 instead of ¥200 at the counter. **Klook** sells the "
+      "same ticket. Ctrip/携程 and Meituan/大众点评 are usually cheapest but need Alipay or WeChat Pay. "
+      "The official WeChat mini-program is called 平安金融中心云际观光层.")
+    A("- **WonderMeet (玩美攻略):** Klook and Trip.com list it around HK$192–206; you can also just pay "
+      "at the door (¥268 weekday / ¥298 weekend) — walk-ins are normal. Night ticket ¥168 after 19:00.")
+    A("- **Bay Glory wheel (欢乐港湾):** KKday, Klook or Trip.com, or buy at the wheel. ¥150 (¥180 holidays).")
+    A("- **How it works:** you get a QR code in the app. Show it at the counter; they scan it and print/"
+      "link your wristband. No passport needed for the standard adult ticket — bring it only if you're "
+      "claiming a student/senior/child rate.")
+    A("- **Tip:** book the Free Sky for a specific sunset slot the day before; weekends sell out by "
+      "mid-afternoon.\n")
+
     A("---\n")
-    A("## 4. Places, closest → furthest\n")
+    A("## 5. Places, closest → furthest\n")
     A("`km` straight line from the hotel · `DiDi` road distance/time · `Metro` door-to-door · `Fun` 1–10\n")
+    A("### Sights\n")
     A("| # | Place | 中文 | Area | km | DiDi | Metro | Fun |")
     A("|---|---|---|---|---|---|---|---|")
-    for r in rows:
+    for r in [x for x in rows if x.get('group') != 'venue']:
         A(f"| {r['rank']} | {r['name']} | {r['chinese_name']} | {r['area']} | {r['distance_km_straight']} | "
           f"{r['didi_min']} min / {r['didi_km']} km | {r['metro_plan']} · {r['metro_min']} min | "
           f"**{r['fun_factor_1_10']}** |")
     A("")
+    A("### Play + markets (Day 2 and 3)\n")
+    A("| # | Place | 中文 | km | DiDi | Metro | Fun |")
+    A("|---|---|---|---|---|---|---|")
+    for r in [x for x in rows if x.get('group') == 'venue']:
+        A(f"| {r['rank']} | [{r['name']}]({r['amap_link']}) | {r['chinese_name']} | "
+          f"{r['distance_km_straight']} | "
+          f"{r['didi_min']} min / {r['didi_km']} km | {r['metro_plan']} · {r['metro_min']} min | "
+          f"**{r['fun_factor_1_10']}** |")
+    A("")
 
+    EXTRA = {
+        'pingan': [('pingan_sunset', 'From the 116F deck at sunset — Shenzhen Bay on the left, Futian below')],
+        'talent': [('talent_sunset', 'The Shenzhen Bay skyline from the Talent Park waterfront')],
+        'upperhills': [('lianhua_sunset', 'Dusk over the Futian CBD from the top of 莲花山公园')],
+        'happy': [('happy_wheel', "Bay Glory (湾区之光), 128 m, on the Bao'an waterfront")],
+    }
     for r in rows:
+        if r.get('group') == 'venue':
+            continue
         key = key_for.get(r['name'])
         e = EDIT.get(key) if key else None
         if not e:
@@ -268,7 +321,11 @@ def main():
             A(f"*{e['cap']}*")
         if e.get('img2'):
             A(f"![{e['img2cap']}](images/{e['img2']}.jpg)")
-            A(f"*{e['img2cap']}*\n")
+            A(f"*{e['img2cap']}*")
+        for ek, ecap in EXTRA.get(key, []):
+            A(f"![{ecap}](images/{ek}.jpg)")
+            A(f"*{ecap}*")
+        A("")
         A(f"**Fun {r['fun_factor_1_10']}/10** · {r['area']} · {r['type']} · "
           f"**{r['distance_km_straight']} km** from the hotel\n")
         A(f"- **Getting there:** {r['metro_plan']} (~{r['metro_min']} min) or DiDi "
@@ -285,38 +342,107 @@ def main():
         A("")
 
     A("---\n")
-    A("## 5. Plan for maximum enjoyment\n")
-    A("Built around light: the best things here are two sunsets and one evening food street.\n")
-    A("**Day 1 — arrive + skyline**")
-    A("- Check in, drop bags.")
-    A("- 16:00 **Ping'an Free Sky** (booked online; enter ~16:30 for daylight → sunset → lights).")
-    A("- Dinner around 购物公园 / COCO Park.")
-    A("- Optional: walk the 市民中心 plaza at night.\n")
-    A("**Day 2 — Futian + Dongmen (east)**")
-    A("- 10:00 **MOCA** (free, closed Mondays).")
-    A("- Lunch at **DMD Food City**, then **Dongmen Pedestrian Street**.")
-    A("- **MixC City Crossing** for AC and coffee; **大剧院** only if something's on.")
-    A("- Evening: back to 福田 for an early night.\n")
-    A("**Day 3 — Nanshan (west)**")
-    A("- Late morning **Nantou Ancient City** (coffee) — or sleep in and skip it.")
-    A("- Lunch at **万象天地 (MixC World)**.")
-    A("- 17:00 **Talent Park** for sunset, dinner in 后海.")
-    A("- **保利文化广场** is next door if you need a mall.\n")
-    A("**Day 4 — Bao'an + departure**")
-    A("- **Upper Hills** coffee → bridge → **莲花山公园** for the skyline (or swap to Happy Harbour).")
-    A("- **Happy Harbour** for the wheel at sunset and the light show.")
-    A("- Back to the hotel; allow 3 h to HKIA if flying out.\n")
-    A("**Only one day?** Ping An Free Sky at 16:30 → DMD Food City for dinner → done. "
-      "**Only two?** Add MOCA in the morning and Talent Park at sunset.\n")
+    A("## 6. The three days\n")
+    A("Wednesday 25 Nov · Thursday 26 Nov · Friday 27 Nov (checkout by 14:00). "
+      "Two full days plus a half-day.\n")
+    A("### Weather (forecast for these dates)\n")
+    A("| Day | Temp | Rain | Sky | What to wear |")
+    A("|---|---|---|---|---|")
+    A("| Wed 25 Nov | 13–19 °C | 14% | Cloudy, drizzle | Layers: tee + light jacket. Cool in the evening. |")
+    A("| Thu 26 Nov | 14–23 °C | 33% | Overcast | Same, plus a compact umbrella — the day you're walking markets. |")
+    A("| Fri 27 Nov | 16–26 °C | 18% | Mainly clear | Lightest day; a shirt is enough by afternoon. |")
+    A("")
+    A("*Shenzhen in late November is dry-season cool: 13–16 °C at 08:00, 19–26 °C by 14:00, dropping fast "
+      "after 18:00. Comfortable walking shoes matter more than a coat. Check again the morning you fly — "
+      "a cold front can take 5 °C off in a day.*\n")
+
+    A("### Wednesday 25 Nov — arrive, settle, first sunset\n")
+    A("| Time | What |")
+    A("|---|---|")
+    A("| On arrival | Check in at 加来酒店, drop bags, 15 min to reset. |")
+    A("| 15:30 | Walk 皇岗公园 (the park at your door) or rest. |")
+    A("| 16:00 | **Ping An Free Sky** — DiDi 8 min, ¥15. Booked online, enter 16:30 for daylight → sunset → lights. |")
+    A("| 18:30 | Dinner around 购物公园 / COCO Park — pick a hotpot or 潮汕 beef place. |")
+    A("| 20:00 | Walk the 市民中心 plaza and 莲花山 footpath; back by metro L4 or ¥12 DiDi. |")
+    A("")
+    A("If you land late, drop the plaza walk — the Free Sky is the one fixed point.\n")
+
+    A("### Thursday 26 Nov — the fun day\n")
+    A("| Time | What | Cost |")
+    A("|---|---|---|")
+    A("| 09:40 | L4 福田口岸 → 会展中心 → L1 华强路 (4 stops, ~22 min) | ¥3 |")
+    A("| 10:00–15:00 | **WonderMeet (玩美攻略)**, 世纪汇 1–3F: go-karts, laser tag, ice rink, PS5/Switch, "
+      "KTV pods, arcade, bowling. Wristband = re-entry all day; lunch inside or in 世纪汇. | ¥268 (Thu) |")
+    A("| 15:15 | Walk 5 min to **SEG Electronics Market** (华强北路1002号) — 30–45 min | free |")
+    A("| 16:00 | **紫荆城食品交易中心** (振兴路55号) — imported snacks, buy a box | free |")
+    A("| 16:45 | **明通化妆品市场** — cosmetics, check batch codes | free |")
+    A("| 17:30 | L1 华强路 → 老街 (2 stops) → **东门白马服装市场** (鸿展商城, 2F women's / 5F export surplus) | ¥2 |")
+    A("| 19:00 | Dinner at **DMD Food City** (东门町美食城) — the best cheap eating on the trip | ¥40–60 |")
+    A("| 20:30 | Walk it off on 东门步行街, then L1/L3 home | ¥2 |")
+    A("")
+    A("**Why this order:** WonderMeet is the only fixed-cost, fixed-hour block — do it first while you're "
+      "fresh. The 华强北 markets are a 5-minute walk apart, and 16:00–18:30 is when vendors start clearing "
+      "stock (see the haggling section below). 东门 is on the way home.\n")
+
+    A("### Friday 27 Nov — checkout 14:00, then home\n")
+    A("| Time | What |")
+    A("|---|---|")
+    A("| 09:30 | Breakfast, pack, leave the big bag at reception. |")
+    A("| 10:00–11:30 | **MOCA** (free, Tue–Sun from 10:00) — L4 福田口岸 → 市民中心, 3 stops. |")
+    A("| 12:00 | Lunch near 市民中心 / 购物公园. |")
+    A("| 13:30 | Back to the hotel; **14:00 checkout**, bags stay at reception. |")
+    A("| 14:30 | DiDi to **水贝珠宝 (Shuibei Jewelry Center)** — 25 min, ~¥35. Gold and jade, 15:00–16:30. |")
+    A("| 16:45 | DiDi straight to **福田口岸** (25 min) or back via the hotel for bags. |")
+    A("| 17:30 | Cross at 福田口岸 (open to 22:30) → 落马洲 → East Rail home. |")
+    A("")
+    A("**Swap options for the afternoon:** if jewellery isn't your thing, do **Upper Hills + 莲花山公园** "
+      "instead (coffee, bridge, skyline — 14 min from the hotel) and leave at 17:30. **南油服装市场** is the "
+      "best clothing market but it's 25 min each way in the wrong direction — only if you skip 水贝.\n")
+    A("**Don't cut it close:** be at the port by **18:00–18:30**. Friday evening queues build, and the last "
+      "East Rail trains leave 落马洲 around 22:55.\n")
 
     A("---\n")
-    A("## 6. Amap (高德地图)\n")
-    A("Amap share links cap at **10 points**, so the list is split by geography:\n")
+    A("## 7. Wholesale markets — how to buy without getting tourist-priced\n")
+    A("The rule of the trade: **look like a buyer, not a shopper.**\n")
+    A("**The black bag.** Carry a plain black plastic bag (the kind stallholders use for stock). It's the "
+      "universal signal that you're 拿货 — taking goods for resale — and it changes the price you're quoted "
+      "before you say a word. Fold it under your arm; don't put your shopping in it.\n")
+    A("**The script:**")
+    A("1. Point at the item and ask **\"拿货几多？\"** (na huo ji duo — \"what's the stock price?\") "
+      "rather than \"多少钱？\" (retail phrasing).")
+    A("2. Ask **\"几件起？\"** (ji jian qi — \"minimum how many pieces?\"). Two or three is normal at "
+      "东门白马; 水贝 and 南油 often sell singles.")
+    A("3. When they quote, **counter at half** and stay friendly. Settle around 55–65% of the opening price.")
+    A("4. If they won't move, **start walking** — the second price usually arrives before you reach the door.")
+    A("5. Pay with **WeChat/Alipay**; a few older stalls still prefer cash. Never hand over money before "
+      "you've counted the goods.")
+    A("")
+    A("**Timing:** **from 16:00 they bargain hardest** — the last two hours before closing, when vendors "
+      "clear stock and quotes go soft. Mornings are for restocking and the price is firm. Most buildings "
+      "shut 18:00–19:00, so don't arrive at 18:45.\n")
+    A("**For bigger deals:** ask for the **天虹 (Tianhong) clearance building** — the locals' answer when "
+      "you want volume rather than one-off pieces, and where the serious buyers work. Ask any stallholder "
+      "to point you to it; it isn't signposted in English.\n")
+    A("**What to check:**")
+    A("- **Cosmetics (明通):** batch code and expiry on the box; unboxed testers are not the deal they look.")
+    A("- **Jewellery (水贝):** price = gold weight × daily rate + **工费** (labour fee). Ask the 工费 "
+      "separately, ask for the certificate, and weigh it yourself if you can.")
+    A("- **Clothing (白马 / 南油):** try before paying where possible; sizes run small. 南油 is original "
+      "design and costs 3–5× 白马 — different market, don't compare prices.")
+    A("- **Electronics (SEG):** know the online price first; check the IMEI/serial and that it's not "
+      "refurbished.\n")
+    A("**Border note:** bringing commercial quantities back to Hong Kong can attract duty — keep receipts, "
+      "and if it looks like stock rather than personal use, declare it.\n")
+
+    A("---\n")
+    A("## 8. Amap (高德地图)\n")
+    A("Amap share links cap at **10 points**, so the list is split into three:\n")
     A(f"- **Futian + Luohu (9 places):** [open in Amap]({links['futian_luohu']})")
     A(f"- **Nanshan + Bao'an (5 places):** [open in Amap]({links['nanshan_baoan']})")
+    A(f"- **WonderMeet + markets (7):** [open in Amap]({links['markets']})")
     A("")
     A("Open on your phone with the Amap app installed and it opens in-app.\n")
-    A("**Save all 14 to your Amap account:**")
+    A("**Save all 21 to your Amap account:**")
     A("1. On a **PC**, open **wia.amap.com** and sign in.")
     A("2. Create a map → **批量导入 (bulk import)** → upload **`amap_import.csv`**.")
     A("3. Columns: 名称 / 经纬度 / 地址 / 颜色 / 描述 / 文件夹. Coordinates are **经度,纬度** in **GCJ-02**.")
@@ -325,12 +451,12 @@ def main():
       "be used unchanged.\n")
 
     A("---\n")
-    A("## 7. Notes\n")
+    A("## 9. Notes\n")
     A("- **Coordinates:** Google and Amap both use **GCJ-02** in mainland China; `places.csv` gives GCJ "
       "(works in both) plus WGS-84 for GPS tools. They differ by ~500 m — don't mix them.")
     A("- **Closures:** MOCA closed Mondays · Happy Harbour wheel opens 14:00 on Tuesdays · "
       "Futian Port closes 22:30.")
-    A("- **Prices:** Free Sky ¥180–200 · Bay Glory ¥150–180 · everything else on this list is free entry.")
+    A("- **Prices:** Free Sky ¥180–200 · WonderMeet ¥268/¥298 · Bay Glory ¥150–180 · markets are free to enter.")
     A("- **Data pulled 2026-11-24.** Hours and prices change — re-check the two paid attractions on the day.\n")
 
     A("---\n")
@@ -344,7 +470,9 @@ def main():
     A("")
     A("### Files\n")
     A("- `README.md` — this plan")
-    A("- `places.csv` — all 14 places with GCJ/WGS coordinates, Amap + Google links, times and notes")
+    A("- `plan.html` — the same plan as a mobile-friendly page (open in a browser)")
+    A("- `Shenzhen-plan.pdf` — print/offline version")
+    A("- `places.csv` — all 21 places with GCJ/WGS coordinates, Amap + Google links, times and notes")
     A("- `amap_import.csv` — bulk-import file for wia.amap.com")
     A("- `amap_links.md` — every Amap link in one place")
     A("- `booking.md` — hotel confirmation and reviews")

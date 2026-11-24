@@ -103,6 +103,59 @@ PLACES = [
          metro_min=28, cluster="East"),
 ]
 
+VENUES = [
+    dict(key="wondermeet", name="WonderMeet", zh="玩美攻略", area="Futian",
+         kind="Indoor mega-arcade (3 floors)", fun=9, lat=22.54146, lng=114.084015,
+         note="世纪汇广场, 深南中路3018号. ¥268 weekday / ¥298 weekend, 10:00–22:00, "
+              "wristband re-entry all day. Go-karts, laser tag, ice rink, PS5/Switch, KTV pods, "
+              "arcade, bowling. Night ticket ¥168 after 19:00. Join their WeChat group for 20 free claw coins.",
+         metro="Huaqiang Rd 华强路 (L1), exit B — direct B1 passage to 世纪汇", metro_walk=200,
+         metro_plan="L4 Futian Checkpoint → Convention & Exhibition Center → L1 Huaqiang Rd (2 + 2 stops)",
+         metro_min=22, didi_min=14, didi_km=5.6),
+    dict(key="seg", name="SEG Electronics Market", zh="赛格电子市场", area="Futian",
+         kind="Electronics wholesale", fun=6, lat=22.54395, lng=114.0822,
+         note="华强北路1002号. Six floors of components, phones, laptops, drones, repair shops — "
+              "Asia's densest electronics market. Know your price before you go.",
+         metro="Huaqiangbei 华强北 (L2/L7)", metro_walk=200,
+         metro_plan="L4 Futian Checkpoint → Convention & Exhibition Center → L1 Huaqiang Rd → walk 300 m",
+         metro_min=22, didi_min=14, didi_km=5.7),
+    dict(key="mingtong", name="Mingtong Cosmetics Market", zh="明通化妆品市场", area="Futian",
+         kind="Cosmetics wholesale", fun=5, lat=22.5452, lng=114.089,
+         note="华强北. Imported Korean/Japanese/Western cosmetics at near-duty-free prices. "
+              "Check batch codes and expiry; little room to haggle on branded goods.",
+         metro="Huaqiangbei 华强北 (L2/L7)", metro_walk=450,
+         metro_plan="L4 → Convention & Exhibition Center → L1 Huaqiang Rd → L7 华强北",
+         metro_min=26, didi_min=17, didi_km=7.1),
+    dict(key="zijingcheng", name="Zijingcheng Food Center", zh="紫荆城食品交易中心", area="Futian",
+         kind="Imported food wholesale", fun=6, lat=22.5461, lng=114.0888,
+         note="振兴路55号, 华强北. Two floors, 100+ stalls: imported snacks, nuts, drinks, gift boxes "
+              "at wholesale prices even for one item. Buy a box, not a bag.",
+         metro="Huaqiangbei 华强北 (L2/L7), exit B — 380 m", metro_walk=380,
+         metro_plan="L4 → Convention & Exhibition Center → L1 Huaqiang Rd → walk 400 m",
+         metro_min=24, didi_min=17, didi_km=7.0),
+    dict(key="shuibei", name="Shuibei Jewelry Center", zh="水贝国际珠宝交易中心", area="Luohu",
+         kind="Gold & jade wholesale", fun=6, lat=22.5662, lng=114.1274,
+         note="Shenzhen processes most of China's gold here. Price = weight + labour fee (工费) — "
+              "always ask the 工费 separately and ask for a certificate. Weekdays are calmer.",
+         metro="Shuibei 水贝 (L7)", metro_walk=900,
+         metro_plan="L7 Huanggangcun → 水贝 (5 stops, direct) + 10 min walk",
+         metro_min=25, didi_min=25, didi_km=13.9),
+    dict(key="baima", name="Dongmen Baima Fashion Market", zh="东门白马服装市场", area="Luohu",
+         kind="Clothing wholesale", fun=5, lat=22.545938, lng=114.120344,
+         note="鸿展商城, 东门步行街, 6 floors: 2F women's, 3-4F men's, 5F export surplus. "
+              "Some stalls want 2+ pieces. Best 16:00-18:00 when they clear stock.",
+         metro="Laojie 老街 (L1/L3), exit A — 5 min", metro_walk=700,
+         metro_plan="L1 Laojie from Huaqiang Rd (2 stops)",
+         metro_min=30, didi_min=25, didi_km=9.7),
+    dict(key="nanyou", name="Nanyou Clothing Market", zh="南油服装批发市场", area="Nanshan",
+         kind="Designer clothing wholesale", fun=6, lat=22.50905, lng=113.924947,
+         note="南海大道南油第一工业区 — dozens of buildings of original-design women's wear, "
+              "Korean/European labels, higher quality than Dongmen. 10:00-19:00.",
+         metro="Nanyou 南油 (L9/L11), ~550 m", metro_walk=550,
+         metro_plan="L11 Chegongmiao → 南油 (3 stops) or DiDi",
+         metro_min=40, didi_min=25, didi_km=18.5),
+]
+
 DRIVING = {
     "Ping'an International Financial Center": (8, 3.0),
     "Nantou Ancient City": (24, 21.7),
@@ -179,6 +232,15 @@ def main():
                  didi_min=dmin, didi_km=dkm, raw=src)
         rows.append(p)
 
+    for v in VENUES:
+        raw_v = {"href": f"https://www.google.com/maps/search/?api=1&query={v['lat']},{v['lng']}",
+                 "address": "", "rating": None, "category": v['kind'], "coords": [v['lat'], v['lng']]}
+        wlat, wlng = gcj02_to_wgs84(v['lat'], v['lng'])
+        v.update(zh=v['zh'], lat_gcj=v['lat'], lng_gcj=v['lng'], lat_wgs=round(wlat, 6),
+                 lng_wgs=round(wlng, 6), straight_km=round(haversine((HOTEL['lat'], HOTEL['lng']),
+                 (v['lat'], v['lng'])), 2), raw=raw_v, cluster='venue', group='venue')
+        rows.append(v)
+
     rows.sort(key=lambda r: r['straight_km'])
     for i, r in enumerate(rows, 1):
         r['rank'] = i
@@ -192,8 +254,12 @@ def main():
                     'metro_plan', 'metro_min', 'lat_gcj02', 'lng_gcj02', 'lat_wgs84', 'lng_wgs84',
                     'amap_link', 'amap_route_link', 'google_link', 'why'])
         for r in rows:
-            amap = (f"https://uri.amap.com/marker?position={r['lng_gcj']},{r['lat_gcj']}"
-                    f"&name={urllib.parse.quote(r['name'])}&src=trip&coordinate=gaode&callnative=0")
+            if r.get('group') == 'venue':
+                amap = (f"https://uri.amap.com/search?keyword={urllib.parse.quote(r['zh'])}"
+                        f"&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0")
+            else:
+                amap = (f"https://uri.amap.com/marker?position={r['lng_gcj']},{r['lat_gcj']}"
+                        f"&name={urllib.parse.quote(r['name'])}&src=trip&coordinate=gaode&callnative=0")
             route = (f"https://uri.amap.com/navigation?from={HOTEL['lng']},{HOTEL['lat']},Hotel"
                      f"&to={r['lng_gcj']},{r['lat_gcj']},{urllib.parse.quote(r['name'])}"
                      f"&mode=bus&coordinate=gaode&callnative=0")
@@ -212,7 +278,8 @@ def main():
                         f"Fun {r['fun']}/10. {r['note']}", r['area']])
 
     groups = {'futian_luohu': [r for r in rows if r['cluster'] in ('Futian', 'East')],
-              'nanshan_baoan': [r for r in rows if r['cluster'] == 'West']}
+              'nanshan_baoan': [r for r in rows if r['cluster'] == 'West'],
+              'markets': [r for r in rows if r.get('group') == 'venue']}
     links = {}
     for gname, g in groups.items():
         markers = '|'.join(f"{r['lng_gcj']},{r['lat_gcj']},{urllib.parse.quote(r['name'])}" for r in g)
@@ -227,8 +294,12 @@ def main():
              f"&name=%E5%8A%A0%E6%9D%A5%E9%85%92%E5%BA%97&src=trip&coordinate=gaode&callnative=0", "",
              "## One link per place", ""]
     for r in rows:
-        pin = (f"https://uri.amap.com/marker?position={r['lng_gcj']},{r['lat_gcj']}"
-               f"&name={urllib.parse.quote(r['name'])}&src=trip&coordinate=gaode&callnative=0")
+        if r.get('group') == 'venue':
+            pin = (f"https://uri.amap.com/search?keyword={urllib.parse.quote(r['zh'])}"
+                   f"&city=%E6%B7%B1%E5%9C%B3&src=trip&callnative=0")
+        else:
+            pin = (f"https://uri.amap.com/marker?position={r['lng_gcj']},{r['lat_gcj']}"
+                   f"&name={urllib.parse.quote(r['name'])}&src=trip&coordinate=gaode&callnative=0")
         route = (f"https://uri.amap.com/navigation?from={HOTEL['lng']},{HOTEL['lat']},Hotel"
                  f"&to={r['lng_gcj']},{r['lat_gcj']},{urllib.parse.quote(r['name'])}"
                  f"&mode=bus&coordinate=gaode&callnative=0")

@@ -7,14 +7,15 @@
 **Nearest metro:** 皇岗村 (Huanggangcun), Line 7, Exit A — 430 m / 7 min walk  
 **Also close:** Futian Checkpoint (福田口岸), Lines 4 & 10 — ~1.1 km / 15 min walk
 
-14 places, sorted closest → furthest. Photos are freely licensed (credits at the bottom).
+21 places, sorted closest → furthest. Photos are freely licensed (credits at the bottom).
 
 ---
 
 ## 1. The short version
 
 - **Arrive:** high-speed rail from West Kowloon to **福田 (Futian)** — 14 min, ¥68 — then a 3 km DiDi.
-- **Best of the list:** Ping An Free Sky at sunset · Talent Park at sunset · Happy Harbour wheel · DMD Food City · Upper Hills + 莲花山公园.
+- **Two full days + a half-day:** Wed 25 Nov (arrive, Free Sky at sunset), Thu 26 Nov (WonderMeet + 华强北 + 东门 markets), Fri 27 Nov (MOCA in the morning, 水贝 after 14:00 checkout, East Rail home).
+- **Best of the list:** WonderMeet · Ping An Free Sky at sunset · DMD Food City · Upper Hills + 莲花山公园 · 水贝 jewellery · Talent Park at sunset.
 - **Skip unless passing:** 文化馆, 保利文化广场, 东门町广场.
 - **Money:** Alipay or WeChat Pay with a foreign card; metro gates also take contactless Visa/Mastercard.
 - **Bring:** passport everywhere — trains, hotel, museums.
@@ -75,7 +76,26 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 ---
 
-## 3. Trains and metro — the details
+## 3. Getting back to Hong Kong (East Rail, not HSR)
+
+You asked for the regular train home — this is the 福田口岸 → 落马洲 crossing, which is the closest border to the hotel.
+
+| Step | What | Time | Cost |
+|---|---|---|---|
+| 1 | Hotel → **福田口岸 (Futian Port)** — 1.1 km, walk or ¥10 DiDi | 15 min | ¥0–10 |
+| 2 | HK exit + mainland exit at the port (two checks, one covered walkway) | 15–30 min | — |
+| 3 | **落马洲 (Lok Ma Chau)** station, East Rail southbound | — | — |
+| 4 | East Rail → 红磡 (Hung Hom), change to Tuen Ma Line → 南昌 (Nam Cheong) → Tung Chung Line | ~1 h 45 | **HK$57.5** total |
+
+**Timing that matters:** the port is open **06:30–22:30**, and the last East Rail trains leave 落马洲 around **22:55**. Aim to be at the port by **21:00** so a queue can't strand you.
+
+**What to expect:** the walkway is flat and covered, with moving walkways most of the way — easy with a suitcase. There's no duty-free shop worth stopping for. The East Rail is a normal commuter train: luggage racks at the carriage ends, no reservation, Octopus or contactless card.
+
+**Alternative:** 罗湖 (Lo Wu) is the same line and the same fare — use it only if 福田口岸 is heaving, since it's further from the hotel.
+
+---
+
+## 4. Trains and metro — the details
 
 **Shenzhen Metro, in practice**
 - 17 lines, 400+ stations, announcements in Mandarin/Cantonese/English, signage in English.
@@ -91,33 +111,57 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 **About direct DiDi links:** DiDi has no public link format that pre-fills an origin and destination. The supported way is DiDi's own API (the DiDi MCP, `taxi_generate_ride_app_link`, free key at mcp.didichuxing.com), which returns a `v.didi.cn` link that opens the app with both ends filled in. If you want those 14 links generated, get a key and I'll wire them in. Until then, each place below gives you a **copy-paste Chinese block** for the DiDi destination field, plus an Amap route link.
 
+**Buying the paid tickets online**
+- **Free Sky (Ping An):** open **Trip.com** (English app, foreign cards accepted) and search *"Ping An Finance Center Free Sky"* — ¥180 instead of ¥200 at the counter. **Klook** sells the same ticket. Ctrip/携程 and Meituan/大众点评 are usually cheapest but need Alipay or WeChat Pay. The official WeChat mini-program is called 平安金融中心云际观光层.
+- **WonderMeet (玩美攻略):** Klook and Trip.com list it around HK$192–206; you can also just pay at the door (¥268 weekday / ¥298 weekend) — walk-ins are normal. Night ticket ¥168 after 19:00.
+- **Bay Glory wheel (欢乐港湾):** KKday, Klook or Trip.com, or buy at the wheel. ¥150 (¥180 holidays).
+- **How it works:** you get a QR code in the app. Show it at the counter; they scan it and print/link your wristband. No passport needed for the standard adult ticket — bring it only if you're claiming a student/senior/child rate.
+- **Tip:** book the Free Sky for a specific sunset slot the day before; weekends sell out by mid-afternoon.
+
 ---
 
-## 4. Places, closest → furthest
+## 5. Places, closest → furthest
 
 `km` straight line from the hotel · `DiDi` road distance/time · `Metro` door-to-door · `Fun` 1–10
+
+### Sights
 
 | # | Place | 中文 | Area | km | DiDi | Metro | Fun |
 |---|---|---|---|---|---|---|---|
 | 1 | Ping'an International Financial Center | 平安金融中心 | Futian | 1.36 | 8 min / 3.0 km | L4 Futian Checkpoint → Convention & Exhibition Center → L1 Shopping Park (3 stops) · 16 min | **8** |
 | 2 | Museum of Contemporary Art & Planning Exhibition | 深圳当代艺术与城市规划馆 | Futian | 2.59 | 12 min / 3.5 km | L4 Futian Checkpoint → Civic Center (3 stops) + 340 m walk · 18 min | **7** |
-| 3 | Upper Hills (深业上城) | 深业上城 | Futian | 4.03 | 14 min / 5.6 km | L10 Futian Checkpoint → Donggualing (5 stops, direct) · 25 min | **7** |
-| 4 | Shenzhen Cultural Center (Jingtian) | 深圳市文化馆 | Futian | 4.11 | 16 min / 6.4 km | L4 Futian Checkpoint → Civic Center → L2 Jingtian (3 + 3 stops) · 28 min | **3** |
-| 5 | Shenzhen Grand Theatre | 深圳大剧院 | Luohu | 5.24 | 19 min / 7.2 km | L4 Futian Checkpoint → Civic Center → L2 Grand Theater (3 + 4 stops) · 28 min | **4** |
-| 6 | The Mixc of Shenzhen City Crossing | 深圳万象城 | Luohu | 5.62 | 21 min / 8.1 km | L4 Futian Checkpoint → Civic Center → L2 Grand Theater (3 + 4 stops) · 28 min | **5** |
-| 7 | Dong Men Ding Plaza | 东门町广场 | Luohu | 6.55 | 25 min / 9.5 km | As DMD Food City, then 230 m walk · 31 min | **3** |
-| 8 | DMD Food City (东门町美食城) | 东门町美食城 | Luohu | 6.59 | 25 min / 9.4 km | L4 Futian Checkpoint → Convention & Exhibition Center → L1 Laojie (2 + 5 stops) · 30 min | **7** |
-| 9 | Dongmen Pedestrian Street | 东门步行街 | Luohu | 6.77 | 25 min / 9.7 km | L4 Futian Checkpoint → Civic Center → L2 Hubei (3 + 5 stops) · 32 min | **6** |
-| 10 | MixC World 万象天地 (Nanshan) | 万象天地 | Nanshan | 10.95 | 23 min / 16.6 km | L7 Huanggangcun → Chegongmiao → L1 Hi-Tech Park (4 + 6 stops) · 40 min | **7** |
-| 11 | Shenzhen Talent Park | 深圳人才公园 | Nanshan | 11.74 | 25 min / 16.5 km | L7 Huanggangcun → Chegongmiao → L11 Houhai → L13 Talent Park · 45 min | **8** |
-| 12 | Shenzhen Poly Cultural Plaza | 深圳保利文化广场 | Nanshan | 12.45 | 23 min / 16.3 km | L7 Huanggangcun → Chegongmiao → L11 Houhai (4 + 2 stops) · 40 min | **3** |
-| 13 | Nantou Ancient City | 南头古城 | Nanshan | 14.49 | 24 min / 21.7 km | L7 Huanggangcun → Chegongmiao → L1 Taoyuan → L12 Nantou Ancient City (2 changes) · 55 min | **5** |
-| 14 | Happy Harbour | 欢乐港湾 | Bao'an | 18.2 | 31 min / 25.4 km | L7 Huanggangcun → Chegongmiao → L11 Qianhai Bay → L5 Linhai · 50 min | **8** |
+| 3 | WonderMeet | 玩美攻略 | Futian | 3.32 | 14 min / 5.6 km | L4 Futian Checkpoint → Convention & Exhibition Center → L1 Huaqiang Rd (2 + 2 stops) · 22 min | **9** |
+| 4 | SEG Electronics Market | 赛格电子市场 | Futian | 3.39 | 14 min / 5.7 km | L4 Futian Checkpoint → Convention & Exhibition Center → L1 Huaqiang Rd → walk 300 m · 22 min | **6** |
+| 5 | Mingtong Cosmetics Market | 明通化妆品市场 | Futian | 3.98 | 17 min / 7.1 km | L4 → Convention & Exhibition Center → L1 Huaqiang Rd → L7 华强北 · 26 min | **5** |
+| 6 | Upper Hills (深业上城) | 深业上城 | Futian | 4.03 | 14 min / 5.6 km | L10 Futian Checkpoint → Donggualing (5 stops, direct) · 25 min | **7** |
+| 7 | Zijingcheng Food Center | 紫荆城食品交易中心 | Futian | 4.04 | 17 min / 7.0 km | L4 → Convention & Exhibition Center → L1 Huaqiang Rd → walk 400 m · 24 min | **6** |
+| 8 | Shenzhen Cultural Center (Jingtian) | 深圳市文化馆 | Futian | 4.11 | 16 min / 6.4 km | L4 Futian Checkpoint → Civic Center → L2 Jingtian (3 + 3 stops) · 28 min | **3** |
+| 9 | Shenzhen Grand Theatre | 深圳大剧院 | Luohu | 5.24 | 19 min / 7.2 km | L4 Futian Checkpoint → Civic Center → L2 Grand Theater (3 + 4 stops) · 28 min | **4** |
+| 10 | The Mixc of Shenzhen City Crossing | 深圳万象城 | Luohu | 5.62 | 21 min / 8.1 km | L4 Futian Checkpoint → Civic Center → L2 Grand Theater (3 + 4 stops) · 28 min | **5** |
+| 11 | Dong Men Ding Plaza | 东门町广场 | Luohu | 6.55 | 25 min / 9.5 km | As DMD Food City, then 230 m walk · 31 min | **3** |
+| 12 | DMD Food City (东门町美食城) | 东门町美食城 | Luohu | 6.59 | 25 min / 9.4 km | L4 Futian Checkpoint → Convention & Exhibition Center → L1 Laojie (2 + 5 stops) · 30 min | **7** |
+| 13 | Dongmen Pedestrian Street | 东门步行街 | Luohu | 6.77 | 25 min / 9.7 km | L4 Futian Checkpoint → Civic Center → L2 Hubei (3 + 5 stops) · 32 min | **6** |
+| 14 | Dongmen Baima Fashion Market | 东门白马服装市场 | Luohu | 6.77 | 25 min / 9.7 km | L1 Laojie from Huaqiang Rd (2 stops) · 30 min | **5** |
+| 15 | Shuibei Jewelry Center | 水贝国际珠宝交易中心 | Luohu | 8.53 | 25 min / 13.9 km | L7 Huanggangcun → 水贝 (5 stops, direct) + 10 min walk · 25 min | **6** |
+| 16 | MixC World 万象天地 (Nanshan) | 万象天地 | Nanshan | 10.95 | 23 min / 16.6 km | L7 Huanggangcun → Chegongmiao → L1 Hi-Tech Park (4 + 6 stops) · 40 min | **7** |
+| 17 | Shenzhen Talent Park | 深圳人才公园 | Nanshan | 11.74 | 25 min / 16.5 km | L7 Huanggangcun → Chegongmiao → L11 Houhai → L13 Talent Park · 45 min | **8** |
+| 18 | Shenzhen Poly Cultural Plaza | 深圳保利文化广场 | Nanshan | 12.45 | 23 min / 16.3 km | L7 Huanggangcun → Chegongmiao → L11 Houhai (4 + 2 stops) · 40 min | **3** |
+| 19 | Nanyou Clothing Market | 南油服装批发市场 | Nanshan | 13.94 | 25 min / 18.5 km | L11 Chegongmiao → 南油 (3 stops) or DiDi · 40 min | **6** |
+| 20 | Nantou Ancient City | 南头古城 | Nanshan | 14.49 | 24 min / 21.7 km | L7 Huanggangcun → Chegongmiao → L1 Taoyuan → L12 Nantou Ancient City (2 changes) · 55 min | **5** |
+| 21 | Happy Harbour | 欢乐港湾 | Bao'an | 18.2 | 31 min / 25.4 km | L7 Huanggangcun → Chegongmiao → L11 Qianhai Bay → L5 Linhai · 50 min | **8** |
+
+### Play + markets (Day 2 and 3)
+
+| # | Place | 中文 | km | DiDi | Metro | Fun |
+|---|---|---|---|---|---|---|
 
 ### Ping'an International Financial Center — 平安金融中心
 
 ![Ping An International Finance Centre (平安金融中心), Futian CBD](images/pingan.jpg)
 *Ping An International Finance Centre (平安金融中心), Futian CBD*
+![From the 116F deck at sunset — Shenzhen Bay on the left, Futian below](images/pingan_sunset.jpg)
+*From the 116F deck at sunset — Shenzhen Bay on the left, Futian below*
+
 **Fun 8/10** · Futian · Observation deck · **1.36 km** from the hotel
 
 - **Getting there:** L4 Futian Checkpoint → Convention & Exhibition Center → L1 Shopping Park (3 stops) (~16 min) or DiDi 8 min / 3.0 km.
@@ -134,6 +178,7 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 ![Museum of Contemporary Art & Planning Exhibition (当代艺术与城市规划馆)](images/moca.jpg)
 *Museum of Contemporary Art & Planning Exhibition (当代艺术与城市规划馆)*
+
 **Fun 7/10** · Futian · Museum · **2.59 km** from the hotel
 
 - **Getting there:** L4 Futian Checkpoint → Civic Center (3 stops) + 340 m walk (~18 min) or DiDi 12 min / 3.5 km.
@@ -152,6 +197,8 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 *MUJI Diner at Upper Hills (深业上城)*
 ![莲花山公园 (Lianhuashan Park) — the park at the end of the bridge](images/lianhuashan.jpg)
 *莲花山公园 (Lianhuashan Park) — the park at the end of the bridge*
+![Dusk over the Futian CBD from the top of 莲花山公园](images/lianhua_sunset.jpg)
+*Dusk over the Futian CBD from the top of 莲花山公园*
 
 **Fun 7/10** · Futian · Lifestyle mall + park bridge · **4.03 km** from the hotel
 
@@ -166,6 +213,7 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
   ```
 
 ### Shenzhen Cultural Center (Jingtian) — 深圳市文化馆
+
 
 **Fun 3/10** · Futian · Arts venue · **4.11 km** from the hotel
 
@@ -183,6 +231,7 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 ![Shenzhen Grand Theatre (深圳大剧院)](images/grand.jpg)
 *Shenzhen Grand Theatre (深圳大剧院)*
+
 **Fun 4/10** · Luohu · Performing arts · **5.24 km** from the hotel
 
 - **Getting there:** L4 Futian Checkpoint → Civic Center → L2 Grand Theater (3 + 4 stops) (~28 min) or DiDi 19 min / 7.2 km.
@@ -199,6 +248,7 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 ![The MixC (深圳万象城), Luohu](images/mixc_crossing.jpg)
 *The MixC (深圳万象城), Luohu*
+
 **Fun 5/10** · Luohu · Luxury mall · **5.62 km** from the hotel
 
 - **Getting there:** L4 Futian Checkpoint → Civic Center → L2 Grand Theater (3 + 4 stops) (~28 min) or DiDi 21 min / 8.1 km.
@@ -215,6 +265,7 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 ![Food hall inside Dongmen (东门町广场)](images/dingplaza.jpg)
 *Food hall inside Dongmen (东门町广场)*
+
 **Fun 3/10** · Luohu · Shopping mall · **6.55 km** from the hotel
 
 - **Getting there:** As DMD Food City, then 230 m walk (~31 min) or DiDi 25 min / 9.5 km.
@@ -231,6 +282,7 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 ![东门町美食城 (DMD Food City), Dongmen](images/dmd.jpg)
 *东门町美食城 (DMD Food City), Dongmen*
+
 **Fun 7/10** · Luohu · Street-food hall · **6.59 km** from the hotel
 
 - **Getting there:** L4 Futian Checkpoint → Convention & Exhibition Center → L1 Laojie (2 + 5 stops) (~30 min) or DiDi 25 min / 9.4 km.
@@ -247,6 +299,7 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 ![Dongmen Pedestrian Street (东门步行街) at night](images/dongmen.jpg)
 *Dongmen Pedestrian Street (东门步行街) at night*
+
 **Fun 6/10** · Luohu · Shopping street · **6.77 km** from the hotel
 
 - **Getting there:** L4 Futian Checkpoint → Civic Center → L2 Hubei (3 + 5 stops) (~32 min) or DiDi 25 min / 9.7 km.
@@ -263,6 +316,7 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 ![MIXC WORLD / 万象天地, Nanshan](images/mixc_tiandi.jpg)
 *MIXC WORLD / 万象天地, Nanshan*
+
 **Fun 7/10** · Nanshan · Lifestyle mall · **10.95 km** from the hotel
 
 - **Getting there:** L7 Huanggangcun → Chegongmiao → L1 Hi-Tech Park (4 + 6 stops) (~40 min) or DiDi 23 min / 16.6 km.
@@ -279,6 +333,9 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 ![Shenzhen Talent Park (深圳人才公园) and the Houhai skyline](images/talent.jpg)
 *Shenzhen Talent Park (深圳人才公园) and the Houhai skyline*
+![The Shenzhen Bay skyline from the Talent Park waterfront](images/talent_sunset.jpg)
+*The Shenzhen Bay skyline from the Talent Park waterfront*
+
 **Fun 8/10** · Nanshan · Waterfront park · **11.74 km** from the hotel
 
 - **Getting there:** L7 Huanggangcun → Chegongmiao → L11 Houhai → L13 Talent Park (~45 min) or DiDi 25 min / 16.5 km.
@@ -295,6 +352,7 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 ![Houhai skyline — Poly Cultural Plaza (保利文化广场) sits at its foot](images/poly.jpg)
 *Houhai skyline — Poly Cultural Plaza (保利文化广场) sits at its foot*
+
 **Fun 3/10** · Nanshan · Mall + theatre · **12.45 km** from the hotel
 
 - **Getting there:** L7 Huanggangcun → Chegongmiao → L11 Houhai (4 + 2 stops) (~40 min) or DiDi 23 min / 16.3 km.
@@ -311,6 +369,7 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 ![South gate of Nantou Ancient City (南头古城)](images/nantou.jpg)
 *South gate of Nantou Ancient City (南头古城)*
+
 **Fun 5/10** · Nanshan · Historic quarter · **14.49 km** from the hotel
 
 - **Getting there:** L7 Huanggangcun → Chegongmiao → L1 Taoyuan → L12 Nantou Ancient City (2 changes) (~55 min) or DiDi 24 min / 21.7 km.
@@ -327,6 +386,9 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 ![Happy Harbour (欢乐港湾) and the Bay Glory wheel, Bao'an](images/happy.jpg)
 *Happy Harbour (欢乐港湾) and the Bay Glory wheel, Bao'an*
+![Bay Glory (湾区之光), 128 m, on the Bao'an waterfront](images/happy_wheel.jpg)
+*Bay Glory (湾区之光), 128 m, on the Bao'an waterfront*
+
 **Fun 8/10** · Bao'an · Waterfront + ferris wheel · **18.2 km** from the hotel
 
 - **Getting there:** L7 Huanggangcun → Chegongmiao → L11 Qianhai Bay → L5 Linhai (~50 min) or DiDi 31 min / 25.4 km.
@@ -341,47 +403,103 @@ S1 bus from Tung Chung (东涌) → HKIA (~10 min, HK$3.5), then a cross-border 
 
 ---
 
-## 5. Plan for maximum enjoyment
+## 6. The three days
 
-Built around light: the best things here are two sunsets and one evening food street.
+Wednesday 25 Nov · Thursday 26 Nov · Friday 27 Nov (checkout by 14:00). Two full days plus a half-day.
 
-**Day 1 — arrive + skyline**
-- Check in, drop bags.
-- 16:00 **Ping'an Free Sky** (booked online; enter ~16:30 for daylight → sunset → lights).
-- Dinner around 购物公园 / COCO Park.
-- Optional: walk the 市民中心 plaza at night.
+### Weather (forecast for these dates)
 
-**Day 2 — Futian + Dongmen (east)**
-- 10:00 **MOCA** (free, closed Mondays).
-- Lunch at **DMD Food City**, then **Dongmen Pedestrian Street**.
-- **MixC City Crossing** for AC and coffee; **大剧院** only if something's on.
-- Evening: back to 福田 for an early night.
+| Day | Temp | Rain | Sky | What to wear |
+|---|---|---|---|---|
+| Wed 25 Nov | 13–19 °C | 14% | Cloudy, drizzle | Layers: tee + light jacket. Cool in the evening. |
+| Thu 26 Nov | 14–23 °C | 33% | Overcast | Same, plus a compact umbrella — the day you're walking markets. |
+| Fri 27 Nov | 16–26 °C | 18% | Mainly clear | Lightest day; a shirt is enough by afternoon. |
 
-**Day 3 — Nanshan (west)**
-- Late morning **Nantou Ancient City** (coffee) — or sleep in and skip it.
-- Lunch at **万象天地 (MixC World)**.
-- 17:00 **Talent Park** for sunset, dinner in 后海.
-- **保利文化广场** is next door if you need a mall.
+*Shenzhen in late November is dry-season cool: 13–16 °C at 08:00, 19–26 °C by 14:00, dropping fast after 18:00. Comfortable walking shoes matter more than a coat. Check again the morning you fly — a cold front can take 5 °C off in a day.*
 
-**Day 4 — Bao'an + departure**
-- **Upper Hills** coffee → bridge → **莲花山公园** for the skyline (or swap to Happy Harbour).
-- **Happy Harbour** for the wheel at sunset and the light show.
-- Back to the hotel; allow 3 h to HKIA if flying out.
+### Wednesday 25 Nov — arrive, settle, first sunset
 
-**Only one day?** Ping An Free Sky at 16:30 → DMD Food City for dinner → done. **Only two?** Add MOCA in the morning and Talent Park at sunset.
+| Time | What |
+|---|---|
+| On arrival | Check in at 加来酒店, drop bags, 15 min to reset. |
+| 15:30 | Walk 皇岗公园 (the park at your door) or rest. |
+| 16:00 | **Ping An Free Sky** — DiDi 8 min, ¥15. Booked online, enter 16:30 for daylight → sunset → lights. |
+| 18:30 | Dinner around 购物公园 / COCO Park — pick a hotpot or 潮汕 beef place. |
+| 20:00 | Walk the 市民中心 plaza and 莲花山 footpath; back by metro L4 or ¥12 DiDi. |
+
+If you land late, drop the plaza walk — the Free Sky is the one fixed point.
+
+### Thursday 26 Nov — the fun day
+
+| Time | What | Cost |
+|---|---|---|
+| 09:40 | L4 福田口岸 → 会展中心 → L1 华强路 (4 stops, ~22 min) | ¥3 |
+| 10:00–15:00 | **WonderMeet (玩美攻略)**, 世纪汇 1–3F: go-karts, laser tag, ice rink, PS5/Switch, KTV pods, arcade, bowling. Wristband = re-entry all day; lunch inside or in 世纪汇. | ¥268 (Thu) |
+| 15:15 | Walk 5 min to **SEG Electronics Market** (华强北路1002号) — 30–45 min | free |
+| 16:00 | **紫荆城食品交易中心** (振兴路55号) — imported snacks, buy a box | free |
+| 16:45 | **明通化妆品市场** — cosmetics, check batch codes | free |
+| 17:30 | L1 华强路 → 老街 (2 stops) → **东门白马服装市场** (鸿展商城, 2F women's / 5F export surplus) | ¥2 |
+| 19:00 | Dinner at **DMD Food City** (东门町美食城) — the best cheap eating on the trip | ¥40–60 |
+| 20:30 | Walk it off on 东门步行街, then L1/L3 home | ¥2 |
+
+**Why this order:** WonderMeet is the only fixed-cost, fixed-hour block — do it first while you're fresh. The 华强北 markets are a 5-minute walk apart, and 16:00–18:30 is when vendors start clearing stock (see the haggling section below). 东门 is on the way home.
+
+### Friday 27 Nov — checkout 14:00, then home
+
+| Time | What |
+|---|---|
+| 09:30 | Breakfast, pack, leave the big bag at reception. |
+| 10:00–11:30 | **MOCA** (free, Tue–Sun from 10:00) — L4 福田口岸 → 市民中心, 3 stops. |
+| 12:00 | Lunch near 市民中心 / 购物公园. |
+| 13:30 | Back to the hotel; **14:00 checkout**, bags stay at reception. |
+| 14:30 | DiDi to **水贝珠宝 (Shuibei Jewelry Center)** — 25 min, ~¥35. Gold and jade, 15:00–16:30. |
+| 16:45 | DiDi straight to **福田口岸** (25 min) or back via the hotel for bags. |
+| 17:30 | Cross at 福田口岸 (open to 22:30) → 落马洲 → East Rail home. |
+
+**Swap options for the afternoon:** if jewellery isn't your thing, do **Upper Hills + 莲花山公园** instead (coffee, bridge, skyline — 14 min from the hotel) and leave at 17:30. **南油服装市场** is the best clothing market but it's 25 min each way in the wrong direction — only if you skip 水贝.
+
+**Don't cut it close:** be at the port by **18:00–18:30**. Friday evening queues build, and the last East Rail trains leave 落马洲 around 22:55.
 
 ---
 
-## 6. Amap (高德地图)
+## 7. Wholesale markets — how to buy without getting tourist-priced
 
-Amap share links cap at **10 points**, so the list is split by geography:
+The rule of the trade: **look like a buyer, not a shopper.**
+
+**The black bag.** Carry a plain black plastic bag (the kind stallholders use for stock). It's the universal signal that you're 拿货 — taking goods for resale — and it changes the price you're quoted before you say a word. Fold it under your arm; don't put your shopping in it.
+
+**The script:**
+1. Point at the item and ask **"拿货几多？"** (na huo ji duo — "what's the stock price?") rather than "多少钱？" (retail phrasing).
+2. Ask **"几件起？"** (ji jian qi — "minimum how many pieces?"). Two or three is normal at 东门白马; 水贝 and 南油 often sell singles.
+3. When they quote, **counter at half** and stay friendly. Settle around 55–65% of the opening price.
+4. If they won't move, **start walking** — the second price usually arrives before you reach the door.
+5. Pay with **WeChat/Alipay**; a few older stalls still prefer cash. Never hand over money before you've counted the goods.
+
+**Timing:** **from 16:00 they bargain hardest** — the last two hours before closing, when vendors clear stock and quotes go soft. Mornings are for restocking and the price is firm. Most buildings shut 18:00–19:00, so don't arrive at 18:45.
+
+**For bigger deals:** ask for the **天虹 (Tianhong) clearance building** — the locals' answer when you want volume rather than one-off pieces, and where the serious buyers work. Ask any stallholder to point you to it; it isn't signposted in English.
+
+**What to check:**
+- **Cosmetics (明通):** batch code and expiry on the box; unboxed testers are not the deal they look.
+- **Jewellery (水贝):** price = gold weight × daily rate + **工费** (labour fee). Ask the 工费 separately, ask for the certificate, and weigh it yourself if you can.
+- **Clothing (白马 / 南油):** try before paying where possible; sizes run small. 南油 is original design and costs 3–5× 白马 — different market, don't compare prices.
+- **Electronics (SEG):** know the online price first; check the IMEI/serial and that it's not refurbished.
+
+**Border note:** bringing commercial quantities back to Hong Kong can attract duty — keep receipts, and if it looks like stock rather than personal use, declare it.
+
+---
+
+## 8. Amap (高德地图)
+
+Amap share links cap at **10 points**, so the list is split into three:
 
 - **Futian + Luohu (9 places):** [open in Amap](https://uri.amap.com/marker?markers=114.055865,22.533096,Ping%27an%20International%20Financial%20Center|114.061277,22.544771,Museum%20of%20Contemporary%20Art%20%26%20Planning%20Exhibition|114.070537,22.556332,Upper%20Hills%20%28%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E%29|114.043557,22.55523,Shenzhen%20Cultural%20Center%20%28Jingtian%29|114.10546,22.542692,Shenzhen%20Grand%20Theatre|114.110904,22.539827,The%20Mixc%20of%20Shenzhen%20City%20Crossing|114.118764,22.544242,Dong%20Men%20Ding%20Plaza|114.11894,22.544816,DMD%20Food%20City%20%28%E4%B8%9C%E9%97%A8%E7%94%BA%E7%BE%8E%E9%A3%9F%E5%9F%8E%29|114.120344,22.545938,Dongmen%20Pedestrian%20Street&src=trip&coordinate=gaode&callnative=0)
 - **Nanshan + Bao'an (5 places):** [open in Amap](https://uri.amap.com/marker?markers=113.955538,22.541563,MixC%20World%20%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%20%28Nanshan%29|113.946226,22.511216,Shenzhen%20Talent%20Park|113.93887,22.516386,Shenzhen%20Poly%20Cultural%20Plaza|113.920489,22.541119,Nantou%20Ancient%20City|113.884501,22.544729,Happy%20Harbour&src=trip&coordinate=gaode&callnative=0)
+- **WonderMeet + markets (7):** [open in Amap](https://uri.amap.com/marker?markers=114.084015,22.54146,WonderMeet|114.0822,22.54395,SEG%20Electronics%20Market|114.089,22.5452,Mingtong%20Cosmetics%20Market|114.0888,22.5461,Zijingcheng%20Food%20Center|114.120344,22.545938,Dongmen%20Baima%20Fashion%20Market|114.1274,22.5662,Shuibei%20Jewelry%20Center|113.924947,22.50905,Nanyou%20Clothing%20Market&src=trip&coordinate=gaode&callnative=0)
 
 Open on your phone with the Amap app installed and it opens in-app.
 
-**Save all 14 to your Amap account:**
+**Save all 21 to your Amap account:**
 1. On a **PC**, open **wia.amap.com** and sign in.
 2. Create a map → **批量导入 (bulk import)** → upload **`amap_import.csv`**.
 3. Columns: 名称 / 经纬度 / 地址 / 颜色 / 描述 / 文件夹. Coordinates are **经度,纬度** in **GCJ-02**.
@@ -391,11 +509,11 @@ If they insist on their own template, download it and paste these columns in —
 
 ---
 
-## 7. Notes
+## 9. Notes
 
 - **Coordinates:** Google and Amap both use **GCJ-02** in mainland China; `places.csv` gives GCJ (works in both) plus WGS-84 for GPS tools. They differ by ~500 m — don't mix them.
 - **Closures:** MOCA closed Mondays · Happy Harbour wheel opens 14:00 on Tuesdays · Futian Port closes 22:30.
-- **Prices:** Free Sky ¥180–200 · Bay Glory ¥150–180 · everything else on this list is free entry.
+- **Prices:** Free Sky ¥180–200 · WonderMeet ¥268/¥298 · Bay Glory ¥150–180 · markets are free to enter.
 - **Data pulled 2026-11-24.** Hours and prices change — re-check the two paid attractions on the day.
 
 ---
@@ -416,11 +534,19 @@ If they insist on their own template, download it and paste these columns in —
 - **nantou** — [南头古城南门2022.jpg](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%A4%B4%E5%8F%A4%E5%9F%8E%E5%8D%97%E9%97%A82022.jpg) · Iswzo · CC BY-SA 4.0
 - **happy** — [SZ 深圳 Shenzhen 寶安區 Bao'An 歡樂港灣 Park OH Bay 海濱文化公園 Haibin Culture Park Bay 摩天輪 eye Glory ferris wheel July 2023 Px3 01](https://commons.wikimedia.org/w/index.php?curid=134339744) · QINGFATTIEAM 2002 · BY-SA
 - **mixc_tiandi** — [MIXC WORLD West mall atrium in March 2024.jpg](https://commons.wikimedia.org/wiki/File:MIXC_WORLD_West_mall_atrium_in_March_2024.jpg) · Jasper201434 · CC BY 4.0
+- **pingan_sunset** — [云际观光层 2019 - 11](https://commons.wikimedia.org/w/index.php?curid=83973634) · Mx. Granger · CC0
+- **lianhua_sunset** — [Shenzhen skyline at dusk from LianHua Mt. park, China (3)](https://www.flickr.com/photos/43656947@N00/5131399625) · BoydJones · BY-NC-ND
+- **skyline_dusk** — [Shanghai Nights](https://www.flickr.com/photos/86135961@N00/3532340427) · SF Brit · BY
+- **talent_sunset** — [20201112 The skyline at Shenzhen Bay.jpg](https://commons.wikimedia.org/wiki/File:20201112_The_skyline_at_Shenzhen_Bay.jpg) · Windmemories · CC BY-SA 4.0
+- **happy_night** — [SZ 深圳 Shenzhen 寶安區 Bao'An 歡樂港灣商場 OH Bay Baoan Shopping Mall shop machine catcher July 2023 Px3.jpg](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E5%AF%B6%E5%AE%89%E5%8D%80_Bao%27An_%E6%AD%A1%E6%A8%82%E6%B8%AF%E7%81%A3%E5%95%86%E5%A0%B4_OH_Bay_Baoan_Shopping_Mall_shop_machine_catcher_July_2023_Px3.jpg) · QINGFATTIEAM 2002 · CC BY-SA 4.0
+- **happy_wheel** — [Bay Glory 2022.jpg](https://commons.wikimedia.org/wiki/File:Bay_Glory_2022.jpg) · Iswzo · CC BY-SA 4.0
 
 ### Files
 
 - `README.md` — this plan
-- `places.csv` — all 14 places with GCJ/WGS coordinates, Amap + Google links, times and notes
+- `plan.html` — the same plan as a mobile-friendly page (open in a browser)
+- `Shenzhen-plan.pdf` — print/offline version
+- `places.csv` — all 21 places with GCJ/WGS coordinates, Amap + Google links, times and notes
 - `amap_import.csv` — bulk-import file for wia.amap.com
 - `amap_links.md` — every Amap link in one place
 - `booking.md` — hotel confirmation and reviews

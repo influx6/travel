@@ -82,6 +82,111 @@
    "rank": 2
   },
   {
+   "key": "wondermeet",
+   "name": "WonderMeet",
+   "zh": "玩美攻略",
+   "area": "Futian",
+   "kind": "Indoor mega-arcade (3 floors)",
+   "fun": 9,
+   "lat": 22.54146,
+   "lng": 114.084015,
+   "note": "世纪汇广场, 深南中路3018号. ¥268 weekday / ¥298 weekend, 10:00–22:00, wristband re-entry all day. Go-karts, laser tag, ice rink, PS5/Switch, KTV pods, arcade, bowling. Night ticket ¥168 after 19:00. Join their WeChat group for 20 free claw coins.",
+   "metro": "Huaqiang Rd 华强路 (L1), exit B — direct B1 passage to 世纪汇",
+   "metro_walk": 200,
+   "metro_plan": "L4 Futian Checkpoint → Convention & Exhibition Center → L1 Huaqiang Rd (2 + 2 stops)",
+   "metro_min": 22,
+   "didi_min": 14,
+   "didi_km": 5.6,
+   "lat_gcj": 22.54146,
+   "lng_gcj": 114.084015,
+   "lat_wgs": 22.544149,
+   "lng_wgs": 114.078886,
+   "straight_km": 3.32,
+   "raw": {
+    "href": "https://www.google.com/maps/search/?api=1&query=22.54146,114.084015",
+    "address": "",
+    "rating": null,
+    "category": "Indoor mega-arcade (3 floors)",
+    "coords": [
+     22.54146,
+     114.084015
+    ]
+   },
+   "cluster": "venue",
+   "group": "venue",
+   "rank": 3
+  },
+  {
+   "key": "seg",
+   "name": "SEG Electronics Market",
+   "zh": "赛格电子市场",
+   "area": "Futian",
+   "kind": "Electronics wholesale",
+   "fun": 6,
+   "lat": 22.54395,
+   "lng": 114.0822,
+   "note": "华强北路1002号. Six floors of components, phones, laptops, drones, repair shops — Asia's densest electronics market. Know your price before you go.",
+   "metro": "Huaqiangbei 华强北 (L2/L7)",
+   "metro_walk": 200,
+   "metro_plan": "L4 Futian Checkpoint → Convention & Exhibition Center → L1 Huaqiang Rd → walk 300 m",
+   "metro_min": 22,
+   "didi_min": 14,
+   "didi_km": 5.7,
+   "lat_gcj": 22.54395,
+   "lng_gcj": 114.0822,
+   "lat_wgs": 22.546641,
+   "lng_wgs": 114.077072,
+   "straight_km": 3.39,
+   "raw": {
+    "href": "https://www.google.com/maps/search/?api=1&query=22.54395,114.0822",
+    "address": "",
+    "rating": null,
+    "category": "Electronics wholesale",
+    "coords": [
+     22.54395,
+     114.0822
+    ]
+   },
+   "cluster": "venue",
+   "group": "venue",
+   "rank": 4
+  },
+  {
+   "key": "mingtong",
+   "name": "Mingtong Cosmetics Market",
+   "zh": "明通化妆品市场",
+   "area": "Futian",
+   "kind": "Cosmetics wholesale",
+   "fun": 5,
+   "lat": 22.5452,
+   "lng": 114.089,
+   "note": "华强北. Imported Korean/Japanese/Western cosmetics at near-duty-free prices. Check batch codes and expiry; little room to haggle on branded goods.",
+   "metro": "Huaqiangbei 华强北 (L2/L7)",
+   "metro_walk": 450,
+   "metro_plan": "L4 → Convention & Exhibition Center → L1 Huaqiang Rd → L7 华强北",
+   "metro_min": 26,
+   "didi_min": 17,
+   "didi_km": 7.1,
+   "lat_gcj": 22.5452,
+   "lng_gcj": 114.089,
+   "lat_wgs": 22.547885,
+   "lng_wgs": 114.083871,
+   "straight_km": 3.98,
+   "raw": {
+    "href": "https://www.google.com/maps/search/?api=1&query=22.5452,114.089",
+    "address": "",
+    "rating": null,
+    "category": "Cosmetics wholesale",
+    "coords": [
+     22.5452,
+     114.089
+    ]
+   },
+   "cluster": "venue",
+   "group": "venue",
+   "rank": 5
+  },
+  {
    "key": "upperhills",
    "name": "Upper Hills (深业上城)",
    "zh": "深业上城",
@@ -116,7 +221,42 @@
     ],
     "placeId": "0x3403f5d813dfb6b9:0x7a85f14e08f5bce0"
    },
-   "rank": 3
+   "rank": 6
+  },
+  {
+   "key": "zijingcheng",
+   "name": "Zijingcheng Food Center",
+   "zh": "紫荆城食品交易中心",
+   "area": "Futian",
+   "kind": "Imported food wholesale",
+   "fun": 6,
+   "lat": 22.5461,
+   "lng": 114.0888,
+   "note": "振兴路55号, 华强北. Two floors, 100+ stalls: imported snacks, nuts, drinks, gift boxes at wholesale prices even for one item. Buy a box, not a bag.",
+   "metro": "Huaqiangbei 华强北 (L2/L7), exit B — 380 m",
+   "metro_walk": 380,
+   "metro_plan": "L4 → Convention & Exhibition Center → L1 Huaqiang Rd → walk 400 m",
+   "metro_min": 24,
+   "didi_min": 17,
+   "didi_km": 7.0,
+   "lat_gcj": 22.5461,
+   "lng_gcj": 114.0888,
+   "lat_wgs": 22.548785,
+   "lng_wgs": 114.083671,
+   "straight_km": 4.04,
+   "raw": {
+    "href": "https://www.google.com/maps/search/?api=1&query=22.5461,114.0888",
+    "address": "",
+    "rating": null,
+    "category": "Imported food wholesale",
+    "coords": [
+     22.5461,
+     114.0888
+    ]
+   },
+   "cluster": "venue",
+   "group": "venue",
+   "rank": 7
   },
   {
    "key": "culture",
@@ -154,7 +294,7 @@
     ],
     "placeId": "0x3403f38b835cc389:0xd796ef4f35c4b1cc"
    },
-   "rank": 4
+   "rank": 8
   },
   {
    "key": "grand",
@@ -192,7 +332,7 @@
     ],
     "placeId": "0x3403f5b7d46a8e0b:0x9656bf8761859c01"
    },
-   "rank": 5
+   "rank": 9
   },
   {
    "key": "mixc_crossing",
@@ -230,7 +370,7 @@
     ],
     "placeId": "0x3403f5c7a7397263:0xc0cfcceb6dc86221"
    },
-   "rank": 6
+   "rank": 10
   },
   {
    "key": "dingplaza",
@@ -268,7 +408,7 @@
     ],
     "placeId": "0x3403f5be47383aeb:0xc74e4979a2fa154e"
    },
-   "rank": 7
+   "rank": 11
   },
   {
    "key": "dmd",
@@ -306,7 +446,7 @@
     ],
     "placeId": "0x3403f5be1444dc89:0x5c89f1e03796e0f8"
    },
-   "rank": 8
+   "rank": 12
   },
   {
    "key": "dongmen",
@@ -344,7 +484,77 @@
     ],
     "placeId": "0x3403f596017f6bf7:0x845ce96dbee1b478"
    },
-   "rank": 9
+   "rank": 13
+  },
+  {
+   "key": "baima",
+   "name": "Dongmen Baima Fashion Market",
+   "zh": "东门白马服装市场",
+   "area": "Luohu",
+   "kind": "Clothing wholesale",
+   "fun": 5,
+   "lat": 22.545938,
+   "lng": 114.120344,
+   "note": "鸿展商城, 东门步行街, 6 floors: 2F women's, 3-4F men's, 5F export surplus. Some stalls want 2+ pieces. Best 16:00-18:00 when they clear stock.",
+   "metro": "Laojie 老街 (L1/L3), exit A — 5 min",
+   "metro_walk": 700,
+   "metro_plan": "L1 Laojie from Huaqiang Rd (2 stops)",
+   "metro_min": 30,
+   "didi_min": 25,
+   "didi_km": 9.7,
+   "lat_gcj": 22.545938,
+   "lng_gcj": 114.120344,
+   "lat_wgs": 22.548625,
+   "lng_wgs": 114.115239,
+   "straight_km": 6.77,
+   "raw": {
+    "href": "https://www.google.com/maps/search/?api=1&query=22.545938,114.120344",
+    "address": "",
+    "rating": null,
+    "category": "Clothing wholesale",
+    "coords": [
+     22.545938,
+     114.120344
+    ]
+   },
+   "cluster": "venue",
+   "group": "venue",
+   "rank": 14
+  },
+  {
+   "key": "shuibei",
+   "name": "Shuibei Jewelry Center",
+   "zh": "水贝国际珠宝交易中心",
+   "area": "Luohu",
+   "kind": "Gold & jade wholesale",
+   "fun": 6,
+   "lat": 22.5662,
+   "lng": 114.1274,
+   "note": "Shenzhen processes most of China's gold here. Price = weight + labour fee (工费) — always ask the 工费 separately and ask for a certificate. Weekdays are calmer.",
+   "metro": "Shuibei 水贝 (L7)",
+   "metro_walk": 900,
+   "metro_plan": "L7 Huanggangcun → 水贝 (5 stops, direct) + 10 min walk",
+   "metro_min": 25,
+   "didi_min": 25,
+   "didi_km": 13.9,
+   "lat_gcj": 22.5662,
+   "lng_gcj": 114.1274,
+   "lat_wgs": 22.568891,
+   "lng_wgs": 114.122305,
+   "straight_km": 8.53,
+   "raw": {
+    "href": "https://www.google.com/maps/search/?api=1&query=22.5662,114.1274",
+    "address": "",
+    "rating": null,
+    "category": "Gold & jade wholesale",
+    "coords": [
+     22.5662,
+     114.1274
+    ]
+   },
+   "cluster": "venue",
+   "group": "venue",
+   "rank": 15
   },
   {
    "key": "mixc_tiandi",
@@ -382,7 +592,7 @@
     ],
     "placeId": "0x3403f1af79f8136b:0x1d2a318dc6483fa4"
    },
-   "rank": 10
+   "rank": 16
   },
   {
    "key": "talent",
@@ -420,7 +630,7 @@
     ],
     "placeId": "0x3403ef3288f2af21:0xcade8137080c45f1"
    },
-   "rank": 11
+   "rank": 17
   },
   {
    "key": "poly",
@@ -458,7 +668,42 @@
     ],
     "placeId": "0x3403ee3b74672d0f:0x2802395723eebd84"
    },
-   "rank": 12
+   "rank": 18
+  },
+  {
+   "key": "nanyou",
+   "name": "Nanyou Clothing Market",
+   "zh": "南油服装批发市场",
+   "area": "Nanshan",
+   "kind": "Designer clothing wholesale",
+   "fun": 6,
+   "lat": 22.50905,
+   "lng": 113.924947,
+   "note": "南海大道南油第一工业区 — dozens of buildings of original-design women's wear, Korean/European labels, higher quality than Dongmen. 10:00-19:00.",
+   "metro": "Nanyou 南油 (L9/L11), ~550 m",
+   "metro_walk": 550,
+   "metro_plan": "L11 Chegongmiao → 南油 (3 stops) or DiDi",
+   "metro_min": 40,
+   "didi_min": 25,
+   "didi_km": 18.5,
+   "lat_gcj": 22.50905,
+   "lng_gcj": 113.924947,
+   "lat_wgs": 22.512097,
+   "lng_wgs": 113.920089,
+   "straight_km": 13.94,
+   "raw": {
+    "href": "https://www.google.com/maps/search/?api=1&query=22.50905,113.924947",
+    "address": "",
+    "rating": null,
+    "category": "Designer clothing wholesale",
+    "coords": [
+     22.50905,
+     113.924947
+    ]
+   },
+   "cluster": "venue",
+   "group": "venue",
+   "rank": 19
   },
   {
    "key": "nantou",
@@ -496,7 +741,7 @@
     ],
     "placeId": "0x3403ee7055e55f1d:0xf15bf63d2ac63f6f"
    },
-   "rank": 13
+   "rank": 20
   },
   {
    "key": "happy",
@@ -534,11 +779,12 @@
     ],
     "placeId": "0x3403ee9830aa7e1f:0x83e84a5f742fae9"
    },
-   "rank": 14
+   "rank": 21
   }
  ],
  "links": {
   "futian_luohu": "https://uri.amap.com/marker?markers=114.055865,22.533096,Ping%27an%20International%20Financial%20Center|114.061277,22.544771,Museum%20of%20Contemporary%20Art%20%26%20Planning%20Exhibition|114.070537,22.556332,Upper%20Hills%20%28%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E%29|114.043557,22.55523,Shenzhen%20Cultural%20Center%20%28Jingtian%29|114.10546,22.542692,Shenzhen%20Grand%20Theatre|114.110904,22.539827,The%20Mixc%20of%20Shenzhen%20City%20Crossing|114.118764,22.544242,Dong%20Men%20Ding%20Plaza|114.11894,22.544816,DMD%20Food%20City%20%28%E4%B8%9C%E9%97%A8%E7%94%BA%E7%BE%8E%E9%A3%9F%E5%9F%8E%29|114.120344,22.545938,Dongmen%20Pedestrian%20Street&src=trip&coordinate=gaode&callnative=0",
-  "nanshan_baoan": "https://uri.amap.com/marker?markers=113.955538,22.541563,MixC%20World%20%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%20%28Nanshan%29|113.946226,22.511216,Shenzhen%20Talent%20Park|113.93887,22.516386,Shenzhen%20Poly%20Cultural%20Plaza|113.920489,22.541119,Nantou%20Ancient%20City|113.884501,22.544729,Happy%20Harbour&src=trip&coordinate=gaode&callnative=0"
+  "nanshan_baoan": "https://uri.amap.com/marker?markers=113.955538,22.541563,MixC%20World%20%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%20%28Nanshan%29|113.946226,22.511216,Shenzhen%20Talent%20Park|113.93887,22.516386,Shenzhen%20Poly%20Cultural%20Plaza|113.920489,22.541119,Nantou%20Ancient%20City|113.884501,22.544729,Happy%20Harbour&src=trip&coordinate=gaode&callnative=0",
+  "markets": "https://uri.amap.com/marker?markers=114.084015,22.54146,WonderMeet|114.0822,22.54395,SEG%20Electronics%20Market|114.089,22.5452,Mingtong%20Cosmetics%20Market|114.0888,22.5461,Zijingcheng%20Food%20Center|114.120344,22.545938,Dongmen%20Baima%20Fashion%20Market|114.1274,22.5662,Shuibei%20Jewelry%20Center|113.924947,22.50905,Nanyou%20Clothing%20Market&src=trip&coordinate=gaode&callnative=0"
  }
 }
