@@ -526,36 +526,33 @@ def main():
       "after 18:00. Comfortable walking shoes matter more than a coat. Check the morning you set off — "
       "a cold front can take 5 °C off in a day.*\n")
 
-    A("### Wednesday 25 Nov — arrive, 水贝, tech park, tower, bay\n")
+    A("### Wednesday 25 Nov — arrive, 水贝, robotaxi, tower, bay\n")
     A("| Time | What | Cost |")
     A("|---|---|---|")
     A("| 13:50 | Be at **West Kowloon** for the 14:35 HSR. | — |")
     A("| 14:50 | Arrive **Futian (福田)**; DiDi to the hotel — 15 min. | ~¥15 |")
     A("| 15:15 | Check in at 加来酒店 (Calais Hotel), drop bags. | — |")
     A("| 15:35 | DiDi to **Shuibei Jewelry Center (水贝国际珠宝交易中心)** — 25 min. | ~¥35 |")
-    A("| 16:00–16:45 | **Shuibei, fast pass** — one or two towers, ask weight × rate + **工费**, take the "
+    A("| 16:00–16:40 | **Shuibei, fast pass** — one or two towers, ask weight × rate + **工费**, take the "
       "certificate. Browsing is free. | free |")
-    A("| 16:50 | DiDi to **Shenzhen Bay Tech Park (深圳湾科技生态园)** — 35 min. A robotaxi can't do "
-      "this leg: Shuibei is in Luohu, outside the zone, and the ride is 25 km across the city. | ~¥60 |")
-    A("| 17:25–17:55 | **Tech park + Talent Park (人才公园)** waterfront — you land here right at sunset "
-      "(17:35). The best free skyline of the trip. | free |")
-    A("| 18:00 | **Robotaxi** tech park → **Ping An (平安金融中心)** if the app accepts it — ~20 min. "
-      "Otherwise DiDi, same 20 min. | ¥30–40 |")
-    A("| 18:20–19:10 | **Free Sky**, 116F — night view, city lit up. 50 min is plenty; last entry 19:15. | ¥180 |")
-    A("| 19:15 | Dinner at **COCO Park (购物公园)** — 5 min walk. | ¥60–100 |")
-    A("| 20:15 | DiDi to **Happy Harbour (欢乐港湾)**, Bao'an — 30 min. | ~¥55 |")
-    A("| 20:45–22:00 | **Bay Glory wheel (湾区之光)** lit up + the waterfront light show. | ¥150 |")
+    A("| 16:45 | DiDi to **MixC World (万象天地)** — 25 min. | ~¥45 |")
+    A("| 17:10–17:25 | Coffee at MixC — **book the robotaxi now**, waits run 5–15 min. | ~¥30 |")
+    A("| 17:30 | **Robotaxi** (PonyPilot+) MixC World → **Shenzhen Bay Tech Park (深圳湾科技生态园)** — "
+      "3.5 km, ~12 min. This is the leg that reliably works: both ends are inside the zone. | ¥15–25 |")
+    A("| 17:45–18:10 | **Tech park + Talent Park (人才公园)** waterfront — sunset is 17:35, so you catch "
+      "the last of the light. | free |")
+    A("| 18:15 | DiDi to **Ping An (平安金融中心)** — 20 min. | ~¥40 |")
+    A("| 18:35–19:15 | **Free Sky**, 116F — the city lit up. 40 minutes is enough; last entry is 19:15. | ¥180 |")
+    A("| 19:30 | Dinner at **COCO Park (购物公园)** — 5 min walk. | ¥60–100 |")
+    A("| 20:30 | DiDi to **Happy Harbour (欢乐港湾)**, Bao'an — 30 min. | ~¥55 |")
+    A("| 21:00–22:00 | **Bay Glory wheel (湾区之光)** lit up + the waterfront light show. | ¥150 |")
     A("| 22:15 | DiDi home — 30 min. | ~¥60 |")
     A("")
-    A("**On the robotaxi:** the one leg that might work is **tech park → Ping An** at 18:00 — tech park is "
-      "inside the Pony.ai zone, Ping An is at its edge in Futian, so the app may refuse the drop-off. Try it "
-      "at 17:55; if it won't take the destination, DiDi is the same 20 minutes. The certain robotaxi ride is "
-      "the Day 27 hop (MixC World → tech park), which is squarely inside the zone.\n")
-    A("**Four stops, one evening — it works because the last three are a straight line west.** You get the "
-      "tech park at sunset and the tower after dark, which is the better order anyway: the deck at night is "
-      "the view people photograph. Free Sky needs 45–60 min, not two hours.\n")
-    A("**If 15:35 feels too tight after the train**, drop 水贝 — Day 27's 15:00 slot has it as a swap, and "
-      "you'd start at the tech park instead, with a much calmer evening.\n")
+    A("**The robotaxi order matters.** MixC World → tech park is the one leg with both ends inside "
+      "Pony.ai's Nanshan zone, so book it there. Tech park → Ping An crosses into Futian and will probably "
+      "be refused — DiDi it.\n")
+    A("**If the day feels tight**, drop 水贝 and go hotel → MixC World at 15:45; you'd get a relaxed coffee, "
+      "the robotaxi, sunset at the tech park, and the tower after dark.\n")
 
     A("### Thursday 26 Nov — the fun day\n")
     A("| Time | What | Cost |")
@@ -582,20 +579,18 @@ def main():
       "stock** (see the haggling section). Dongmen is on the way home, and Upper Hills is 15 minutes from "
       "the hotel — the easiest way to end the day.\n")
 
-    A("### Friday 27 Nov — tech, robotaxi, checkout, spa, home\n")
+    A("### Friday 27 Nov — MOCA, checkout, spa, home\n")
     A("| Time | What | Cost |")
     A("|---|---|---|")
-    A("| 09:45 | Bags to reception; DiDi to **MixC World (万象天地)** — 23 min. | ~¥50 |")
-    A("| 10:15–11:30 | Coffee and the outdoor lanes at MixC World. | — |")
-    A("| 11:30 | **Robotaxi** (PonyPilot+) MixC World → **Shenzhen Bay Tech Park (深圳湾科技生态园)** — "
-      "3.5 km, ~12 min. | ¥15–25 |")
-    A("| 11:45–12:30 | **Tech park + Talent Park (人才公园)** waterfront on foot. | free |")
-    A("| 12:45 | DiDi back to the hotel — 25 min; lunch nearby. | ~¥45 |")
+    A("| 09:30 | Breakfast, pack, leave the big bag at reception. | — |")
+    A("| 10:00–11:30 | **MOCA** (free, Tue–Sun from 10:00) — L4 福田口岸 → **Civic Center (市民中心)**, "
+      "3 stops. | free |")
+    A("| 12:00 | Lunch near Civic Center / **Shopping Park (购物公园)**. | ¥50–80 |")
     A("| 14:00 | **Checkout**; bags stay at reception. | — |")
     A("| 14:30–16:00 | **Manman Wellness SPA** — Jinzhonghuan Building (金中环商务大厦) A座 21F, room 2109, "
       "at 会展中心 exit E. 10 min DiDi from the hotel. | ¥200–400 |")
     A("| 16:15 | Collect the bags at the hotel. | — |")
-    A("| 16:45 | Collect bags, then home — **two options below**. |")
+    A("| 16:45 | Home — **two options below**. | — |")
     A("")
     A("**Getting home — pick one:**\n")
     A("| Option | Route | Door to door | Cost |")
@@ -608,10 +603,10 @@ def main():
     A("")
     A("Take the HSR if you've booked a seat and want to be back by ~18:30; take the East Rail if you'd "
       "rather not commit to a departure time — it runs every few minutes and needs no ticket.\n")
-    A("**If you'd rather shop than spa:** **Shuibei Jewelry (水贝国际珠宝交易中心)** is 25 min away and "
-      "fits 15:00–16:30 in the same slot. **MOCA** (free, closed Mondays) is the other option — it's 3 stops "
-      "from the hotel, but it needs the morning, so take it instead of MixC World. Whichever you pick, the spa is the decompression before the train — a good way to end the trip. Be at "
-      "the port by **18:00–18:30**; the last East Rail trains leave Lok Ma Chau around 22:55.\n")
+    A("**Why the spa lands here:** it's the decompression before the journey home — 90 minutes, then a "
+      "short ride to the train. A good way to end the trip.\n")
+    A("**Swaps:** if jewellery didn't happen on Day 1, **Shuibei (水贝)** fits 15:00–16:30 in the spa slot. "
+      "**MixC World + robotaxi** are here too if Day 1 runs late — do them 10:00–12:30 and take the spa out.\n")
 
     A("---\n")
     A("## 7. Wholesale markets — how to buy without getting tourist-priced\n")

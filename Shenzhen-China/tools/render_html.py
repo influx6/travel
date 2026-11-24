@@ -85,14 +85,16 @@ def main():
       <li><b>14:50</b> — arrive Futian (福田); DiDi to the hotel, 15 min.</li>
       <li><b>15:15</b> — check in at 加来酒店 (Calais Hotel), drop bags.</li>
       <li><b>15:35</b> — DiDi to <a href="#shuibei">Shuibei Jewelry (水贝国际珠宝交易中心)</a>, 25 min.</li>
-      <li><b>16:00–16:45</b> — Shuibei, fast pass: weigh × rate + 工费, certificate.</li>
-      <li><b>16:50</b> — DiDi to <a href="#techpark">Shenzhen Bay Tech Park (深圳湾科技生态园)</a>, 35 min (robotaxi can't: Luohu is outside the zone, 25 km across town).</li>
-      <li><b>17:25–17:55</b> — tech park + <a href="#talent">Talent Park (人才公园)</a> waterfront, right at sunset.</li>
-      <li><b>18:00</b> — <b>Robotaxi</b> tech park → <a href="#pingan">Ping An (平安金融中心)</a> if the app accepts the drop-off; otherwise DiDi, same 20 min.</li>
-      <li><b>18:20–19:10</b> — <a href="#pingan">Free Sky</a> (116F): the city lit up. 50 min is plenty.</li>
-      <li><b>19:15</b> — dinner at COCO Park (购物公园).</li>
-      <li><b>20:15</b> — DiDi to <a href="#happy">Happy Harbour (欢乐港湾)</a>, 30 min.</li>
-      <li><b>20:45–22:00</b> — Bay Glory wheel lit up + the waterfront light show.</li>
+      <li><b>16:00–16:40</b> — Shuibei, fast pass: weigh × rate + 工费, certificate.</li>
+      <li><b>16:45</b> — DiDi to <a href="#mixc_tiandi">MixC World (万象天地)</a>, 25 min.</li>
+      <li><b>17:10–17:25</b> — coffee — <b>book the robotaxi now</b> (waits 5–15 min).</li>
+      <li><b>17:30</b> — <b>Robotaxi</b> MixC World → <a href="#techpark">Shenzhen Bay Tech Park (深圳湾科技生态园)</a> — both ends inside the zone, so it works. ¥15–25.</li>
+      <li><b>17:45–18:10</b> — tech park + <a href="#talent">Talent Park (人才公园)</a> waterfront at sunset.</li>
+      <li><b>18:15</b> — DiDi to <a href="#pingan">Ping An (平安金融中心)</a>, 20 min (the robotaxi won't cross into Futian).</li>
+      <li><b>18:35–19:15</b> — <a href="#pingan">Free Sky</a> (116F): the city lit up. Last entry 19:15.</li>
+      <li><b>19:30</b> — dinner at COCO Park (购物公园).</li>
+      <li><b>20:30</b> — DiDi to <a href="#happy">Happy Harbour (欢乐港湾)</a>, 30 min.</li>
+      <li><b>21:00–22:00</b> — Bay Glory wheel lit up + the waterfront light show.</li>
       <li><b>22:15</b> — DiDi home, 30 min.</li>'''
     day2 = '''
       <li><b>09:40</b> — L4 Futian Checkpoint (福田口岸) → Convention &amp; Exhibition Center → L1 Huaqiang Rd (华强路), ¥3.</li>
@@ -102,19 +104,17 @@ def main():
       <li><b>16:45</b> — <a href="#mingtong">Mingtong Cosmetics (明通)</a>.</li>
       <li><b>17:30</b> — L1 Huaqiang Rd → Laojie (老街), into Dongmen (东门).</li>
       <li><b>17:45–19:00</b> — <a href="#baima">Dongmen Baima (东门白马)</a> clothing market.</li>
-      <li><b>19:00</b> — dinner at <a href="#dmd">DMD Food City (东门町美食城)</a>, then East Gate (东门步行街).</li>
+      <li><b>19:00</b> — dinner at <a href="#dmd">DMD Food City (东门町美食城)</a>, then Dongmen Pedestrian Street (东门步行街).</li>
       <li><b>20:30</b> — DiDi to <a href="#upperhills">Upper Hills (深业上城)</a>, 15 min: dessert, loft lanes.</li>
       <li><b>21:00–22:00</b> — footbridge to Lianhuashan Park (莲花山公园); the statue for the lit-up skyline.</li>'''
     day3 = '''
-      <li><b>09:45</b> — bags to reception; DiDi to <a href="#mixc_tiandi">MixC World (万象天地)</a>, 23 min.</li>
-      <li><b>10:15–11:30</b> — coffee and the outdoor lanes.</li>
-      <li><b>11:30</b> — <b>Robotaxi</b> to <a href="#techpark">Shenzhen Bay Tech Park (深圳湾科技生态园)</a>, 3.5 km, ¥15–25.</li>
-      <li><b>11:45–12:30</b> — tech park + <a href="#talent">Talent Park (人才公园)</a> waterfront.</li>
-      <li><b>12:45</b> — DiDi back to the hotel, 25 min; lunch nearby.</li>
-      <li><b>14:00</b> — checkout; bags stay at reception.</li>
+      <li><b>09:30</b> — pack, leave bags at reception.</li>
+      <li><b>10:00–11:30</b> — <a href="#moca">MOCA</a> (free) — L4 福田口岸 → Civic Center (市民中心).</li>
+      <li><b>12:00</b> — lunch near Civic Center / Shopping Park (购物公园).</li>
+      <li><b>14:00</b> — checkout; bags stay at the desk.</li>
       <li><b>14:30–16:00</b> — <a href="#spa">Manman Wellness SPA</a>, Jinzhonghuan Building (金中环商务大厦) A座 21F, room 2109.</li>
       <li><b>16:15</b> — collect bags.</li>
-      <li><b>Home — two ways:</b> <b>HSR</b> from Futian Station (福田站, 10 min DiDi, ¥68, ~1 h 10 door-to-door, book ahead) <i>or</i> <b>East Rail</b> via Futian Port (福田口岸, 20 min DiDi, cross to Lok Ma Chau 落马洲, HK$57.5, no booking).</li>'''
+      <li><b>Home — two ways:</b> <b>HSR</b> from Futian Station (福田站, 10 min DiDi, ¥68, ~1 h 10, book ahead) <i>or</i> <b>East Rail</b> via Futian Port (福田口岸, 20 min DiDi, Lok Ma Chau 落马洲, HK$57.5, no booking).</li>'''
 
     doc = f'''<!doctype html>
 <html lang="en"><head>
